@@ -32,7 +32,8 @@
 
 ### 5. Research Standards
 - Use `academic-deep-research` skill for thorough investigation
-- Conduct web searches for validation
+- **Use the internet heavily** - conduct extensive web searches for all necessary data
+- Search multiple sources to validate and cross-reference findings
 - Validate EVERY source found
 - Prioritize fresh, recent data when possible
 - Triple-check validity of every source used
@@ -51,7 +52,13 @@
 - Use clear, descriptive commit messages
 - Never leave uncommitted changes
 
-### 8. Communication
+### 8. Jira Task Management
+- **After completing each task:** Move the corresponding Jira ticket to "Done"
+- Use Jira skill to update ticket status
+- Keep Jira board synchronized with actual progress
+- Document task completion in commit messages when relevant
+
+### 9. Communication
 - Interact ONLY with Dmytro
 - No direct interaction with other team members
 - Update via Telegram before each new task phase
