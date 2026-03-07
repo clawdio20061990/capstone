@@ -61,9 +61,15 @@
 
 **Jira Tasks:** None moved to Done (setup phase)
 
-**Next Steps:**
-- Message Dmytro on Telegram before starting first research task
-- Begin Phase 1, Week 1: Pet Tech Market Research
-- Follow work protocol: get approval before each task
+**Cron Job Created:**
+- Daily reminder at 9:00 AM (Europe/Warsaw)
+- Telegram notification to continue capstone work
+- Job ID: baa9f15b-aca4-4169-8e91-043fad793718
 
-**Status:** Planning complete, ready to begin research work
+**Next Steps:**
+- Work through tasks one by one (no parallel work)
+- Validate each deliverable before moving to next
+- Message Dmytro on Telegram before starting first research task
+- Begin with first task from work plan
+
+**Status:** Planning complete, daily reminders active, ready to begin research work
