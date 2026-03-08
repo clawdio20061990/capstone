@@ -884,12 +884,14 @@ The analysis integrates evidence across five dimensions to validate the business
 
 | Product | Hardware Price | Subscription | Annual Cost | Key Features |
 |---------|---------------|--------------|-------------|--------------|
-| Petcube Cam 360 | $35-50 | $3.99-9.99/mo | $83-170 | Camera, basic laser, rotation |
-| Petcube Play 2 | $199 | $3.99-9.99/mo | $247-319 | HD camera, laser, AI alerts |
-| Furbo Mini 360 | $75 | $6.99/mo | $159 | Camera, treat toss, rotation |
-| Furbo 360 Cat | $220 | $6.99/mo | $304 | Premium camera, laser, AI |
-| Automatic Laser Toys | $23-40 | None | $23-40 | Basic automation, no intelligence |
-| **Reactacat (Proposed)** | **$89-99** | **$2.99/mo** | **$125-161** | **AI adaptive laser, treat dispenser, privacy-first, no cloud video** |
+| Petcube Cam 360 | $35-50 | $5.99-7/mo | $107-134 | Camera, basic laser, rotation |
+| Petcube Play 2 | $64-99 | $5.99-17/mo | $136-303 | HD camera, laser, limited AI |
+| Furbo Mini 360 | $35 | $6.99/mo | $118 | Camera, treat toss, rotation |
+| Furbo 360 Cat | $220 | $6.99/mo | $304 | Premium camera, treat toss, limited play area |
+| Automatic Laser Toys | $15-60 | None | $15-60 | Basic automation, no intelligence, no adapt play |
+| **Reactacat (Proposed)** | **$89-99** | **$2.99/mo** | **$125-135** | **AI adaptive laser, treat dispenser, privacy-first, edge AI, no cloud video** |
+
+**Competitive Advantage:** Reactacat offers lowest total cost of ownership ($125-135 vs $136-304) with superior AI features and privacy, at mid-range hardware pricing.
 
 **Reactacat Pricing Justification:**
 - **Low hardware BOM:** Orange Pi Zero 3W (~$20) + components = <$40 manufacturing cost
