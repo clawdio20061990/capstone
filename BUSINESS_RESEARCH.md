@@ -39,7 +39,7 @@ The hardware-plus-subscription business model is viable for Reactacat, where com
 EU regulatory pathways for Reactacat (laser safety certification via EN 60825-1, GDPR compliance through text-log-only data architecture, CE marking) are achievable within realistic timelines (6-12 months) and budgets (€20,000-40,000), enabling market entry without prohibitive compliance barriers.
 
 **H5: Competitive Differentiation Hypothesis**
-Reactacat's combination of autonomous adaptive AI, treat-dispenser completion mechanism, and self-educating cloud model creates defensible differentiation versus both Petcube (limited autonomy without owner interaction) and simple laser toys (no learning or frustration mitigation), positioning it as a premium offering commanding price premiums.
+Reactacat's combination of autonomous adaptive AI, treat-dispenser completion mechanism (compatible with standard third-party treats from major pet food brands—**Reactacat does not produce proprietary treats**), and self-educating cloud model creates defensible differentiation versus both Petcube (limited autonomy without owner interaction) and simple laser toys (no learning or frustration mitigation), positioning it as a premium offering commanding price premiums.
 
 ### 1.3 Research Testability & Feasibility
 
@@ -80,7 +80,7 @@ Petcube's laser functionality is owner-controlled via mobile app during active e
 - **Loona Robot:** AI companion with emotional recognition, high price point (€400+), positioned as general companion rather than focused play engagement device
 
 **Critical Gap Analysis:**
-No existing competitor combines the following elements: (1) dedicated laser play as primary function, (2) autonomous operation without owner control, (3) adaptive AI learning from individual cat behavior, (4) physical reward completion (treat dispenser) mitigating laser frustration risk, and (5) cloud-based model retraining continuously improving gameplay. Reactacat occupies a unique intersection that addresses known shortcomings in existing solutions.
+No existing competitor combines the following elements: (1) dedicated laser play as primary function, (2) autonomous operation without owner control, (3) adaptive AI learning from individual cat behavior, (4) physical reward completion (treat dispenser compatible with third-party treats from major brands—**no proprietary Reactacat treats required**) mitigating laser frustration risk, and (5) cloud-based model retraining continuously improving gameplay. Reactacat occupies a unique intersection that addresses known shortcomings in existing solutions.
 
 ### 2.4 Laser Play Frustration Risk: Mitigation Strategy Validation
 
@@ -368,7 +368,7 @@ Multiple independent sources document laser play frustration:
 
 **Mitigation Validation:**
 Treat dispenser completion addresses this by:
-- Providing tangible prey-equivalent capture
+- Providing tangible prey-equivalent capture (using standard kibble/treats from brands like Royal Canin, Hill's, Purina—**Reactacat does not produce proprietary treats**)
 - Completing psychological hunting sequence
 - Creating positive reinforcement at game end
 

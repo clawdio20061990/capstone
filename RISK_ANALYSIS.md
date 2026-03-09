@@ -51,7 +51,7 @@ Petcube, as market leader with resources and existing customer base, could add a
 
 2. **Differentiate Beyond Autonomous Play:**
    - Emphasize specialized laser play (not camera monitoring)
-   - Highlight treat-dispenser as unique frustration mitigation (Petcube lacks this)
+   - Highlight treat-dispenser as unique frustration mitigation (Petcube lacks this; uses standard third-party treats—**no proprietary Reactacat treats**)
    - Build community around cat-centric features (not owner-centric monitoring)
    - Continuous feature releases (new play styles, behavioral insights) funded by subscription
 
@@ -66,7 +66,7 @@ Petcube, as market leader with resources and existing customer base, could add a
    - If Petcube does add autonomy, position as "camera company adding features" vs. "play specialist"
    - Emphasize 18-month first-mover advantage in market
 
-**Contingency:** If Petcube launches autonomous play in Year 2, pivot to emphasize treat dispenser + community as differentiation. Launch treat-only subscription tier to capture price-sensitive segment.
+**Contingency:** If Petcube launches autonomous play in Year 2, pivot to emphasize treat dispenser (compatible with third-party treats—**Reactacat does not sell treats**) + community as differentiation. Launch treat-only subscription tier to capture price-sensitive segment.
 
 ---
 
@@ -551,7 +551,7 @@ Despite treat dispenser mitigation, customers perceive laser frustration risk as
 
 1. **Proactive Messaging:**
    - Lead with "laser frustration risk acknowledged" in marketing (builds trust)
-   - Emphasize treat dispenser as "solution to laser frustration" (evidence-based)
+   - Emphasize treat dispenser as "solution to laser frustration" (evidence-based; uses standard treats from major brands—**Reactacat does not produce treats**)
    - Cite veterinary research in product literature and ads
    - Partner with veterinarians/behaviorists for credibility
 

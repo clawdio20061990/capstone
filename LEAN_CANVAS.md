@@ -96,14 +96,14 @@
 | **Hardware** | Raspberry Pi 4B + servo motors + laser module + camera module + treat dispenser | Autonomous, no owner control required |
 | **Edge AI** | On-device machine learning model (trained locally) | Learns individual cat's play preferences in real-time |
 | **Cloud Retraining** | AWS SageMaker retrains models daily with gameplay logs (text only, GDPR-safe) | Continuous improvement; each cat's experience personalizes over time |
-| **Treat Dispenser** | Motor-driven module launches treats at game end | Completes hunting sequence psychologically; reduces frustration |
+| **Treat Dispenser** | Motor-driven module launches standard kibble/treats (from major pet brands) at game end—**no proprietary Reactacat treats required** | Completes hunting sequence psychologically; reduces frustration |
 | **Mobile App** | Viewing, engagement analytics, subscription management | Owner stays connected without requiring active play |
 
 **Treat Dispenser Design: Universal Kibble Solution**
 
 The treat dispenser is explicitly designed for standard dry cat food kibble (5–8mm diameter) that owners already have at home. This is a deliberate business + reliability decision:
 
-- **Why kibble (not proprietary treats):** Reduces jamming risk (standardized size), eliminates user dependency on Reactacat treats, avoids pet food regulatory burden (EFSA registration = €15–30K per EU country)
+- **Why kibble (not proprietary treats):** Works with treats customers already have from major brands (Royal Canin, Hill's, Purina, Orijen, etc.). **Reactacat does NOT produce treats.** This reduces jamming risk (standardized size), eliminates user dependency on Reactacat products, avoids pet food regulatory burden (EFSA registration = €15–30K per EU country)
 - **Hardware design:** Universal rotating baffle mechanism (proven reliable, like gumball machines) with servo motor + jam detection (rotates backward if resistance detected)
 - **User experience:** Simple instruction "Use only standard dry kibble." Replacement baffle (€5) ships in 24h if jamming occurs; factored as ~2% defect rate in support budget
 - **Regulatory advantage:** By avoiding proprietary treats, Reactacat is a "device for dispensing pet food" (hardware) NOT a "pet food manufacturer" (massive compliance cost avoided)
