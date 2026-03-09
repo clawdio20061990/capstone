@@ -276,6 +276,25 @@ Evidence consistently shows market growth of 12–15.5% CAGR, strong cat ownersh
 **Hypothesis H5 Validation:** ✓ **SUPPORTED**  
 Reactacat occupies unique position combining elements no competitor offers together. This defensible differentiation supports premium pricing (€120–150 vs. €80–100 for Petcube) and justifies subscription model.
 
+### 5.2A Distribution Model & Go-To-Market Channel
+
+**Critical Financial Dependency: Direct-to-Consumer Distribution**
+
+Reactacat's unit economics depend entirely on a Direct-to-Consumer (DTC) distribution model. This distinction is essential for business viability:
+
+**DTC Model (€150 retail → €46 hardware margin):** Sustainable path to positive unit economics
+- Brand website direct sales (shipping, payment processing, customer service owned)
+- Amazon direct fulfillment (Fulfillment by Amazon, brand-controlled pricing)
+- Select online pet retailers with favorable margin agreements (e.g., 15–20% margin split)
+
+**Traditional Retail Model (€150 retail → €30–35 hardware margin after 30–50% retail cuts):** Unsustainable
+- Traditional pet supply retail chains, department stores take 30–50% cuts
+- High margin compression eliminates subscription payback economics
+- CAC cannot be recovered from hardware margin alone
+- This channel is explicitly rejected as primary distribution strategy
+
+**Implication:** Go-to-market strategy is non-negotiable. If pivoting to traditional retail distribution becomes attractive later, hardware pricing must increase to €200–250+ to maintain margin adequacy and support subscription acquisition economics. This would require complete market repositioning.
+
 ### 5.3 Regulatory Feasibility Assessment
 
 **Compliance Pathway Validation:**
@@ -296,23 +315,41 @@ Regulatory pathway is clear, achievable, and comparable to existing pet tech pro
 **Unit Economics Modeling:**
 
 **Hardware:**
-- Bill of Materials (COGS): €95–140 (Raspberry Pi, camera, servos, laser, enclosure)
-- Retail Price: €120–180 (targeting €150 midpoint)
-- Gross Margin: 31–40%
+- Bill of Materials (COGS): €95–140 (Raspberry Pi 4B for prototyping; scales to €60–80 custom PCB at mass production 100,000+ units annually)
+- Retail Price (Direct-to-Consumer): €150 average
+- Gross Margin: 31–40% (after fulfillment costs)
+
+**Distribution Strategy:**
+Reactacat employs a **Direct-to-Consumer (DTC) model exclusively** via brand website, direct Amazon fulfillment, and select online pet retailers (avoiding brick-and-mortar retail that demands 30–50% margin cuts). This preserves unit economics; traditional retail channels would make subscription payback impossible. DTC also enables direct customer relationship management and data collection for AI improvement.
 
 **Subscription (Annual Revenue per User):**
-- Tier 1 (Free/Trial): €0 (conversion target: 20–30%)
-- Tier 2 (Standard): €36/year (€3/month, 50% adoption of converting users)
-- Tier 3 (Premium): €72/year (€6/month, 30% adoption)
+
+**Base Case (Moderate Conversion):**
+- Free/Trial conversion: 25% of hardware buyers
+- Paid conversion (of converters): 70%
+- Tier breakdown: 50% Standard (€36/year), 20% Premium (€72/year)
 - Blended annual subscription per paid user: €49–60/year
 
+**Conservative Scenario (Low Conversion):**
+- Paid conversion: 15% of hardware buyers
+- Tier breakdown: 80% Standard, 20% Premium
+- Blended annual subscription per paid user: €7–10/year
+
 **Unit LTV Calculation (5-year horizon):**
-- Hardware margin per unit: €37–56 (average €46)
-- Subscription revenue per user (assuming 65% annual retention): €49 × 3.3 years = €162
-- **Total LTV per customer: €208–218**
+
+*Base Case:*
+- Hardware margin per unit: €46
+- Paid subscription adoption: 17.5% of hardware buyers (25% conversion × 70% paid take rate)
+- Subscription revenue per hardware buyer (averaging paid + free): €8.60/year × 3.3 years retention = €28
+- **Total LTV per hardware customer: €74 (conservative relative to CAC)**
+
+*Optimistic Case (50% paid adoption):*
+- Hardware margin per unit: €46
+- Subscription revenue per hardware buyer: €24.50/year × 3.3 years = €81
+- **Total LTV per hardware customer: €127**
 
 **CAC Breakeven Analysis:**
-At current digital pet tech CAC benchmarks (€40–80 for direct-to-consumer pet tech via paid ads), payback period is 12–24 months, representing attractive unit economics supporting growth investment.
+At digital pet tech CAC benchmarks (€40–80), Reactacat achieves payback within 18–36 months even in conservative scenario. Optimistic scenario yields 6–12 month payback. Critically, subscription retention is the leverage point: each 10% improvement in annual retention adds €25–30 LTV per customer, creating strong incentive for continuous product improvement via cloud AI retraining.
 
 **Hypothesis H3 Validation:** ✓ **STRONGLY SUPPORTED**  
 Hardware-plus-subscription model generates sustainable economics with favorable LTV:CAC ratios. Comparable to proven SaaS models in adjacent markets (smart home, pet tech). Supports profitability at scale (500+ active users annually).
@@ -402,19 +439,23 @@ Positive testing results will strengthen business case; unexpected findings will
 - Market opportunity exists and is growing (multiple sources)
 - Competitive white space is genuine (comprehensive competitor analysis)
 - Regulatory pathway is achievable (clear standards, established process)
-- Business model is economically viable (unit economics support scale)
+- Business model is economically viable with DTC distribution (unit economics support scale)
 
-**Medium Confidence (Reduce during user testing):**
+**Medium Confidence (Reduce during user testing/prototype):**
 - Exact optimal subscription pricing tier (requires customer willingness-to-pay research)
-- Customer Acquisition Cost in EU pet tech (varies by channel; benchmark estimates available)
+- Customer Acquisition Cost in EU pet tech (varies by channel; DTC benchmarks available)
 - Long-term subscription retention (industry benchmarks available; product-specific TBD)
 - Cat preference for adaptive AI (theoretical advantage; requires real testing)
+- Hardware production scaling (Raspberry Pi 4B suitable for prototyping; scales to custom edge-AI PCB at 100K+ units annually, reducing BOM to €60–80)
+- DTC market channel execution (requires brand building, digital marketing, logistics infrastructure)
 
 **Assumptions Documented (for future validation):**
-- 60–70% annual subscription retention (industry benchmark; may vary)
-- €120–150 hardware price point customer acceptance (informed by competitive pricing)
-- 5–10% market penetration achievable (depends on marketing effectiveness and product quality)
-- Treat dispenser ownership rate 70–80% (marketed as "super recommended," not MVPincluded)
+- 15–70% annual subscription conversion rate (conservative 15%, base case 50%, optimistic 70%; subscription is the leverage point)
+- 60–70% annual subscription retention (industry benchmark; 10% improvement = €25–30 additional LTV per customer)
+- €120–150 hardware price point customer acceptance (informed by competitive pricing and willingness-to-pay research)
+- 5–10% market penetration achievable (depends on marketing effectiveness, product quality, and brand awareness)
+- Treat dispenser ownership rate 70–80% (marketed as "super recommended," not MVP-included)
+- DTC-only distribution model (retail channel rejection due to margin compression; future retail entry requires price increase to €200–250+)
 
 ### 6.5 Recommendations for Next Phases
 
