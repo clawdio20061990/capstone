@@ -159,26 +159,76 @@ If text-log data collection is interpreted as personal data requiring explicit c
 
 **Mitigation Strategies:**
 
-1. **Explicit Consent & Transparency:**
+1. **Edge AI + Local Computer Vision Processing:**
+   - Reactacat processes camera feed locally on device (Raspberry Pi 4B) using TensorFlow Lite
+   - On-device inference generates text coordinates + engagement metrics
+   - **Video frames deleted immediately** (never stored, never transmitted)
+   - Only text JSON sent to cloud: `{"cat_x": 150, "cat_y": 200, "engagement": 85}`
+   - This architecture is GDPR-compliant (no video data = no personal data transmission)
+   - Also justifies hardware cost: Raspberry Pi 4B (€35–50, high compute) needed for local CV; cheap microcontroller (€5–10) cannot run inference
+
+2. **Explicit Consent & Transparency:**
    - Obtain clear written consent for gameplay data collection
    - Provide transparent privacy policy in plain language
    - Allow users to opt out of data collection (feature limitation)
    - Implement data deletion on request (within 30 days)
 
-2. **Data Minimization:**
+3. **Data Minimization:**
    - Collect only essential data: cat position, laser coordinates, engagement duration, timestamps
    - Never collect video, audio, or identifiable owner information
    - Encrypt data in transit and at rest
 
-3. **Regular DPO Consultation:**
+4. **Regular DPO Consultation:**
    - Hire external Data Protection Officer (DPO) for €2–5K/year
    - Conduct Data Protection Impact Assessment (DPIA) annually
    - Document compliance decisions
 
-4. **Insurance:**
+5. **Insurance:**
    - Obtain cyber liability + privacy violation insurance (€50–100K coverage, €5–10K/year premium)
 
 **Impact if Mitigated:** HIGH → LOW (proper compliance framework eliminates risk)
+
+---
+
+### 2.3 WEEE Directive (Waste from Electrical & Electronic Equipment) Compliance (LOW LIKELIHOOD, LOW-MEDIUM IMPACT)
+
+**Risk Description:**  
+Selling electronics in the EU requires compliance with WEEE Directive (2012/19/EU). Reactacat must register as a "Producer" in each EU country and fund device recycling at end-of-life. Non-compliance triggers fines and product seizure.
+
+**Likelihood:** LOW (20%, easily mitigated via third-party partner)  
+**Impact:** LOW-MEDIUM (manageable cost ~€0.50–€2 per unit + €3–5K annual admin)  
+**Timeline:** Months 1–6 (pre-launch compliance required)
+
+**Evidence Supporting Risk:**
+- WEEE Directive applies to all electronic devices with power supply
+- Reactacat is powered by battery/plug = falls under WEEE scope
+- Registration is mandatory before first device sells in any EU country
+- Non-compliance can result in fines + product recalls
+
+**Mitigation Strategies:**
+
+1. **Third-Party Compliance Partner:**
+   - Engage WEEE compliance agency (Stena Line, URT, Recupel, EuroRam) by Month 1
+   - Partner registers Reactacat as Producer in all 27 EU countries (€3–5K flat fee)
+   - Partner handles annual reporting, recycling fund payments, updates
+
+2. **Cost Management:**
+   - Per-unit recycling fee: €0.50–€2 (varies by country)
+   - Year 1 impact: €3–5K admin + €600–1,200 recycling fees (1,200 units) = €4–6K total (<1% revenue)
+   - Year 3 impact: €3–5K admin + €9–36K recycling fees (18,000 units) = €12–40K total (<2% revenue)
+   - Cost factored into miscellaneous compliance OpEx; not a separate budget line
+
+3. **Labeling & Documentation:**
+   - Include WEEE crossed-out bin symbol on product packaging + user manual
+   - Provide take-back instructions (partner handles recycling logistics)
+   - Label cost: ~€0.05 per unit (negligible)
+
+4. **Outsource Expertise:**
+   - Do not attempt DIY compliance; hire specialist partner
+   - Partner automates annual reporting (reduces internal overhead)
+   - Partner maintains up-to-date knowledge of regulatory changes
+
+**Impact if Mitigated:** LOW-MEDIUM → NEGLIGIBLE (third-party partner eliminates risk + cost is <1% revenue)
 
 ---
 

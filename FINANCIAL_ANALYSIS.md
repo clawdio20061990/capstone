@@ -259,15 +259,42 @@ Reactacat presents a venture-scale opportunity with attractive unit economics an
 
 | Use of Funds | Amount | Timeline | Purpose |
 |---|---|---|---|
-| **Regulatory & Legal** | €35,000 | Months 1–6 | CE certification (laser safety), GDPR setup, IP/patents |
-| **Prototype to MVP** | €80,000 | Months 1–9 | Hardware development, BOM finalization, first 500 units |
-| **Cloud Infrastructure Setup** | €25,000 | Months 1–3 | AWS SageMaker environment, backend, mobile app framework |
-| **Initial Inventory** | €125,000 | Months 6–9 | First 1,500 units (Poland soft launch + buffer) |
+| **Regulatory & Legal** | €35,000 | Months 1–6 | CE certification (laser safety), GDPR setup, WEEE registration, IP/patents |
+| **Prototype to MVP** | €80,000 | Months 1–9 | Hardware development, BOM finalization, design finalization, first 500 prototypes |
+| **Cloud Infrastructure Setup** | €25,000 | Months 1–3 | AWS SageMaker environment, TensorFlow Lite setup, backend, mobile app framework |
+| **Initial Inventory (including tooling)** | €125,000 | Months 6–9 | **Includes:** Injection mold tooling NRE (€30–40K), first production run (500–1,000 units, €50–60K), assembly labor (€15–20K), inventory buffer (€15–20K). Covers full hardware launch readiness. Outsourced to European contract manufacturer (Poland/Germany). |
 | **Team (Year 1)** | €120,000 | Months 1–12 | 2 FTE: CTO/co-founder (Dmytro), 1 engineer |
 | **Marketing & Launch** | €180,000 | Months 6–12 | Digital ads, influencer partnerships, web/social, PR |
 | **Operations & Admin** | €30,000 | Months 1–12 | Co-working, tools, insurance, freelance support |
-| **Runway Buffer (6-month)** | €105,000 | Months 7–12 | Cash reserves for contingencies |
+| **Runway Buffer (6-month)** | €105,000 | Months 7–12 | Cash reserves for contingencies, unexpected tooling rework |
 | **Total Seed Round** | **€680,000** | 12 months | |
+
+**Critical Clarification on "Initial Inventory" (€125K):**
+
+This line item explicitly includes **injection mold tooling NRE (Non-Recurring Engineering)** and is not a separate cost:
+
+| Component | Amount | Details |
+|---|---|---|
+| **Mold Tooling (NRE)** | €30–40K | One-time cost. 2-piece clamshell design (top/bottom cavity + internal mount plate). Hardened P20 steel. Amortized across 5,000 units over Year 1–2. |
+| **First Production Run** | €50–60K | 500–1,000 units assembled by contract manufacturer. Includes PCB assembly, servo integration, testing. Cost per unit: €95–104 (includes CM margin + tooling amortization). |
+| **Assembly Labor** | €15–20K | Hand-assembly of first units for testing, quality inspection, packaging validation. |
+| **Inventory Buffer** | €15–20K | Safety stock for 1-month operations (100–200 units retained for customer support, replacement units, warranty). |
+| **Total** | **€125K** | Covers full hardware launch readiness. Outsourced to European CM (Poland/Germany). Lead time: 6–8 weeks mold → first samples. |
+
+**Manufacturing Strategy:**
+
+Reactacat partners with a **European contract manufacturer** to handle injection molding, PCB assembly, and testing. This approach:
+- Reduces upfront capital (no in-house tooling + machinery investment)
+- Leverages CM expertise (mold design, yield optimization, supply chain)
+- Maintains supply flexibility (easier to scale or pivot suppliers)
+- Proximity advantage (Poland/Germany manufacturers = shorter lead times + GDPR-friendly)
+
+**Why Mold Cost Is Realistic:**
+
+- Injection mold shops in Poland/Germany: 30–40% cheaper than Asian shops
+- 2-piece clamshell (standard design): €30–40K for hardened P20 steel molds
+- Mold lifespan: 100,000+ shots (sufficient for 5,000+ production units)
+- Cost per unit at 5,000 units: €8–10 per unit (acceptable for mass production transition)
 
 **Burn Rate:** €28,200/month average Year 1 (€338,600 annual burn ÷ 12)
 
