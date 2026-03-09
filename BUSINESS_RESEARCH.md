@@ -160,12 +160,18 @@ Given project scope and resource constraints (MBA capstone, not venture due dili
 - Regulatory feasibility requires standards documentation (publicly available)
 - Financial viability relies on cost benchmarking (available from industry reports and technology component suppliers)
 
+**Why These Methods Are Best Fit-for-Purpose:**
+Primary research (surveys, interviews) would provide richer qualitative insights but is resource-intensive and unnecessary for validating market existence and size. Secondary quantitative data from established research firms offers sufficient reliability for business opportunity assessment at this stage. The explanatory research design tests whether documented market conditions support the business hypotheses rather than exploring unknown phenomena. Mixed methods would add marginal value given the availability of comprehensive secondary data and the planned primary validation through user testing with real cats in the subsequent phase.
+
 **Not Conducted (deferred to market validation phase):**
 - Primary consumer surveys (resource-intensive, not required for business research validation)
 - Prospective user interviews (valuable but secondary to market opportunity validation)
 - In-depth cat behavior research (handled in user testing phase with real animals)
 
 ### 3.3 Triangulation Strategy
+
+**Why Triangulation Strengthens Validity:**
+Triangulation across independent data sources reduces risk of single-source bias and increases confidence in findings. When multiple independent sources converge on similar conclusions (market growth rates, competitive gaps, regulatory feasibility), the reliability of business decisions based on these findings improves substantially.
 
 The research triangulates evidence across three data sources to validate key assumptions:
 
@@ -460,6 +466,30 @@ Positive testing results will strengthen business case; unexpected findings will
 - 5-10% market penetration achievable (depends on marketing effectiveness, product quality, and brand awareness)
 - Treat dispenser ownership rate 70-80% (marketed as "super recommended," not MVP-included)
 - DTC-only distribution model (retail channel rejection due to margin compression; future retail entry requires price increase to €200-250+)
+
+**Contingency Planning: If Findings Contradict Expectations**
+
+Should user testing or market validation reveal unexpected challenges, the following contingency responses are prepared:
+
+*If cat engagement with adaptive AI is lower than expected:*
+- Pivot to "owner-supervised autonomous" mode where AI adapts but owner initiates sessions
+- Enhance treat dispenser integration as primary engagement driver
+- Investigate specific cat behavioral segments (age, breed, personality) where adaptive AI performs best
+
+*If subscription conversion is below conservative 15% threshold:*
+- Shift to "freemium with premium features" model rather than subscription
+- Bundle extended warranty or cloud storage as value-add instead of AI improvement
+- Explore B2B licensing of adaptive AI technology to existing pet tech manufacturers
+
+*If regulatory certification encounters unexpected delays:*
+- Prioritize UK market (post-Brexit regulatory independence) for initial launch
+- Engage regulatory consultants earlier in process
+- Consider partnership with established CE-marked manufacturer for co-branding
+
+*If competitive response is faster than 18-24 month imitation lag:*
+- Accelerate ecosystem development (health monitoring, multi-pet features) to maintain differentiation
+- Focus on community and brand building as defensive moat
+- Explore strategic acquisition or partnership with emerging competitor
 
 ### 6.5 Recommendations for Next Phases
 
