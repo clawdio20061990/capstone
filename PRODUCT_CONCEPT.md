@@ -70,7 +70,7 @@ An AI-powered autonomous laser toy that uses edge computing and cloud-based mach
 - **Actuators:** 2 servos for laser pointer movement (X/Y axis)
 - **Sensors:** Camera for cat detection and tracking
 - **Laser:** Class 3 laser with optical filter
-- **Optional module:** Treat feeder (launches treats after game completion)
+- **Optional module:** Treat feeder (launches standard kibble/treats after game completion, compatible with major pet food brands—**Reactacat does not produce proprietary treats**)
 
 **Rationale for hardware choice:**
 - Cost-effective single-board PC
@@ -266,17 +266,21 @@ Research indicates that laser pointer play can cause frustration in cats because
 
 #### 2. Treat Feeder Module
 **Solution:** Physical reward at game completion
-- Launches treats immediately after laser play ends
+- Launches standard kibble/treats (from major pet food manufacturers like Royal Canin, Hill's, Purina) immediately after laser play ends
+- **Important note:** Reactacat does NOT produce or sell proprietary treats—dispenser is compatible with treats owners already have at home
 - Allows cat to "capture" and "consume" prey equivalent
 - Completes the hunting sequence psychologically
 - Provides positive reinforcement and satisfaction
 
-**Status:** Planned feature (may not be in MVP)
+**Status:** Planned feature (may not be in MVP, marketed as "super recommended" accessory)
+
+**Design principle:** Using third-party treats avoids proprietary lock-in for customers, reduces regulatory burden (avoids pet food registration requirements), and standardizes treat sizes to prevent jamming risk.
 
 ### Marketing Approach
 - Transparent communication about laser play research
-- Emphasize treat feeder as completion mechanism
+- Emphasize treat feeder as completion mechanism (uses standard treats customers already buy)
 - Position as more responsible alternative to standalone laser toys
+- Clear messaging: "Works with the treats your cat already eats"
 - Align with pet-first stakeholder philosophy
 
 ---

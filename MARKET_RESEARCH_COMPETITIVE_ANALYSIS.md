@@ -156,7 +156,7 @@ Reactacat's value proposition addresses a specific, underserved need: intelligen
 
 **2. Behavioral Intelligence:** "Learns your cat's unique play style." Unlike random laser toys or app-controlled play, Reactacat adapts gameplay based on observed behavior. Cats develop preferences—some prefer faster movements, others slower stalking; some like unpredictable patterns, others predictable routines. Reactacat learns and personalizes, delivering a continuously improving experience. This messaging appeals to humanized pet owners ("my cat has unique personality") and differentiates against static competitors.
 
-**3. Responsible Pet Technology:** "Laser play that cares." Acknowledgment of laser frustration risk (well-documented in veterinary literature) positions Reactacat as ethically designed. The treat dispenser provides psychological closure ("my cat caught and consumed its prey"), distinguishing Reactacat from frustration-causing simple laser toys. This messaging appeals to conscientious pet owners and supports premium pricing.
+**3. Responsible Pet Technology:** "Laser play that cares." Acknowledgment of laser frustration risk (well-documented in veterinary literature) positions Reactacat as ethically designed. The treat dispenser (compatible with standard kibble and treats from major brands—**Reactacat does not produce proprietary treats**) provides psychological closure ("my cat caught and consumed its prey"), distinguishing Reactacat from frustration-causing simple laser toys. This messaging appeals to conscientious pet owners and supports premium pricing.
 
 ### 5.2 Positioning Against Direct Competitors
 
