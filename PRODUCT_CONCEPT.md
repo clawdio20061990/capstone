@@ -66,7 +66,7 @@ An AI-powered autonomous laser toy that uses edge computing and cloud-based mach
 ## Technical Architecture
 
 ### Hardware Platform
-- **Processing unit:** Single-board PC (Orange Pi Zero 3W)
+- **Processing unit:** Single-board PC 
 - **Actuators:** 2 servos for laser pointer movement (X/Y axis)
 - **Sensors:** Camera for cat detection and tracking
 - **Laser:** Class 3 laser with optical filter
