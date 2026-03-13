@@ -7,431 +7,431 @@
 
 ## Executive Summary
 
-Reactacat приймає філософію стійкого виробництва та права на ремонт як основоположні принципи дизайну. Замість планового морального старіння та пропрієтарних рішень, ми проєктуємо пристрій, який служитиме роками, легко ремонтується та мінімізує вплив на довкілля на всіх етапах життєвого циклу.
+Reactacat embraces sustainable manufacturing and the right to repair as fundamental design principles. Instead of planned obsolescence and proprietary solutions, we are designing a device that will last for years, is easily repairable, and minimizes environmental impact at all stages of its lifecycle.
 
 ---
 
-## 1. Модульна Архітектура
+## 1. Modular Architecture
 
-### 1.1 Принцип Модульності
+### 1.1 Modularity Principle
 
-**Концепція:** Пристрій складається з незалежних модулів, кожен з яких можна замінити окремо без заміни всього пристрою.
+**Concept:** The device consists of independent modules, each of which can be replaced individually without replacing the entire device.
 
-#### Основні Модулі:
+#### Main Modules:
 
-| Модуль | Функція | Легкість заміни |
-|--------|---------|-----------------|
-| **Основна плата (SBC)** | Обчислення, AI inference | Plug-and-play via стандартні GPIO/USB |
-| **Модуль камери** | Відеозахоплення, відстеження | USB/UVC стандарт |
-| **Сервоприводи (2x)** | Рух лазера по осях X/Y | Стандартні 3-pin PWM серво |
-| **Лазерний модуль** | Джерело світла | Діскретний модуль зі стандартним живленням |
-| **Блок живлення** | Живлення пристрою | Стандартний DC barrel jack 5.5x2.1mm |
-| **Корпусні елементи** | Захист компонентів | 3D-замінні секції |
-| **Модуль роздачі ласощів** | Опціональний аксесуар | USB-C з'єднання + магнітне кріплення |
+| Module | Function | Ease of Replacement |
+|--------|----------|---------------------|
+| **Main Board (SBC)** | Computing, AI inference | Plug-and-play via standard GPIO/USB |
+| **Camera Module** | Video capture, tracking | USB/UVC standard |
+| **Servos (2x)** | Laser movement on X/Y axes | Standard 3-pin PWM servos |
+| **Laser Module** | Light source | Discrete module with standard power supply |
+| **Power Supply Unit** | Device power | Standard DC barrel jack 5.5x2.1mm |
+| **Housing Elements** | Component protection | 3D-replaceable sections |
+| **Treat Dispenser Module** | Optional accessory | USB-C connection + magnetic mounting |
 
-#### Переваги Модульності:
+#### Benefits of Modularity:
 
-**Для користувача:**
-- Ремонт конкретного компонента замість викидання пристрою
-- Апгрейд окремих модулів (наприклад, потужніша камера)
-- Можливість переналаштування під різні приміщення
+**For the user:**
+- Repair a specific component instead of discarding the device
+- Upgrade individual modules (e.g., more powerful camera)
+- Ability to reconfigure for different spaces
 
-**Для бізнесу:**
-- Зменшення витрат на гарантійне обслуговування
-- Додатковий дохід від продажу запчастин та модулів
-- Позитивний імідж бренду, що піклується про клієнтів
+**For the business:**
+- Reduced warranty service costs
+- Additional revenue from spare parts and module sales
+- Positive brand image showing care for customers
 
-**Для довкілля:**
-- Зменшення електронних відходів (e-waste)
-- Локалізація проблем — заміна одного модуля замість всього пристрою
-- Просте сортування компонентів на вторинну переробку
-
----
-
-## 2. Право на Ремонт (Right to Repair)
-
-### 2.1 Документація та Відкритість
-
-**Що надаємо:**
-
-1. **Повні схеми розбирання**
-   - Step-by-step інструкції з фотографіями
-   - Ідентифікація кожного компонента
-   - Необхідні інструменти (стандартні викрутки, пластикові лопатки)
-
-2. **Сервісна документація**
-   - Діагностичні коди помилок
-   - Таблиці усунення несправностей
-   - Рекомендації з профілактичного обслуговування
-
-3. **Відкриті специфікації**
-   - CAD-файли корпусу для 3D-друку (STL/STEP формати)
-   - Список матеріалів (BOM) з посиланнями на постачальників
-   - Протоколи комунікації між модулями
-
-### 2.2 Дизайн для Ремонту
-
-**Конструктивні рішення:**
-
-| Анти-паттерн | Наше рішення | Чому це важливо |
-|--------------|--------------|-----------------|
-| Клей замість гвинтів | Модульні кріплення на гвинтах M3 | Можливість розбирання без пошкоджень |
-| Пропрієтарні батареї | Стандартні Li-ion 18650 (змінні) | Доступність заміни через 2-5 років |
-| Закриті корпуси | Магнітні/відкручувані панелі | Швидкий доступ до внутрішніх компонентів |
-| Спаяні компоненти | Роз'єми та сокети | Заміна без паяльника |
-| Зашифровані прошивки | Відкриті прошивки модулів | Незалежне оновлення та ремонт |
-
-### 2.3 Запчастини та Підтримка
-
-**Політика запчастин:**
-- Гарантія: 2 роки на всі компоненти
-- Постгарантійна підтримка: 7+ років поставки запчастин
-- Програма "Ремонтний комплект" — набори найчастіших запчастин зі знижкою
-- Співпраця з незалежними ремонтними майстернями
+**For the environment:**
+- Reduced electronic waste (e-waste)
+- Problem localization — replace one module instead of the whole device
+- Easy component sorting for secondary recycling
 
 ---
 
-## 3. Екологічні Матеріали
+## 2. Right to Repair
 
-### 3.1 Корпус: PLA та Біорозкладні Альтернативи
+### 2.1 Documentation & Openness
 
-**Основний матеріал: PLA (Polylactic Acid)**
+**What we provide:**
 
-| Характеристика | Значення |
-|----------------|----------|
-| **Джерело** | Кукурудзяний крохмаль, цукрова тростина |
-| **Біорозкладність** | Промисловий компостинг 3-6 місяців (EN 13432) |
-| **Домашній компост** | Повільний розклад (1-2 роки) — не ідеальний |
-| **Міцність** | Достатня для побутового використання |
-| **3D-друк** | Відмінна придатність для FDM-принтерів |
-| **Переробка** | Механічна переробка в новий філамент |
+1. **Complete disassembly diagrams**
+   - Step-by-step instructions with photos
+   - Identification of every component
+   - Required tools (standard screwdrivers, plastic spudgers)
 
-**Чому PLA:**
-- **Відновлюване джерело:** не залежить від нафти
-- **Низький вуглецевий слід:** виробництво виділяє менше CO₂
-- **Локальне виробництво:** можливість виробництва корпусів локально в кожному регіоні
-- **Переробка:** зношені корпуси можна подрібнити та надрукувати нові
+2. **Service documentation**
+   - Diagnostic error codes
+   - Troubleshooting tables
+   - Preventive maintenance recommendations
 
-**Альтернативи для специфічних потреб:**
+3. **Open specifications**
+   - Housing CAD files for 3D printing (STL/STEP formats)
+   - Bill of Materials (BOM) with supplier links
+   - Inter-module communication protocols
 
-| Матеріал | Застосування | Особливості |
-|----------|--------------|-------------|
-| **PETG** | Деталі, що потребують гнучкості | Перероблений пластик, міцність |
-| **Hemp Plastic** | Зовнішні панелі | 100% біорозкладний, естетика |
-| **Cork Composite** | Амортизуючі елементи | Натуральний, антибактеріальний |
-| **Recycled ABS** | Внутрішні структурні елементи | Закритий цикл виробництва |
+### 2.2 Design for Repair
 
-### 3.2 Упаковка
+**Design decisions:**
 
-**Zero-waste підхід:**
+| Anti-pattern | Our Solution | Why It Matters |
+|--------------|--------------|----------------|
+| Glue instead of screws | Modular M3 screw mounting | Ability to disassemble without damage |
+| Proprietary batteries | Standard replaceable Li-ion 18650 | Availability of replacement in 2-5 years |
+| Sealed enclosures | Magnetic/screw-on panels | Quick access to internal components |
+| Soldered components | Connectors and sockets | Replacement without soldering iron |
+| Encrypted firmware | Open module firmware | Independent updates and repair |
 
-- **Коробка:** Перероблений картон, соєве чорнило для друку
-- **Захист:** Кукурудзяний пакувальний матеріал (розчиняється у воді) замість пінопласту
-- **Пакети:** Компостовані PLA-пакети для дрібних компонентів
-- **Інструкції:** QR-код на електронну версію, мінімальний паперовий друк
+### 2.3 Spare Parts & Support
 
-### 3.3 Життєвий Цикл Матеріалів
+**Spare parts policy:**
+- Warranty: 2 years on all components
+- Post-warranty support: 7+ years of spare parts availability
+- "Repair Kit" program — sets of most common spare parts at a discount
+- Partnership with independent repair shops
+
+---
+
+## 3. Eco-Friendly Materials
+
+### 3.1 Housing: PLA and Biodegradable Alternatives
+
+**Primary material: PLA (Polylactic Acid)**
+
+| Characteristic | Value |
+|----------------|-------|
+| **Source** | Corn starch, sugarcane |
+| **Biodegradability** | Industrial composting 3-6 months (EN 13432) |
+| **Home composting** | Slow decomposition (1-2 years) — not ideal |
+| **Strength** | Sufficient for consumer use |
+| **3D printing** | Excellent suitability for FDM printers |
+| **Recycling** | Mechanical recycling into new filament |
+
+**Why PLA:**
+- **Renewable source:** does not depend on oil
+- **Low carbon footprint:** production emits less CO₂
+- **Local production:** ability to manufacture housings locally in each region
+- **Recycling:** worn housings can be ground up and new ones printed
+
+**Alternatives for specific needs:**
+
+| Material | Application | Features |
+|----------|-------------|----------|
+| **PETG** | Parts requiring flexibility | Recycled plastic, durability |
+| **Hemp Plastic** | External panels | 100% biodegradable, aesthetics |
+| **Cork Composite** | Damping elements | Natural, antibacterial |
+| **Recycled ABS** | Internal structural elements | Closed-loop production |
+
+### 3.2 Packaging
+
+**Zero-waste approach:**
+
+- **Box:** Recycled cardboard, soy-based printing ink
+- **Protection:** Corn-based packing material (dissolves in water) instead of foam
+- **Bags:** Compostable PLA bags for small components
+- **Instructions:** QR code to electronic version, minimal paper printing
+
+### 3.3 Material Lifecycle
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    ЖИТТЄВИЙ ЦИКЛ REACTACAT                  │
+│                    REACTACAT LIFECYCLE                      │
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
-│  ВИРОБНИЦТВО              ВИКОРИСТАННЯ              КІНЕЦЬ   │
+│  MANUFACTURING           USAGE                END OF LIFE   │
 │                                                             │
 │  ┌──────────┐           ┌──────────┐           ┌──────────┐ │
-│  │ PLA      │──────────→│ 5-10     │──────────→│ Механічна│ │
-│  │ гранули  │           │ років    │           │ переробка│ │
+│  │ PLA      │──────────→│ 5-10     │──────────→│ Mechanical│
+│  │ pellets  │           │ years    │           │ recycling│ │
 │  └──────────┘           └──────────┘           └────┬─────┘ │
 │       ↑                                             │       │
 │       │                                             ↓       │
 │  ┌────┴─────┐                                 ┌──────────┐ │
-│  │ Біомаса  │                                 │ Новий    │ │
-│  │ (кукурудза│←────────────────────────────────│ філамент │ │
-│  │ тростина)│                                 └──────────┘ │
+│  │ Biomass  │                                 │ New      │ │
+│  │ (corn/   │←────────────────────────────────│ filament │ │
+│  │ sugarcane│                                 └──────────┘ │
 │  └──────────┘                                               │
 │                                                             │
 │  ┌──────────┐           ┌──────────┐           ┌──────────┐ │
-│  │ Електроніка│         │ Модулі   │           │ Заміна/  │ │
-│  │ (стандартна)│───────→│ замінні  │──────────→│ ремонт   │ │
+│  │ Electronics│         │ Replaceable│          │ Replacement│
+│  │ (standard)│───────→│ modules  │──────────→│ / repair │ │
 │  └──────────┘           └──────────┘           └────┬─────┘ │
 │       ↑                                             │       │
 │       │                                      ┌──────┴──────┐│
-│       └──────────────────────────────────────┤ Вторинна    ││
-│                                              │ переробка   ││
-│                                              │ (пункти     ││
-│                                              │ прийому)    ││
+│       └──────────────────────────────────────┤ Secondary   ││
+│                                              │ recycling   ││
+│                                              │ (collection ││
+│                                              │ points)     ││
 │                                              └─────────────┘│
 └─────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 4. Стандартизація Компонентів
+## 4. Component Standardization
 
-### 4.1 Філософія: "Ніяких Пропрієтарних Роз'ємів"
+### 4.1 Philosophy: "No Proprietary Connectors"
 
-**Принцип:** Кожен роз'єм, порт та інтерфейс — це відкритий стандарт, доступний будь-якому виробнику.
+**Principle:** Every connector, port, and interface is an open standard available to any manufacturer.
 
-### 4.2 Електричні Інтерфейси
+### 4.2 Electrical Interfaces
 
-| Призначення | Стандарт | Чому цей вибір |
-|-------------|----------|----------------|
-| **Живлення пристрою** | DC Barrel Jack 5.5x2.1mm | Універсальний, дешеві адаптери |
-| **Внутрішнє живлення модулів** | JST-XH 2.54mm | Стандарт DIY-спільноти |
-| **Камера** | USB 2.0 Type-A / UVC | Плаг-н-плей, будь-яка сумісна камера |
-| **Сервоприводи** | 3-pin PWM (Futaba/JR) | Універсальний стандарт RC-моделей |
-| **Додаткові модулі** | USB-C | Сучасний стандарт, живлення + дані |
-| **Розширення** | GPIO header (Raspberry Pi compatible) | Екосистема HAT-плат |
-| **Зв'язок** | Wi-Fi 802.11n / Ethernet RJ45 | Відкриті стандарти |
+| Purpose | Standard | Why This Choice |
+|---------|----------|-----------------|
+| **Device power** | DC Barrel Jack 5.5x2.1mm | Universal, inexpensive adapters |
+| **Internal module power** | JST-XH 2.54mm | DIY community standard |
+| **Camera** | USB 2.0 Type-A / UVC | Plug-and-play, any compatible camera |
+| **Servos** | 3-pin PWM (Futaba/JR) | Universal RC model standard |
+| **Additional modules** | USB-C | Modern standard, power + data |
+| **Expansion** | GPIO header (Raspberry Pi compatible) | HAT board ecosystem |
+| **Connectivity** | Wi-Fi 802.11n / Ethernet RJ45 | Open standards |
 
-### 4.3 Механічні Стандарти
+### 4.3 Mechanical Standards
 
-**Кріплення:**
-- Всі гвинти: **M3** (метрична система, стандартна для електроніки)
-- Відстані між кріпленнями: кратні **10мм** (модульна сітка)
-- Кріплення плат: **M3 standoffs** стандартної висоти
+**Fastening:**
+- All screws: **M3** (metric system, standard for electronics)
+- Mounting hole spacing: multiples of **10mm** (modular grid)
+- Board mounting: **M3 standoffs** standard height
 
-**Сервоприводи:**
-- Стандартний розмір: **9g micro servo** (SG90 або аналоги)
-- Альтернатива: **MG90S** (металеві шестерні для довговічності)
-- Кут повороту: 180° (стандарт) або 360° (continuous rotation)
-- Живлення: 4.8-6V (сумісно з 5V логікою SBC)
+**Servos:**
+- Standard size: **9g micro servo** (SG90 or equivalents)
+- Alternative: **MG90S** (metal gears for durability)
+- Rotation angle: 180° (standard) or 360° (continuous rotation)
+- Power supply: 4.8-6V (compatible with 5V SBC logic)
 
-**Переваги стандартних серво:**
-- Доступність: <$3 за штуку будь-де в світі
-- Легка заміна: тільки 3 дроти
-- Надійність: мільйони однакових приводів у виробництві
-- Ремонтопридатність: механізми добре вивчені
+**Advantages of standard servos:**
+- Availability: <$3 per unit anywhere in the world
+- Easy replacement: only 3 wires
+- Reliability: millions of identical actuators in production
+- Repairability: mechanisms well understood
 
-### 4.4 Обчислювальна Платформа
+### 4.4 Computing Platform
 
-**Рекомендована: Raspberry Pi Zero 2 W**
+**Recommended: Raspberry Pi Zero 2 W**
 
-| Характеристика | Значення |
-|----------------|----------|
-| **Архітектура** | ARM Cortex-A53 (відкрита) |
-| **GPIO** | 40-pin, сумісний з HAT |
-| **ОС** | Raspberry Pi OS (Linux, відкритий код) |
-| **Спільнота** | Мільйони користувачів, тисячі проєктів |
-| **Замінність** | Будь-який SBC з сумісним GPIO (Orange Pi, Banana Pi) |
+| Characteristic | Value |
+|----------------|-------|
+| **Architecture** | ARM Cortex-A53 (open) |
+| **GPIO** | 40-pin, HAT compatible |
+| **OS** | Raspberry Pi OS (Linux, open source) |
+| **Community** | Millions of users, thousands of projects |
+| **Replaceability** | Any SBC with compatible GPIO (Orange Pi, Banana Pi) |
 
-**Альтернативи (plug-and-play):**
+**Alternatives (plug-and-play):**
 - Orange Pi Zero 2W
 - Banana Pi M2 Zero
 - Radxa Zero
 
 ---
 
-## 5. Кругова Економіка
+## 5. Circular Economy
 
-### 5.1 Програма Take-Back
+### 5.1 Take-Back Program
 
 **"Reactacat Forever":**
-- **Обмін старого на новий:** знижка 20% на новий пристрій при поверненні старого
-- **Ремонт vs Заміна:** безкоштовна діагностика, прозорий вибір
-- **Ресайклінг:** відправка зношених пристроїв на розбирання та переробку
+- **Trade-in:** 20% discount on new device when returning old one
+- **Repair vs Replacement:** free diagnostics, transparent choice
+- **Recycling:** sending worn devices for disassembly and recycling
 
-### 5.2 Відкритий Дизайн
+### 5.2 Open Design
 
-**Ліцензування:**
-- **CAD-файли корпусу:** CERN Open Hardware Licence v2
-- **Схеми:** Creative Commons BY-SA
-- **Програмне забезпечення:** GPL v3 або MIT (TBD)
+**Licensing:**
+- **Housing CAD files:** CERN Open Hardware Licence v2
+- **Schematics:** Creative Commons BY-SA
+- **Software:** GPL v3 or MIT (TBD)
 
-**Що це дає:**
-- Спільнота може створювати власні модифікації
-- Незалежні виробники можуть робити сумісні аксесуари
-- Пристрій живе навіть якщо компанія припинить існування
+**What this enables:**
+- Community can create their own modifications
+- Independent manufacturers can make compatible accessories
+- Device lives on even if the company ceases to exist
 
-### 5.3 Локальне Виробництво
+### 5.3 Local Production
 
-**Стратегія "Produce Where You Sell":**
+**"Produce Where You Sell" Strategy:**
 
-| Регіон | Підхід до виробництва |
-|--------|----------------------|
-| **Європа** | Локальні 3D-друкарні + складальні центри |
-| **Північна Америка** | Партнерство з місцевими виробниками |
-| **Інші ринки** | Ліцензування дизайну місцевим виробникам |
+| Region | Production Approach |
+|--------|---------------------|
+| **Europe** | Local 3D print shops + assembly centers |
+| **North America** | Partnership with local manufacturers |
+| **Other markets** | Design licensing to local manufacturers |
 
-**Переваги:**
-- Зменшення вуглецевого сліду від транспортування
-- Підтримка локальної економіки
-- Швидша адаптація до локальних норм
-
----
-
-## 6. Технічні Специфікації Стійкості
-
-### 6.1 Розрахунковий Термін Служби
-
-| Компонент | Очікуваний термін | Стратегія продовження |
-|-----------|-------------------|----------------------|
-| Корпус PLA | 5-10 років | Заміна секцій, 3D-друк |
-| Сервоприводи | 2-5 років (залежно від використання) | Легка заміна, <$5 |
-| SBC | 5-10 років | Апгрейд на новішу модель |
-| Камера | 5+ років | USB-заміна на будь-яку сумісну |
-| Блок живлення | 5-10 років | Стандартний адаптер |
-| Лазерний модуль | 10,000+ годин | Заміна модуля |
-
-**Загальний термін служби пристрою:** 10+ років з регулярним обслуговуванням
-
-### 6.2 Планована Застарілість: Відсутня
-
-**Чому пристрій не застаріє:**
-- AI-моделі оновлюються через хмару (програмне вдосконалення)
-- Апаратне забезпечення сумісне з відкритими стандартами
-- Модульність дозволяє оновлення окремих компонентів
-- Спільнота може створювати власні покращення
-
-### 6.3 Порівняння з Конкурентами
-
-| Характеристика | Reactacat | Типові конкуренти |
-|----------------|-----------|-------------------|
-| Модульність | Повна | Обмежена або відсутня |
-| Ремонтопридатність | Документована | Не підтримується |
-| Запчастини | Доступні 7+ років | Тільки гарантійний період |
-| Матеріали корпусу | PLA/біорозкладні | ABS/PC (нафтові) |
-| Стандартні роз'єми | 100% | Частково пропрієтарні |
-| Відкритий дизайн | Так | Ні |
+**Benefits:**
+- Reduced carbon footprint from transportation
+- Support for local economy
+- Faster adaptation to local regulations
 
 ---
 
-## 7. Регуляторна Відповідність
+## 6. Sustainability Technical Specifications
 
-### 7.1 Європейські Директиви
+### 6.1 Estimated Service Life
+
+| Component | Expected Lifespan | Extension Strategy |
+|-----------|-------------------|-------------------|
+| PLA housing | 5-10 years | Section replacement, 3D printing |
+| Servos | 2-5 years (depending on use) | Easy replacement, <$5 |
+| SBC | 5-10 years | Upgrade to newer model |
+| Camera | 5+ years | USB replacement with any compatible |
+| Power supply | 5-10 years | Standard adapter |
+| Laser module | 10,000+ hours | Module replacement |
+
+**Total device service life:** 10+ years with regular maintenance
+
+### 6.2 Planned Obsolescence: Absent
+
+**Why the device won't become obsolete:**
+- AI models update via cloud (software improvement)
+- Hardware compatible with open standards
+- Modularity allows individual component updates
+- Community can create their own improvements
+
+### 6.3 Comparison with Competitors
+
+| Characteristic | Reactacat | Typical Competitors |
+|----------------|-----------|---------------------|
+| Modularity | Full | Limited or absent |
+| Repairability | Documented | Not supported |
+| Spare parts | Available 7+ years | Warranty period only |
+| Housing materials | PLA/biodegradable | ABS/PC (petroleum-based) |
+| Standard connectors | 100% | Partially proprietary |
+| Open design | Yes | No |
+
+---
+
+## 7. Regulatory Compliance
+
+### 7.1 European Directives
 
 **Right to Repair Directive (2024+):**
-- ✅ Дизайн для розбирання
-- ✅ Доступність запчастин 7+ років
-- ✅ Документація для ремонту
-- ✅ Програмне оновлення 5+ років
+- ✅ Design for disassembly
+- ✅ Spare parts availability 7+ years
+- ✅ Repair documentation
+- ✅ Software updates 5+ years
 
 **Ecodesign Directive:**
-- ✅ Матеріали з низьким вуглецевим слідом
-- ✅ Рециклінг та повторне використання
-- ✅ Інформація про екологічний вплив
+- ✅ Low carbon footprint materials
+- ✅ Recycling and reuse
+- ✅ Environmental impact information
 
 **WEEE Directive:**
-- ✅ Програма зворотного прийому
-- ✅ Розділення матеріалів
-- ✅ Мінімізація небезпечних речовин
+- ✅ Take-back program
+- ✅ Material separation
+- ✅ Hazardous substance minimization
 
-### 7.2 Сертифікації
+### 7.2 Certifications
 
-**Цільові сертифікації:**
-- **TCO Certified** — стійкість IT-продуктів
-- **EPEAT** — екологічна оцінка електроніки
-- **Cradle to Cradle** — круговий дизайн (перспектива)
-
----
-
-## 8. Маркетинг Стійкості
-
-### 8.1 Повідомлення для Користувачів
-
-**Головне повідомлення:**
-> "Reactacat — це остання іграшка для вашого кота, яку ви купите. Ремонтується. Оновлюється. Живе роками."
-
-**Ключові меседжі:**
-1. **Для екологічно свідомих:** "Зроблено з рослин, не з нафти"
-2. **Для практичних:** "Зламався сервопривід? Заміна за 5 хвилин і $3"
-3. **Для техноентузіастів:** "Відкритий код, відкриті схеми, ваша іграшка — ваші правила"
-4. **Для економних:** "10+ років служби замість 2-3 років планованого старіння"
-
-### 8.2 Прозорість
-
-**Що публікуємо:**
-- Вуглецевий слід виробництва одного пристрою
-- Карта постачальників матеріалів
-- Звіт про переробку та відходи
-- Життєвий цикл продукту (LCA)
+**Target certifications:**
+- **TCO Certified** — IT product sustainability
+- **EPEAT** — electronics environmental assessment
+- **Cradle to Cradle** — circular design (prospect)
 
 ---
 
-## 9. Фінансовий Аспект
+## 8. Sustainability Marketing
 
-### 9.1 Вартість Стійкого Дизайну
+### 8.1 Messaging for Users
 
-**Додаткові витрати:**
-- Розробка модульної архітектури: +5-10% до R&D
-- Документація та відкриті специфікації: +2-3%
-- PLA vs ABS: +15-20% до вартості матеріалів (компенсується локальним виробництвом)
+**Key message:**
+> "Reactacat is the last cat toy you'll ever buy. Repairable. Upgradable. Built to last for years."
 
-**Економія:**
-- Менше гарантійних випадків: -15% до support costs
-- Лояльність клієнтів: +30% до repeat purchases (аксесуари, оновлення)
-- Преміальний позиціонування: +20% до ціни
+**Key messages:**
+1. **For eco-conscious:** "Made from plants, not oil"
+2. **For practical users:** "Servo broken? Replacement in 5 minutes for $3"
+3. **For tech enthusiasts:** "Open code, open schematics, your toy — your rules"
+4. **For cost-conscious:** "10+ years of service instead of 2-3 years of planned obsolescence"
 
-### 9.2 Модель Монетизації Стійкості
+### 8.2 Transparency
 
-**Основний пристрій:**
-- Продаж з невеликою маржею (cover costs)
-
-**Довгостроковий дохід:**
-- Підписка на хмарний AI (основна модель)
-- Продаж модулів для апгрейду
-- Запчастини та аксесуари
-- Ліцензування дизайну для локальних виробників
+**What we publish:**
+- Carbon footprint of manufacturing one device
+- Materials supplier map
+- Recycling and waste report
+- Product Lifecycle Assessment (LCA)
 
 ---
 
-## 10. План Реалізації
+## 9. Financial Aspect
 
-### 10.1 MVP vs Повна Версія
+### 9.1 Cost of Sustainable Design
 
-| Функція | MVP (рік 1) | Повна версія (рік 2+) |
-|---------|-------------|----------------------|
-| Модульність | Основні модулі | Повна модульність |
-| Документація | Основна | Повна + відео |
-| CAD-файли | Базові корпуси | Всі деталі |
-| Програма take-back | Пілот (EU) | Глобальна |
-| Матеріали | 50% PLA | 90%+ екологічні |
-| Локальне виробництво | 1 регіон | 3+ регіони |
+**Additional costs:**
+- Modular architecture development: +5-10% to R&D
+- Documentation and open specifications: +2-3%
+- PLA vs ABS: +15-20% material cost (offset by local production)
 
-### 10.2 Метрики Успіху
+**Savings:**
+- Fewer warranty cases: -15% support costs
+- Customer loyalty: +30% repeat purchases (accessories, upgrades)
+- Premium positioning: +20% price
 
-**Кількісні:**
-- Середній термін служби пристрою: >5 років
-- Частота ремонтів vs замін: >70% ремонтів
-- Відсоток перероблених матеріалів: >80%
-- Зменшення вуглецевого сліду vs конкуренти: -40%
+### 9.2 Sustainability Monetization Model
 
-**Якісні:**
-- Спільнота розробників аксесуарів: активна
-- Незалежні огляди: позитивні
-- Нагороди за стійкість: 2+ за перші 3 роки
+**Main device:**
+- Sale with small margin (cover costs)
 
----
-
-## 11. Ризики та Мітігація
-
-| Ризик | Ймовірність | Вплив | Мітігація |
-|-------|-------------|-------|-----------|
-| PLA недостатньо міцний | Середня | Високий | PETG для структурних елементів; тестування |
-| Користувачі не ремонтують | Висока | Середній | Сервісна мережа; відео-інструкції; спільнота |
-| Відкритий дизайн → копії | Середня | Середній | Фокус на AI-сервісі (не клонується) |
-| Вартість вища за конкурентів | Висока | Середній | Маркетинг як преміум/стійкий; TCO аргументи |
-| Постачальники стандартних деталей | Низька | Високий | Диверсифікація; стокування ключових компонентів |
+**Long-term revenue:**
+- Cloud AI subscription (primary model)
+- Module upgrade sales
+- Spare parts and accessories
+- Design licensing to local manufacturers
 
 ---
 
-## 12. Висновки
+## 10. Implementation Plan
 
-Reactacat ставить стійкість та право на ремонт у центр продуктової філософії. Це не компроміс — це конкурентна перевага:
+### 10.1 MVP vs Full Version
 
-1. **Довговічність** зменшує загальну вартість володіння для користувача
-2. **Модульність** створює додаткові канали доходу для бізнесу
-3. **Відкритість** будує лояльну спільноту навколо продукту
-4. **Екологічність** відповідає зростаючому попиту та регуляторним вимогам
-5. **Стандартизація** знижує залежність від постачальників та ризики
+| Feature | MVP (Year 1) | Full Version (Year 2+) |
+|---------|--------------|------------------------|
+| Modularity | Main modules | Full modularity |
+| Documentation | Basic | Complete + videos |
+| CAD files | Basic housings | All parts |
+| Take-back program | Pilot (EU) | Global |
+| Materials | 50% PLA | 90%+ eco-friendly |
+| Local production | 1 region | 3+ regions |
 
-**Наступні кроки:**
-- [ ] Фіналізація CAD-дизайну з модульною архітектурою
-- [ ] Тестування міцності PLA-корпусів
-- [ ] Розробка сервісної документації
-- [ ] Пошук локальних виробників для пілотного запуску
-- [ ] Оцінка вуглецевого сліду (LCA)
+### 10.2 Success Metrics
+
+**Quantitative:**
+- Average device service life: >5 years
+- Repair vs replacement rate: >70% repairs
+- Percentage of recycled materials: >80%
+- Carbon footprint reduction vs competitors: -40%
+
+**Qualitative:**
+- Accessory developer community: active
+- Independent reviews: positive
+- Sustainability awards: 2+ in first 3 years
+
+---
+
+## 11. Risks & Mitigation
+
+| Risk | Probability | Impact | Mitigation |
+|------|-------------|--------|------------|
+| PLA not strong enough | Medium | High | PETG for structural elements; testing |
+| Users don't repair | High | Medium | Service network; video instructions; community |
+| Open design → copies | Medium | Medium | Focus on AI service (not clonable) |
+| Cost higher than competitors | High | Medium | Premium/sustainable marketing; TCO arguments |
+| Standard parts suppliers | Low | High | Diversification; stocking key components |
+
+---
+
+## 12. Conclusions
+
+Reactacat places sustainability and the right to repair at the center of product philosophy. This is not a compromise — it is a competitive advantage:
+
+1. **Longevity** reduces total cost of ownership for the user
+2. **Modularity** creates additional revenue channels for the business
+3. **Openness** builds a loyal community around the product
+4. **Eco-friendliness** meets growing demand and regulatory requirements
+5. **Standardization** reduces supplier dependency and risks
+
+**Next Steps:**
+- [ ] Finalize CAD design with modular architecture
+- [ ] Test PLA housing durability
+- [ ] Develop service documentation
+- [ ] Find local manufacturers for pilot launch
+- [ ] Carbon footprint assessment (LCA)
 
 ---
 
