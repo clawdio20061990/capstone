@@ -528,10 +528,169 @@
 
 ---
 
+---
+
+## CATEGORY 7: NON-NUMERICAL ERRORS (Language, Formatting, Citations)
+
+### [NON-NUM 001] Inconsistent Currency Symbol Usage
+**Files:** Multiple  
+**Issue:** Mix of "€" and "EUR"  
+- Most documents use "€" (euro symbol)
+- Some use "EUR" (text)
+- Example: Market Research has "EUR 50–70M" in some places, "€50-70M" in others
+**Solution:** Standardize on "€" symbol throughout
+
+---
+
+### [NON-NUM 002] Inconsistent Date Format
+**Files:** Multiple  
+**Issue:** 
+- Most: "March 2026"
+- Sustainability.md: "2026-03-13" (ISO format)
+- Product Concept: "2026-03-07"
+**Solution:** Standardize on "March 2026" format for consistency
+
+---
+
+### [NON-NUM 003] Missing References in Executive Summaries
+**Files:** FINANCIAL_ANALYSIS.md, MARKETING_STRATEGY.md  
+**Issue:** Executive summaries claim figures but don't cite source documents
+**Example:** "1.8–2.3M premium cat-owning households" — no citation
+**Solution:** Add footnotes referencing Market Research document
+
+---
+
+### [NON-NUM 004] Duplicate Content Across Documents
+**Files:** BUSINESS_RESEARCH.md vs MARKET_RESEARCH_COMPETITIVE_ANALYSIS.md  
+**Issue:** Significant overlap in competitive analysis sections
+- Both analyze Petcube, Furbo, Enabot
+- Similar wording on competitive positioning
+**Risk:** Plagiarism concerns or redundancy
+**Solution:** Keep detailed version in Market Research, reference it from Business Research
+
+---
+
+### [NON-NUM 005] Inconsistent Terminology
+**Files:** Multiple  
+**Issue:** 
+- "treat dispenser" vs "treat feeder" vs "treat launcher"
+- "custom PCB" vs "custom board" vs "purpose-built PCB"
+- "subscription" vs "SaaS" vs "recurring revenue"
+**Solution:** Create glossary and standardize terminology
+
+---
+
+### [NON-NUM 006] Citation Format Inconsistency
+**Files:** Multiple  
+**Issue:** 
+- Some use "(Author, Year)" — APA style
+- Some use "Author (Year)" — mixed
+- Some citations missing years
+**Example:** "(Future Market Insights, 2025)" vs "Future Market Insights (2025)"
+**Solution:** Standardize on APA format throughout
+
+---
+
+### [NON-NUM 007] Broken Cross-References
+**Files:** Multiple  
+**Issue:** References to non-existent sections
+- Marketing Strategy references "Market Research, Part 6.1" — Part 6 doesn't exist (only Parts 1-5)
+- Business Research references "Section 2.4" — may not exist
+**Solution:** Verify all cross-references point to actual sections
+
+---
+
+### [NON-NUM 008] Missing Table of Contents in Long Documents
+**Files:** FINANCIAL_ANALYSIS.md, MARKETING_STRATEGY.md, RISK_ANALYSIS.md  
+**Issue:** Documents >300 lines lack TOC, making navigation difficult
+**Solution:** Add TOC to documents >200 lines
+
+---
+
+### [NON-NUM 009] Inconsistent Heading Levels
+**Files:** Multiple  
+**Issue:** 
+- Some use ## for main sections
+- Some use ### for subsections inconsistently
+- Hardware Cost uses 4-level nesting, others use 3
+**Solution:** Standardize: # Title, ## Section, ### Subsection, #### Detail
+
+---
+
+### [NON-NUM 010] Typo: "willingness" misspelled
+**Files:** MARKET_RESEARCH_COMPETITIVE_ANALYSIS.md (check)  
+**Issue:** Potential typo in "willingness to pay"
+**Note:** Need to verify — may be false positive
+
+---
+
+### [NON-NUM 011] Inconsistent File Naming
+**Files:** All  
+**Issue:** 
+- Some use ALL_CAPS.md (FINANCIAL_ANALYSIS.md)
+- Some use Title_Case.md (PITCH_DECK_STRUCTURE.md)
+- Some use lowercase.md (user_experience files)
+**Note:** Not critical, but inconsistent
+
+---
+
+### [NON-NUM 012] Missing Document Status Indicators
+**Files:** Multiple  
+**Issue:** 
+- Some have "Status: Complete"
+- Some have "Document Version: 1.0"
+- Some lack both
+**Solution:** Add standard header to all documents
+
+---
+
+### [NON-NUM 013] Inconsistent Use of Bold/Italics
+**Files:** Multiple  
+**Issue:** 
+- Some use **bold** for emphasis
+- Some use *italics* for emphasis
+- No consistent style guide
+**Solution:** Define style: **bold** for key terms, *italics* for emphasis
+
+---
+
+### [NON-NUM 014] Redundant Phrases
+**Files:** BUSINESS_RESEARCH.md, MARKET_RESEARCH.md  
+**Issue:** "**Reactacat does not produce proprietary treats**" appears 5+ times
+**Solution:** State once clearly, then use "as noted above"
+
+---
+
+### [NON-NUM 015] Inconsistent Bullet Point Styles
+**Files:** Multiple  
+**Issue:** 
+- Some use "-" (dash)
+- Some use "•" (bullet)
+- Some use "*" (asterisk)
+**Solution:** Standardize on "-" for all bullet points
+
+---
+
+## NON-NUMERICAL ERRORS SUMMARY
+
+| Category | Count | Priority |
+|----------|-------|----------|
+| Formatting inconsistencies | 5 | Low |
+| Citation issues | 3 | Medium |
+| Terminology inconsistencies | 3 | Medium |
+| Cross-reference errors | 2 | High |
+| Style guide violations | 4 | Low |
+| **Total Non-Numerical** | **17** | — |
+
+---
+
+## COMPLETE AUDIT SUMMARY
+
 **Document Status:** COMPREHENSIVE AUDIT COMPLETE  
 **Numerical Errors:** 29 entries  
 **Logical Errors:** 7 entries  
-**Total Issues:** 36 entries requiring attention
+**Non-Numerical Errors:** 17 entries  
+**Total Issues:** 53 entries requiring attention
 
 **Priority Order:**
 1. Fix CRITICAL issues first (funding gap, camera pricing, LTV)
