@@ -70,7 +70,7 @@ An AI-powered autonomous laser toy that uses edge computing and cloud-based mach
 - **Actuators:** 2 servos for laser pointer movement (X/Y axis)
 - **Sensors:** Camera for cat detection and tracking
 - **Laser:** Class 3 laser with optical filter
-- **Optional module:** Treat feeder (launches standard kibble/treats after game completion, compatible with major pet food brands—**Reactacat does not produce proprietary treats**)
+- **Optional module:** Treat dispenser (launches standard kibble/treats after game completion, compatible with major pet food brands—**Reactacat does not produce proprietary treats**)
 
 **Rationale for hardware choice:**
 - Cost-effective single-board PC
@@ -139,7 +139,7 @@ For each game session, logs include:
 4. Basic safety features (time limits)
 
 **Excluded from MVP (Future Iterations):**
-- Treat feeder module
+- Treat dispenser module
 - Recorded video clips
 - Two-way audio
 - Advanced scheduling UI
@@ -264,7 +264,7 @@ Research indicates that laser pointer play can cause frustration in cats because
 - Cats handle abstract play better than dogs
 - Lower risk of compulsive behaviors in feline population
 
-#### 2. Treat Feeder Module
+#### 2. Treat Dispenser Module
 **Solution:** Physical reward at game completion
 - Launches standard kibble/treats (from major pet food manufacturers like Royal Canin, Hill's, Purina) immediately after laser play ends
 - **Important note:** Reactacat does NOT produce or sell proprietary treats—dispenser is compatible with treats owners already have at home
@@ -278,7 +278,7 @@ Research indicates that laser pointer play can cause frustration in cats because
 
 ### Marketing Approach
 - Transparent communication about laser play research
-- Emphasize treat feeder as completion mechanism (uses standard treats customers already buy)
+- Emphasize treat dispenser as completion mechanism (uses standard treats customers already buy)
 - Position as more responsible alternative to standalone laser toys
 - Clear messaging: "Works with the treats your cat already eats"
 - Align with pet-first stakeholder philosophy
@@ -352,7 +352,7 @@ The following areas require comprehensive research and documentation:
 - [ ] Data privacy and storage policies
 
 ### Product
-- [ ] Treat feeder module: MVP or Phase 2?
+- [ ] Treat dispenser module: MVP or Phase 2?
 - [ ] Mobile app vs. web interface vs. both?
 - [ ] Recorded video storage feature priority
 - [ ] Two-way audio necessity

@@ -425,11 +425,13 @@ Aligned with Financial Analysis (Section 1.3):
 | **Paid CAC** | €55 | €65 | €60 |
 | **Organic/Referral %** | 30% | 35% | 40–45% |
 | **Hardware Margin** | €42/unit | €51/unit (blended) | €66.50/unit (custom PCB) |
-| **5-Year LTV (50% conversion)** | €270 | €270 | €270 |
-| **5-Year LTV (35% realistic)** | €189 | €189 | €189 |
+| **5-Year LTV per buyer (50% conv)** | €130 | €130 | €130 |
+| **5-Year LTV per subscriber** | €270 | €270 | €270 |
+| **5-Year LTV per buyer (35% conv)** | €104 | €104 | €104 |
 | **CAC Payback** | 14–18 months | 12–16 months | 10–14 months |
-| **LTV:CAC (base 50%)** | 6.0:1 | 4.9:1 | 5.4:1 |
-| **LTV:CAC (realistic 35%)** | 4.2:1 | 3.4:1 | 3.8:1 |
+| **LTV:CAC per buyer (base 50%)** | 2.9:1 | 2.4:1 | 2.6:1 |
+| **LTV:CAC per subscriber** | 6.0:1 | 4.9:1 | 5.4:1 |
+| **LTV:CAC per buyer (realistic 35%)** | 2.3:1 | 1.9:1 | 2.1:1 |
 
 *Source: Financial Analysis, Sections 1.1–1.3, 6.1*
 

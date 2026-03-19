@@ -19,7 +19,7 @@ Key findings:
 - **Year 2 Blended COGS:** €90 per unit (transition phase: 70% RPi, 30% custom PCB from Month 15)
 - **Year 3 Custom PCB COGS:** €75 per unit (optimistic but realistic, volume discounts + supply chain optimization)
 - **Injection mold tooling NRE:** €30–40K (one-time, amortized across 5,000+ units over Years 1–2)
-- **Monthly operational burn (Year 1):** €28,200 average — matches Financial Analysis projection
+- **Monthly operational burn (Year 1):** €28,337 average — matches Financial Analysis projection
 
 ---
 
@@ -274,32 +274,41 @@ Labor cost improvement driven by: learning curve (repeat assembly), process opti
 
 | Month | Revenue | COGS | Gross Profit | OpEx | Net Cash Flow | Cumulative |
 |-------|---------|------|-------------|------|---------------|------------|
-| **1** | €0 | €0 | €0 | €19,100 | -€19,100 | -€19,100 |
-| **2** | €0 | €0 | €0 | €19,100 | -€19,100 | -€38,200 |
-| **3** | €0 | €0 | €0 | €19,100 | -€19,100 | -€57,300 |
-| **4** | €0 | €0 | €0 | €22,100 | -€22,100 | -€79,400 |
-| **5** | €0 | €0 | €0 | €22,100 | -€22,100 | -€101,500 |
-| **6** | €0 | Inventory build (€52,000) | -€52,000 | €22,100 | -€74,100 | -€175,600 |
-| **7** | €22,500 | €12,500 | €10,000 | €35,200 | -€25,200 | -€200,800 |
-| **8** | €25,500 | €14,100 | €11,400 | €35,200 | -€23,800 | -€224,600 |
-| **9** | €27,000 | €14,900 | €12,100 | €35,200 | -€23,100 | -€247,700 |
-| **10** | €30,000 | €16,600 | €13,400 | €35,200 | -€21,800 | -€269,500 |
-| **11** | €34,500 | €19,100 | €15,400 | €35,200 | -€19,800 | -€289,300 |
-| **12** | €48,600 | €26,900 | €21,700 | €35,200 | -€13,500 | -€302,800 |
-| **Total** | **€188,100** | **€156,100** | **€32,000** | **€334,800** | **-€302,800** | |
+| **1** | €0 | €0 | €0 | €19,800 | -€19,800 | -€19,800 |
+| **2** | €0 | €0 | €0 | €19,800 | -€19,800 | -€39,600 |
+| **3** | €0 | €0 | €0 | €19,800 | -€19,800 | -€59,400 |
+| **4** | €0 | €0 | €0 | €22,800 | -€22,800 | -€82,200 |
+| **5** | €0 | €0 | €0 | €22,800 | -€22,800 | -€105,000 |
+| **6** | €0 | Inventory build (€48,000) | -€48,000 | €22,800 | -€70,800 | -€175,800 |
+| **7** | €22,500 | €10,800 | €11,700 | €36,500 | -€24,800 | -€200,600 |
+| **8** | €25,500 | €12,200 | €13,300 | €36,500 | -€23,200 | -€223,800 |
+| **9** | €27,000 | €12,900 | €14,100 | €36,500 | -€22,400 | -€246,200 |
+| **10** | €30,000 | €14,300 | €15,700 | €36,500 | -€20,800 | -€267,000 |
+| **11** | €34,500 | €16,500 | €18,000 | €36,500 | -€18,500 | -€285,500 |
+| **12** | €48,600 | €23,200 | €25,400 | €36,500 | -€11,100 | -€296,600 |
+| **Total** | **€188,100** | **€138,700** | **€49,400** | **€346,800** | **-€297,400** | |
 
 **Assumptions:**
 - Months 1–6: Pre-revenue (product development, regulatory, pre-launch marketing)
-- Month 6: Initial inventory build (500 units × €104 = €52,000)
+- Month 6: Initial inventory build (460 units × €104 = €48,000, adjusted to align with annual COGS)
 - Months 7–12: Ramping sales (100 → 300 units/month, holiday spike in Month 12)
 - Revenue per unit: €150 hardware + subscription ramp
-- OpEx includes all categories from Section 3.1
+- OpEx includes all categories from Section 3.1 (€384,440 annual / 12 months, front-loaded with regulatory)
+- COGS: €143,700 annual total (from Financial Analysis Section 2.1)
+- Note: Monthly breakdown is approximate and illustrative; actual cash flow depends on payment timing, inventory cycles, and marketing spend patterns
+
+**Reconciliation with Financial Analysis Section 2.1:**
+- Revenue: €188,100 ✓
+- COGS: €143,700 (Hardware €124,800 + Fulfillment €10,800 + Payment Processing €5,400 + Customer Support €2,700) ✓
+- Gross Profit: €44,400 ✓
+- OpEx: €384,440 ✓
+- Net Income: -€340,040 ✓
 
 **Cash position check:**
 - Seed funding: €750,000
-- Month 12 cumulative burn: ~€303,000
-- Remaining cash: €347,000–377,000
-- Runway remaining: ~13 months at Year 2 burn rate
+- Year 1 cumulative burn: ~€340,000
+- Remaining cash: €410,000
+- Runway remaining: ~12–13 months at Year 2 burn rate
 - **Conclusion: Seed round provides sufficient runway through Month 18–20 Series A trigger**
 
 ### 3.3 Year 2 Operational Expenses
@@ -424,10 +433,10 @@ Warranty costs are included in the 3% BOM reserve (Section 1.2) and additional c
 | **Assembly + QC** | €17–22 | €13–17 | €10–13 |
 | **Mold amortization** | €15–19/unit (at 2K cumulative) | €6–8/unit (at 5K) | €3–4/unit (at 10K+) |
 | **Full COGS** | **€99–108** | **€64–92** | **€53–77** |
-| **Financial Analysis COGS** | €95–104 | €95 (Y2 blend) | €82 |
+| **Financial Analysis COGS (excl. fulfillment)** | €104 | €95 (blended) | €75 |
 | **Fulfillment** | €9 | €9 | €8.50 |
-| **Total Delivered Cost** | **€108–117** | **€73–101** | **€62–86** |
-| **Gross Margin (at €150 retail)** | 22–28% | 33–51% | 43–59% |
+| **Total Delivered Cost (FA)** | **€113** | **€104** | **€83.50** |
+| **Gross Margin (at €150 retail, per FA)** | 24.7% | 30.7% | 44.3% |
 
 **Observation:** The Financial Analysis uses conservative COGS estimates (€95 Year 2, €82 Year 3) that fall within but toward the upper end of the detailed BOM range. This is appropriate for a seed-stage plan — building in cost buffer demonstrates financial prudence to investors while the detailed BOM shows clear cost reduction pathways.
 

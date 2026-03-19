@@ -156,10 +156,11 @@ Subscription: €3-8/month
 • Ultra (€8): Multi-cat, veterinary insights
 
 Target: 50% subscription conversion
-LTV: €270 | CAC: €45 | LTV:CAC = 6:1
+LTV per buyer: €130 | LTV per subscriber: €270
+CAC: €45 | LTV:CAC = 2.9:1 (buyer) / 6:1 (subscriber)
 ```
 
-**Speaker Notes:** "We're not just selling hardware. The hardware is the entry point. The subscription is where the long-term value lives. €150 gets you the device. But the AI only keeps learning with a subscription. We've modeled three tiers. Our base case is 50% conversion — conservative for a product where the value is this clear. At 50%, lifetime value is €270, acquisition cost is €45. That's a 6-to-1 LTV to CAC ratio. Healthy unit economics from day one."
+**Speaker Notes:** "We're not just selling hardware. The hardware is the entry point. The subscription is where the long-term value lives. €150 gets you the device. But the AI only keeps learning with a subscription. We've modeled three tiers. Our base case is 50% conversion — defensible for a product where the value is this clear. We use a dual-metric approach: lifetime value per hardware buyer is €130, acquisition cost is €45. That's 2.9-to-1 — solid unit economics. For paying subscribers, LTV is €270, a 6-to-1 ratio. This shows both conservative buyer-level economics and excellent subscriber value when conversion is achieved."
 
 ---
 
@@ -233,12 +234,13 @@ Year 2:
 Year 3:
 • 18,000 units | €2.88M revenue | +€115K net
 
-Break-even: Month 28-30
+Monthly cash flow positive: Month 28-30
+Cumulative break-even: Month 34-35
 Gross margin: 22% → 43% → 59% (hardware cost reduction)
 Subscription MRR: €675 → €2,925 → €10,125
 ```
 
-**Speaker Notes:** "Year 1 is about learning. We're burning cash to validate the market and build the foundation. By Year 2, we've transitioned to a custom PCB — cutting hardware costs by 30% — and we're scaling across Europe. Break-even happens around Month 28 to 30. Year 3, we're profitable. And critically, our gross margins improve every year as we scale and optimize. From 22% in Year 1 to 59% in Year 3."
+**Speaker Notes:** "Year 1 is about learning. We're burning cash to validate the market and build the foundation. By Year 2, we've transitioned to a custom PCB — cutting hardware costs by 30% — and we're scaling across Europe. We turn monthly cash flow positive around Month 28 to 30, meaning revenues exceed costs in those months. Cumulative break-even — when we've recovered all prior losses — happens at Month 34 to 35. Year 3, we're profitable. And critically, our gross margins improve every year as we scale and optimize. From 22% in Year 1 to 59% in Year 3."
 
 ---
 

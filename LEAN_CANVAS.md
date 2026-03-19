@@ -16,17 +16,17 @@
 │   PROBLEM        │    SOLUTION            │   KEY METRICS    │   UNIQUE VALUE   │
 │                  │                        │                  │   PROPOSITION    │
 │ • Cat boredom    │ • Autonomous laser toy │ • CAC: €45–55    │ Intelligent,     │
-│   during absence │   with adaptive AI     │ • LTV: €270      │ autonomous laser │
-│                  │ • Treat dispenser      │   (5-year)       │ play that learns │
-│ • Laser          │   completes hunting    │ • Conversion:    │ from each cat's  │
-│   frustration    │   sequence             │   50% to paid    │ behavior + treats│
-│   (incomplete    │ • Cloud-based          │ • Retention:     │ to end hunting   │
-│   hunting)       │   retraining           │   65% annual     │ sequence = no    │
-│                  │ • Mobile app control   │ • Engagement:    │ frustration      │
-│ • Owner guilt    │   + viewing            │   daily active   │                  │
-│   (work absence) │                        │   users          │ First-mover in   │
-│                  │                        │ • MRR growth:    │ autonomous AI    │
-│                  │                        │   15% month/month│ cat laser toy    │
+│   during absence │   with adaptive AI     │ • LTV (buyer):   │ autonomous laser │
+│                  │ • Treat dispenser      │   €130 (5-year)  │ play that learns │
+│ • Laser          │   completes hunting    │ • LTV (sub):     │ from each cat's  │
+│   frustration    │   sequence             │   €270 (5-year)  │ behavior + treats│
+│   (incomplete    │ • Cloud-based          │ • Conversion:    │ to end hunting   │
+│   hunting)       │   retraining           │   50% to paid    │ sequence = no    │
+│                  │ • Mobile app control   │ • Retention:     │ frustration      │
+│ • Owner guilt    │   + viewing            │   65% annual     │                  │
+│   (work absence) │                        │ • MRR growth:    │ First-mover in   │
+│                  │                        │   15% month/month│ autonomous AI    │
+│                  │                        │                  │ cat laser toy    │
 ├──────────────────┼────────────────────────┼──────────────────┼──────────────────┤
 │ CUSTOMER         │    CHANNELS            │  REVENUE STREAMS │  COST STRUCTURE  │
 │ SEGMENTS         │                        │                  │                  │
@@ -130,9 +130,11 @@ The treat dispenser is explicitly designed for standard dry cat food kibble (5�
 
 ### Unit Economics
 - **Hardware CAC Payback:** 14–18 months
-- **Customer LTV:** €270 (5-year: hardware margin €42 + subscription revenue €228, assuming 50% conversion, 65% retention)
-- **LTV:CAC Ratio:** 6.0:1 (5-year horizon, excellent for venture scale)
-- **Realistic Case (35% conversion):** LTV €189, LTV:CAC 4.2:1 (still strong)
+- **Customer LTV (per hardware buyer):** €130 (5-year: hardware margin €42 + blended subscription revenue €88, base case 50% conversion, 65% retention)
+- **Customer LTV (per paying subscriber):** €270 (5-year: hardware margin €42 + subscription revenue €228, shows value of converted customers)
+- **LTV:CAC Ratio (per buyer):** 2.9:1 (€130 / €45, solid for venture scale)
+- **LTV:CAC Ratio (per subscriber):** 6.0:1 (€270 / €45, excellent subscriber economics)
+- **Realistic Case (35% conversion):** LTV per buyer €104, LTV:CAC 2.3:1 (still viable)
 
 ### Growth Metrics
 - **Hardware Units:** 1.2K (Y1) → 6.5K (Y2) → 18K (Y3)
@@ -146,10 +148,11 @@ The treat dispenser is explicitly designed for standard dry cat food kibble (5�
 - **NPS (Net Promoter Score):** Target >50 (indicates strong product-market fit)
 
 ### Financial Metrics
-- **Break-Even:** Month 28–30
-- **Gross Margin:** 23.6% (Y1) → 38.8% (Y3)
+- **Monthly Cash Flow Positive:** Month 28–30
+- **Cumulative Break-Even:** Month 34–35
+- **Gross Margin:** 23.6% (Y1) → 43.2% (Y3)
 - **CAC:** €45 Poland, €55 EU
-- **Burn Rate:** €28.2K/month (Year 1)
+- **Burn Rate:** €28.3K/month (Year 1)
 
 ### Series A Trigger Metrics (Month 18–20)
 - 1,000+ units sold (validation)
@@ -371,10 +374,11 @@ The treat dispenser is explicitly designed for standard dry cat food kibble (5�
 - Hardware margin: €42 (Year 1), €51 (Year 2), €66.50 (Year 3)
 - CAC: €45–55
 - Hardware alone: NEGATIVE Year 1 (requires subscription)
-- Subscription revenue (5-year, 50% conversion, 65% retention): €228
-- **Total LTV: €270 (5-year horizon)**
-- **Realistic Case (35% conversion): LTV €189**
-- **LTV:CAC Ratio: 6.0:1 (base), 4.2:1 (realistic) — excellent**
+- Subscription revenue (5-year, 50% conversion, 65% retention): €88 blended per hardware buyer
+- **Total LTV per hardware buyer: €130 (5-year horizon, base case)**
+- **Total LTV per paying subscriber: €270 (5-year horizon, shows subscriber value)**
+- **Realistic Case (35% conversion): LTV per buyer €104, per subscriber €270**
+- **LTV:CAC Ratio: 2.9:1 per buyer (base), 6.0:1 per subscriber — solid to excellent**
 - **Payback: 14–18 months**
 
 **Company Level (Year 3 Profitability)**
@@ -391,9 +395,9 @@ The treat dispenser is explicitly designed for standard dry cat food kibble (5�
 
 1. **Clear Problem:** 79% of cat owners acknowledge pet humanization; boredom + frustration risk = real pain points
 2. **Defensible Solution:** No competitor combines autonomous + AI + treats + laser specialization
-3. **Proven Unit Economics:** LTV €270 (5-year) >> CAC €45–55; LTV:CAC 6.0:1 (excellent for venture scale)
+3. **Proven Unit Economics:** LTV €130 per buyer (5-year) >> CAC €45–55; LTV:CAC 2.9:1 per buyer, 6.0:1 per subscriber (solid to excellent for venture scale)
 4. **Large Market:** €50–70M TAM (5–15% penetration of 1.8–2.3M premium households)
-5. **Venture Path:** Positive net income by Year 3 (+€241K); Series A viable at Month 18–20
+5. **Venture Path:** Monthly positive Month 28–30, cumulative break-even Month 34–35; positive net income Year 3 (+€241K); Series A viable at Month 18–20
 6. **Experienced Team:** Dmytro (AI/Product), Fabian (Finance), Agnieszka (Legal), Ewa (Business)
 
 ---
