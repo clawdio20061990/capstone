@@ -440,7 +440,7 @@ Warranty costs are included in the 3% BOM reserve (Section 1.2) and additional c
 2. **Clear cost reduction path:** Custom PCB transition delivers 30–35% COGS reduction — a material improvement
 3. **Cloud economics support subscription:** Per-device cloud cost (€0.68–1.50/month) is well below subscription pricing (€3–8/month)
 4. **Poland manufacturing advantage:** 40–50% labor cost savings vs. Western Europe without sacrificing quality or EU compliance
-5. **Operational budget is tight but viable:** €28,200/month burn rate with 24-month runway from €680K Seed
+5. **Operational budget is tight but viable:** €28,200/month burn rate with 26+ month runway from €750K Seed
 
 ### 8.2 Key Risks to Monitor
 1. **Raspberry Pi supply:** Pi 4B has experienced supply shortages historically. Mitigation: build 2–3 month inventory buffer; expedite custom PCB transition.

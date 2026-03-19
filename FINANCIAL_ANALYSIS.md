@@ -288,7 +288,7 @@ Reactacat presents a venture-scale opportunity with attractive unit economics an
 | **Team (Year 1)** | €120,000 | Months 1–12 | 2 FTE: CTO/co-founder (Dmytro), 1 engineer |
 | **Marketing & Launch** | €180,000 | Months 6–12 | Digital ads, influencer partnerships, web/social, PR |
 | **Operations & Admin** | €30,000 | Months 1–12 | Co-working, tools, insurance, freelance support |
-| **Runway Buffer (9-month)** | €175,000 | Months 7–15 | Cash reserves for contingencies, unexpected tooling rework, bridge to Series A |
+| **Runway Buffer (9-month)** | €155,000 | Months 7–15 | Cash reserves for contingencies, unexpected tooling rework, bridge to Series A |
 | **Total Seed Round** | **€750,000** | 15 months | |
 
 **Critical Clarification on "Initial Inventory" (€125K):**
