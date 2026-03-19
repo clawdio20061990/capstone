@@ -38,16 +38,16 @@
 │                  │ • Vet clinic           │   blended avg    │ • Cloud infra:   │
 │ • Affluent       │   partnerships (B2B)   │   €4.50/month    │   €18–45K/year   │
 │   retirees 55+   │ • PR + social media    │ • Year 3 MRR:    │ • Marketing:     │
-│   (secondary)    │ • YouTube, Instagram,  │   €121.5K/year   │   €180–450K/year │
+│   (secondary)    │ • YouTube, Instagram,  │   €150.0K/year   │   €180–450K/year │
 │                  │   TikTok content       │   (subscription  │ • Team: €120–360K│
 │ • Millennials/   │                        │   revenue only)  │   /year          │
 │   Gen Z (growth) │ FOCUS: Direct-to-      │                  │ • Support: €0.50 │
 │   69% view pets  │ Consumer only          │ TOTAL Y3:        │   /customer/month│
-│   as family      │ (retail margins break) │ €2.84M revenue   │ • Regulatory:    │
+│   as family      │ (retail margins break) │ €2.85M revenue   │ • Regulatory:    │
 │                  │                        │                  │   €18–30K (Y1)   │
 │ Geographic:      │                        │                  │                  │
 │ • Poland (soft   │                        │ Gross Profit:    │ FIXED:           │
-│   launch)        │                        │ €1.23M (43.2%)   │ €120–360K ops    │
+│   launch)        │                        │ €1.24M (43.4%)   │ €120–360K ops    │
 │ • Germany/       │                        │                  │ VARIABLE: 2.9%   │
 │   France/UK      │                        │                  │ payment fee      │
 │   (expansion)    │                        │                  │                  │
@@ -320,12 +320,12 @@ The treat dispenser is explicitly designed for standard dry cat food kibble (5�
 **Conversion Metrics:**
 - Trial signup: 25% of hardware buyers
 - Trial-to-paid: 50% of trial users (= 12.5% of hardware buyers)
-- Annual retention: 65%
+- Annual retention: 70%
 
 **Subscription Revenue by Year:**
 - Year 1: €8.1K (150 paying subs avg)
-- Year 2: €35.1K (650 paying subs avg) + carryover €3.2K = €38.3K
-- Year 3: €121.5K (2,250 paying subs avg) + carryover €17.1K = €138.6K
+- Year 2: €35.1K (650 paying subs avg) + carryover €5.7K = €40.8K
+- Year 3: €121.5K (2,250 paying subs avg) + carryover €28.5K = €150.0K
 
 ### Future Revenue Opportunities (Not Modeled)
 
@@ -384,10 +384,10 @@ The treat dispenser is explicitly designed for standard dry cat food kibble (5�
 - **Note:** LTV calculated using 70% annual retention (industry upper quartile). Conservative scenario (65% retention) yields LTV €186 per subscriber, €60 per hardware buyer.
 
 **Company Level (Year 3 Profitability)**
-- Revenue: €2.84M
+- Revenue: €2.85M
 - COGS: €1.61M (improved with €75 custom PCB at scale)
 - OpEx: €985K
-- **Net Income: +€241K** ✓ Positive, strong margins
+- **Net Income: +€253K** ✓ Positive, strong margins
 
 **Funding Path**
 - Seed: €750K (26+ month runway)
@@ -399,7 +399,7 @@ The treat dispenser is explicitly designed for standard dry cat food kibble (5�
 2. **Defensible Solution:** No competitor combines autonomous + AI + treats + laser specialization
 3. **Viable Unit Economics:** LTV €62 per buyer (5-year base case), €200 per subscriber; LTV:CAC 1.4:1 per buyer (marginal but viable with volume), 4.4:1 per subscriber (strong). Subscription conversion is THE critical lever; optimizing trial-to-paid from 50% → 70% improves LTV per buyer to €72 (LTV:CAC 1.6:1).
 4. **Large Market:** €50–70M TAM (5–15% penetration of 1.8–2.3M premium households)
-5. **Venture Path:** Monthly positive Month 28–30, cumulative break-even Month 34–35; positive net income Year 3 (+€241K); Series A viable at Month 18–20
+5. **Venture Path:** Monthly positive Month 28–30, cumulative break-even Month 32–33; positive net income Year 3 (+€253K); Series A viable at Month 18–20
 6. **Experienced Team:** Dmytro (AI/Product), Fabian (Finance), Agnieszka (Legal), Ewa (Business)
 
 ---

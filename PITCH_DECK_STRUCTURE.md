@@ -227,21 +227,21 @@ I've never seen him this excited about a toy."
 Path to Profitability: 28 Months
 
 Year 1:
-• 1,200 units | €188K revenue | -€303K net
+• 1,200 units | €188K revenue | -€341K net
 
 Year 2:
-• 6,500 units | €1.06M revenue | -€52K net
+• 6,500 units | €1.02M revenue | -€353K net
 
 Year 3:
-• 18,000 units | €2.88M revenue | +€115K net
+• 18,000 units | €2.85M revenue | +€253K net
 
 Monthly cash flow positive: Month 28-30
-Cumulative break-even: Month 34-35
-Gross margin: 22% → 43% → 59% (hardware cost reduction)
-Subscription MRR: €675 → €2,925 → €10,125
+Cumulative break-even: Month 32-33
+Gross margin: 23% → 30% → 43% (hardware cost reduction + subscription scale)
+Subscription MRR: €675 → €3,400 → €12,500
 ```
 
-**Speaker Notes:** "Year 1 is about learning. We're burning cash to validate the market and build the foundation. By Year 2, we've transitioned to a custom PCB — cutting hardware costs by 30% — and we're scaling across Europe. We turn monthly cash flow positive around Month 28 to 30, meaning revenues exceed costs in those months. Cumulative break-even — when we've recovered all prior losses — happens at Month 34 to 35. Year 3, we're profitable. And critically, our gross margins improve every year as we scale and optimize. From 22% in Year 1 to 59% in Year 3."
+**Speaker Notes:** "Year 1 is about learning. We're burning cash to validate the market and build the foundation. By Year 2, we've transitioned to a custom PCB — cutting hardware costs by 30% — and we're scaling across Europe. We turn monthly cash flow positive around Month 28 to 30, meaning revenues exceed costs in those months. Cumulative break-even — when we've recovered all prior losses — happens at Month 32 to 33 with improved subscription retention of 70%. Year 3, we're profitable. And critically, our gross margins improve every year as we scale and optimize. From 23% in Year 1 to 43% in Year 3."
 
 ---
 

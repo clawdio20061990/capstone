@@ -170,17 +170,17 @@ Prototype Testing (15 households):
 
 **Text:**
 ```
-Path to €2.88M Revenue, Profitability Year 3
+Path to €2.85M Revenue, Profitability Year 3
 
 Year 1: Poland launch → 1,200 units | €188K revenue
-Year 2: EU expansion → 6,500 units | €1.06M revenue
-Year 3: Scale → 18,000 units | €2.88M revenue | +€115K profit
+Year 2: EU expansion → 6,500 units | €1.02M revenue
+Year 3: Scale → 18,000 units | €2.85M revenue | +€253K profit
 
 Poland → Germany/France/UK → Full EU
-Gross margin: 22% → 59% (custom PCB transition)
+Gross margin: 24% → 43% (custom PCB + subscription scale)
 ```
 
-**Speaker Notes (35 seconds):** "Year 1 is Poland — our home market. 1,200 units, validate unit economics. Year 2, we expand to Germany, France, UK. By Year 3, we're at 18,000 units and profitable. Revenue grows from €188K to €2.88M. Gross margins improve dramatically — 22% to 59% — as we transition from Raspberry Pi to custom hardware. Clear path to scale."
+**Speaker Notes (35 seconds):** "Year 1 is Poland — our home market. 1,200 units, validate unit economics. Year 2, we expand to Germany, France, UK. By Year 3, we're at 18,000 units and profitable. Revenue grows from €188K to €2.85M. Gross margins improve dramatically — 24% to 43% — as we transition from Raspberry Pi to custom hardware and subscription revenue scales with 70% retention. Clear path to scale."
 
 ---
 

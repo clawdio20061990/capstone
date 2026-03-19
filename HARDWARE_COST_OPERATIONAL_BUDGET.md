@@ -295,7 +295,7 @@ Labor cost improvement driven by: learning curve (repeat assembly), process opti
 - Revenue per unit: €150 hardware + subscription ramp
 - OpEx includes all categories from Section 3.1 (€384,440 annual / 12 months, front-loaded with regulatory)
 - COGS: €143,700 annual total (from Financial Analysis Section 2.1)
-- Note: Monthly breakdown is approximate and illustrative; actual cash flow depends on payment timing, inventory cycles, and marketing spend patterns
+- Note: Monthly breakdown is approximate and illustrative; actual cash flow depends on payment timing, inventory cycles, and marketing spend patterns. Monthly cash flow model uses simplified assumptions (e.g., inventory build timing in Month 6); refer to FINANCIAL_ANALYSIS.md for precise annual figures using accrual accounting methodology
 
 **Reconciliation with Financial Analysis Section 2.1:**
 - Revenue: €188,100 ✓
