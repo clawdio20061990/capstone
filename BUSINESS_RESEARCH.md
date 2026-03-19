@@ -356,24 +356,24 @@ Reactacat employs a **Direct-to-Consumer (DTC) model exclusively** via brand web
 - Subscription revenue per hardware buyer (averaging paid + free): €8.60/year × 3.3 years retention = €28
 - **Total LTV per hardware customer: €74 (conservative scenario)**
 
-*Base Case (50% paid adoption, 5-year horizon):*
+*Base Case (50% paid adoption, 5-year horizon, 70% retention):*
 - Hardware margin per unit: €42
 - Subscription revenue (two perspectives):
-  - **Per hardware buyer:** €88 blended (accounting for 12.5% conversion rate)
-  - **Per paying subscriber:** €228 (full 5-year value for those who convert)
-- **Total 5-year LTV per hardware buyer: €130** (€42 + €88, conservative metric)
-- **Total 5-year LTV per paying subscriber: €270** (€42 + €228, shows subscriber value)
+  - **Per hardware buyer:** €20 blended (accounting for 12.5% conversion rate, 70% annual retention)
+  - **Per paying subscriber:** €158 (full 5-year value for those who convert: Year 1 €54, Years 2-5 €104 cumulative with 70% retention)
+- **Total 5-year LTV per hardware buyer: €62** (€42 + €20, conservative metric)
+- **Total 5-year LTV per paying subscriber: €200** (€42 + €158, shows subscriber value)
 
 **LTV Methodology Note:**
-The dual-metric approach provides clarity: per-buyer LTV (€130) accounts for conversion reality and is the conservative investor-friendly metric for unit economics. Per-subscriber LTV (€270) demonstrates the strong value creation potential when onboarding succeeds. Both are valid; the distinction matters for CAC calculations.
+The dual-metric approach provides clarity: per-buyer LTV (€62) accounts for conversion reality and is the conservative investor-friendly metric for unit economics. Per-subscriber LTV (€200) demonstrates the strong value creation potential when onboarding succeeds. Both are valid; the distinction matters for CAC calculations. LTV calculated using 70% annual retention (industry upper quartile for well-designed SaaS products). Conservative scenario (65% retention) yields LTV €186 per subscriber, €60 per hardware buyer.
 
 **CAC Breakeven Analysis:**
 At digital pet tech CAC benchmarks (€40–80):
-- **Per-buyer economics:** LTV €130 / CAC €45 = 2.9:1 ratio (solid, 14–18 month payback)
-- **Per-subscriber economics:** LTV €270 / CAC €45 = 6.0:1 ratio (excellent when conversion achieved)
-- Conservative scenario (35% conversion): LTV €104 / CAC €45 = 2.3:1 ratio (viable, 18–24 month payback)
+- **Per-buyer economics:** LTV €62 / CAC €45 = 1.4:1 ratio (marginal; requires conversion optimization, 14–18 month payback)
+- **Per-subscriber economics:** LTV €200 / CAC €45 = 4.4:1 ratio (strong when conversion achieved)
+- Realistic scenario (35% conversion): LTV €56 / CAC €45 = 1.2:1 ratio (marginal; requires efficient CAC management, 18–24 month payback)
 
-Critically, subscription retention is the leverage point: each 10% improvement in annual retention adds €20–25 LTV per hardware buyer, creating strong incentive for continuous product improvement via cloud AI retraining.
+Critically, subscription conversion and retention are the leverage points: improving trial-to-paid from 50% to 70% adds €10 LTV per hardware buyer; each 10% improvement in annual retention adds €15–20 LTV per hardware buyer, creating strong incentive for continuous product improvement via cloud AI retraining and onboarding optimization.
 
 **Hypothesis H3 Validation:** ✓ **STRONGLY SUPPORTED**
 Hardware-plus-subscription model generates sustainable economics with favorable LTV:CAC ratios. Comparable to proven SaaS models in adjacent markets (smart home, pet tech). Supports profitability at scale (500+ active users annually).
@@ -474,8 +474,8 @@ Positive testing results will strengthen business case; unexpected findings will
 - DTC market channel execution (requires brand building, digital marketing, logistics infrastructure)
 
 **Assumptions Documented (for future validation):**
-- 15-70% annual subscription conversion rate (conservative 15%, base case 50%, optimistic 70%; subscription is the leverage point)
-- 60-70% annual subscription retention (industry benchmark; 10% improvement = €25-30 additional LTV per customer)
+- 15-70% annual subscription conversion rate (conservative 15%, base case 50%, optimistic 70%; subscription conversion is the critical leverage point)
+- 70% annual subscription retention baseline (industry upper quartile for well-designed SaaS; 10% improvement = €15-20 additional LTV per customer)
 - €120-150 hardware price point customer acceptance (informed by competitive pricing and willingness-to-pay research)
 - 5-10% market penetration achievable (depends on marketing effectiveness, product quality, and brand awareness)
 - Treat dispenser ownership rate 70-80% (marketed as "super recommended," not MVP-included)

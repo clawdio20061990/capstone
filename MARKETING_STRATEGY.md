@@ -425,13 +425,13 @@ Aligned with Financial Analysis (Section 1.3):
 | **Paid CAC** | €55 | €65 | €60 |
 | **Organic/Referral %** | 30% | 35% | 40–45% |
 | **Hardware Margin** | €42/unit | €51/unit (blended) | €66.50/unit (custom PCB) |
-| **5-Year LTV per buyer (50% conv)** | €130 | €130 | €130 |
-| **5-Year LTV per subscriber** | €270 | €270 | €270 |
-| **5-Year LTV per buyer (35% conv)** | €104 | €104 | €104 |
+| **5-Year LTV per buyer (50% conv, 70% ret)** | €62 | €62 | €62 |
+| **5-Year LTV per subscriber (70% ret)** | €200 | €200 | €200 |
+| **5-Year LTV per buyer (35% conv, 70% ret)** | €56 | €56 | €56 |
 | **CAC Payback** | 14–18 months | 12–16 months | 10–14 months |
-| **LTV:CAC per buyer (base 50%)** | 2.9:1 | 2.4:1 | 2.6:1 |
-| **LTV:CAC per subscriber** | 6.0:1 | 4.9:1 | 5.4:1 |
-| **LTV:CAC per buyer (realistic 35%)** | 2.3:1 | 1.9:1 | 2.1:1 |
+| **LTV:CAC per buyer (base 50%)** | 1.4:1 | 1.1:1 | 1.2:1 |
+| **LTV:CAC per subscriber** | 4.4:1 | 3.6:1 | 4.0:1 |
+| **LTV:CAC per buyer (realistic 35%)** | 1.2:1 | 1.0:1 | 1.1:1 |
 
 *Source: Financial Analysis, Sections 1.1–1.3, 6.1*
 
@@ -573,8 +573,8 @@ Aligned with Financial Analysis, Section 4.1 (€180K marketing allocation from 
 |-----|--------------|--------------|--------------|
 | **Trial signup rate** | 25% of buyers | 30% of buyers | 35% of buyers |
 | **Trial-to-paid conversion** | 50% | 55% | 60% |
-| **Monthly churn rate** | <5% | <4% | <3.5% |
-| **Annual retention rate** | 65% | 70% | 75% |
+| **Monthly churn rate** | <4% | <3.5% | <3% |
+| **Annual retention rate** | 70% | 75% | 80% |
 | **MRR (end of year)** | €675 | €2,925 | €10,125 |
 | **Subscription ARPU** | €4.50/month | €4.80/month | €5.20/month |
 

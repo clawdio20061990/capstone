@@ -72,7 +72,7 @@ Reactacat follows a **platform-first, feature-second** approach. The core platfo
 
 | Accessory | Timeline | Description | Business Model |
 |-----------|----------|-------------|----------------|
-| **Treat Dispenser Module** | Month 11 | Motorized treat launcher, compatible with standard kibble | Bundled with Premium/Ultra subscription; €25 standalone |
+| **Treat Dispenser Module** | Month 11 | Motorized treat dispenser, compatible with standard kibble | Bundled with Premium/Ultra subscription; €25 standalone |
 | **Replacement Servo Kit** | Month 12 | User-replaceable servo pair | €15 accessory, reduces warranty costs |
 | **Wall Mount** | Month 14 | Adjustable wall bracket for elevated positioning | €12 accessory |
 | **Travel Case** | Month 18 | Hard case for device + accessories | €20 accessory |

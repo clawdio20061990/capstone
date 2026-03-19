@@ -17,13 +17,13 @@
 │                  │                        │                  │   PROPOSITION    │
 │ • Cat boredom    │ • Autonomous laser toy │ • CAC: €45–55    │ Intelligent,     │
 │   during absence │   with adaptive AI     │ • LTV (buyer):   │ autonomous laser │
-│                  │ • Treat dispenser      │   €130 (5-year)  │ play that learns │
+│                  │ • Treat dispenser      │   €62 (5-year)   │ play that learns │
 │ • Laser          │   completes hunting    │ • LTV (sub):     │ from each cat's  │
-│   frustration    │   sequence             │   €270 (5-year)  │ behavior + treats│
+│   frustration    │   sequence             │   €200 (5-year)  │ behavior + treats│
 │   (incomplete    │ • Cloud-based          │ • Conversion:    │ to end hunting   │
 │   hunting)       │   retraining           │   50% to paid    │ sequence = no    │
 │                  │ • Mobile app control   │ • Retention:     │ frustration      │
-│ • Owner guilt    │   + viewing            │   65% annual     │                  │
+│ • Owner guilt    │   + viewing            │   70% annual     │                  │
 │   (work absence) │                        │ • MRR growth:    │ First-mover in   │
 │                  │                        │   15% month/month│ autonomous AI    │
 │                  │                        │                  │ cat laser toy    │
@@ -129,12 +129,13 @@ The treat dispenser is explicitly designed for standard dry cat food kibble (5�
 ## 3. KEY METRICS
 
 ### Unit Economics
-- **Hardware CAC Payback:** 14–18 months
-- **Customer LTV (per hardware buyer):** €130 (5-year: hardware margin €42 + blended subscription revenue €88, base case 50% conversion, 65% retention)
-- **Customer LTV (per paying subscriber):** €270 (5-year: hardware margin €42 + subscription revenue €228, shows value of converted customers)
-- **LTV:CAC Ratio (per buyer):** 2.9:1 (€130 / €45, solid for venture scale)
-- **LTV:CAC Ratio (per subscriber):** 6.0:1 (€270 / €45, excellent subscriber economics)
-- **Realistic Case (35% conversion):** LTV per buyer €104, LTV:CAC 2.3:1 (still viable)
+- **Hardware CAC Payback:** 14–18 months (subscription-driven; hardware alone negative Year 1)
+- **Customer LTV (per hardware buyer):** €62 (5-year: hardware margin €42 + blended subscription revenue €20, base case 50% conversion, 70% retention)
+- **Customer LTV (per paying subscriber):** €200 (5-year: hardware margin €42 + subscription revenue €158, shows value of converted customers)
+- **LTV:CAC Ratio (per buyer):** 1.4:1 (€62 / €45, marginal; emphasizes conversion optimization need)
+- **LTV:CAC Ratio (per subscriber):** 4.4:1 (€200 / €45, strong subscriber economics)
+- **Realistic Case (35% conversion):** LTV per buyer €56, LTV:CAC 1.2:1 (marginal; requires efficient CAC management)
+- **Note:** LTV calculated using 70% annual retention (industry upper quartile for well-designed SaaS). Conservative scenario (65% retention) yields LTV €186 per subscriber, €60 per hardware buyer.
 
 ### Growth Metrics
 - **Hardware Units:** 1.2K (Y1) → 6.5K (Y2) → 18K (Y3)
@@ -143,7 +144,7 @@ The treat dispenser is explicitly designed for standard dry cat food kibble (5�
 
 ### Product Metrics
 - **Subscription Conversion:** 50% base case (12.5% of hardware buyers)
-- **Annual Retention:** 65% (SaaS benchmark; track for improvement)
+- **Annual Retention:** 70% (industry upper quartile for well-designed SaaS; track for improvement)
 - **Daily Active Users:** Target 40%+ of installed base (engagement metric)
 - **NPS (Net Promoter Score):** Target >50 (indicates strong product-market fit)
 
@@ -374,12 +375,13 @@ The treat dispenser is explicitly designed for standard dry cat food kibble (5�
 - Hardware margin: €42 (Year 1), €51 (Year 2), €66.50 (Year 3)
 - CAC: €45–55
 - Hardware alone: NEGATIVE Year 1 (requires subscription)
-- Subscription revenue (5-year, 50% conversion, 65% retention): €88 blended per hardware buyer
-- **Total LTV per hardware buyer: €130 (5-year horizon, base case)**
-- **Total LTV per paying subscriber: €270 (5-year horizon, shows subscriber value)**
-- **Realistic Case (35% conversion): LTV per buyer €104, per subscriber €270**
-- **LTV:CAC Ratio: 2.9:1 per buyer (base), 6.0:1 per subscriber — solid to excellent**
+- Subscription revenue (5-year, 50% conversion, 70% retention): €20 blended per hardware buyer
+- **Total LTV per hardware buyer: €62 (5-year horizon, base case)**
+- **Total LTV per paying subscriber: €200 (5-year horizon, shows subscriber value)**
+- **Realistic Case (35% conversion): LTV per buyer €56, per subscriber €200**
+- **LTV:CAC Ratio: 1.4:1 per buyer (marginal), 4.4:1 per subscriber — marginal to strong**
 - **Payback: 14–18 months**
+- **Note:** LTV calculated using 70% annual retention (industry upper quartile). Conservative scenario (65% retention) yields LTV €186 per subscriber, €60 per hardware buyer.
 
 **Company Level (Year 3 Profitability)**
 - Revenue: €2.84M
@@ -395,7 +397,7 @@ The treat dispenser is explicitly designed for standard dry cat food kibble (5�
 
 1. **Clear Problem:** 79% of cat owners acknowledge pet humanization; boredom + frustration risk = real pain points
 2. **Defensible Solution:** No competitor combines autonomous + AI + treats + laser specialization
-3. **Proven Unit Economics:** LTV €130 per buyer (5-year) >> CAC €45–55; LTV:CAC 2.9:1 per buyer, 6.0:1 per subscriber (solid to excellent for venture scale)
+3. **Viable Unit Economics:** LTV €62 per buyer (5-year base case), €200 per subscriber; LTV:CAC 1.4:1 per buyer (marginal but viable with volume), 4.4:1 per subscriber (strong). Subscription conversion is THE critical lever; optimizing trial-to-paid from 50% → 70% improves LTV per buyer to €72 (LTV:CAC 1.6:1).
 4. **Large Market:** €50–70M TAM (5–15% penetration of 1.8–2.3M premium households)
 5. **Venture Path:** Monthly positive Month 28–30, cumulative break-even Month 34–35; positive net income Year 3 (+€241K); Series A viable at Month 18–20
 6. **Experienced Team:** Dmytro (AI/Product), Fabian (Finance), Agnieszka (Legal), Ewa (Business)

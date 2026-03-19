@@ -155,12 +155,13 @@ Subscription: €3-8/month
 • Premium (€6): Advanced modes, detailed analytics
 • Ultra (€8): Multi-cat, veterinary insights
 
-Target: 50% subscription conversion
-LTV per buyer: €130 | LTV per subscriber: €270
-CAC: €45 | LTV:CAC = 2.9:1 (buyer) / 6:1 (subscriber)
+Target: 50% subscription conversion (critical lever)
+Retention: 70% annual
+LTV per buyer: €62 | LTV per subscriber: €200
+CAC: €45 | LTV:CAC = 1.4:1 (buyer) / 4.4:1 (subscriber)
 ```
 
-**Speaker Notes:** "We're not just selling hardware. The hardware is the entry point. The subscription is where the long-term value lives. €150 gets you the device. But the AI only keeps learning with a subscription. We've modeled three tiers. Our base case is 50% conversion — defensible for a product where the value is this clear. We use a dual-metric approach: lifetime value per hardware buyer is €130, acquisition cost is €45. That's 2.9-to-1 — solid unit economics. For paying subscribers, LTV is €270, a 6-to-1 ratio. This shows both conservative buyer-level economics and excellent subscriber value when conversion is achieved."
+**Speaker Notes:** "We're not just selling hardware. The hardware is the entry point. The subscription is where the long-term value lives. €150 gets you the device. But the AI continuously improves with a subscription. We've modeled three tiers. Our base case is 50% trial-to-paid conversion — achievable for a product where ongoing value is this clear. Subscription conversion is our critical lever. We use a dual-metric approach: lifetime value per hardware buyer is €62, acquisition cost is €45. That's 1.4-to-1 — marginal on hardware alone, but viable with volume growth. For paying subscribers, LTV is €200, a 4.4-to-1 ratio — strong subscriber economics. This emphasizes the importance of optimizing trial-to-paid conversion; improving from 50% to 70% adds €10 to buyer LTV."
 
 ---
 

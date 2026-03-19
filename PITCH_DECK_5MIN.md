@@ -124,17 +124,18 @@ Hardware + Subscription Model
 €150 hardware (one-time)
 €3-8/month subscription (3 tiers)
 
-LTV per buyer: €130
-LTV per subscriber: €270
+LTV per buyer: €62
+LTV per subscriber: €200
 CAC: €45
-LTV:CAC = 2.9:1 (buyer) / 6:1 (subscriber)
+LTV:CAC = 1.4:1 (buyer) / 4.4:1 (subscriber)
 
-Target: 50% subscription conversion
+Target: 50% subscription conversion (critical)
+Retention: 70% annual
 Monthly positive: Month 28-30
 Cumulative break-even: Month 34-35
 ```
 
-**Speaker Notes (35 seconds):** "We're not just selling hardware. €150 gets you the device. But the ongoing value is in the subscription — €3 to €8 per month depending on tier. The AI only keeps learning with a subscription. We're targeting 50% conversion. With our dual-metric approach: lifetime value per hardware buyer is €130, acquisition cost is €45. That's 2.9-to-1 — solid economics. But for paying subscribers, LTV jumps to €270, a 6-to-1 ratio. We turn monthly cash flow positive at Month 28 to 30, and reach cumulative break-even at Month 34 to 35."
+**Speaker Notes (35 seconds):** "We're not just selling hardware. €150 gets you the device. But the real business is subscription — €3 to €8 per month depending on tier. The AI continuously improves with a subscription. We're targeting 50% trial-to-paid conversion, which is critical. With our dual-metric approach: lifetime value per hardware buyer is €62, acquisition cost is €45. That's 1.4-to-1 — marginal on hardware alone, but viable with volume. For paying subscribers, LTV is €200, a 4.4-to-1 ratio — strong subscriber economics. Subscription conversion is our key lever. We turn monthly cash flow positive at Month 28 to 30, and reach cumulative break-even at Month 34 to 35."
 
 ---
 
