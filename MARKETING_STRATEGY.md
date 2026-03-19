@@ -10,7 +10,7 @@
 
 ## Executive Summary
 
-This marketing strategy translates Reactacat's validated market opportunity (€50–70M addressable EU market, 1.8–2.3M premium cat-owning households) into a phased, budget-conscious go-to-market plan aligned with the company's DTC-only distribution model and seed-stage funding constraints (€180K Year 1 marketing budget from €650K Seed round).
+This marketing strategy translates Reactacat's validated market opportunity (€50–70M addressable EU market, 1.8–2.3M premium cat-owning households) into a phased, budget-conscious go-to-market plan aligned with the company's DTC-only distribution model and seed-stage funding constraints (€180K Year 1 marketing budget from €750K Seed round).
 
 The strategy prioritizes **digital-first acquisition** through social media, influencer partnerships, and content marketing—channels where cat content performs exceptionally well organically. Reactacat's visual product (laser-chasing cats, AI-adaptive gameplay) is inherently shareable, creating a natural advantage in user-generated content and viral growth. The plan targets a blended Customer Acquisition Cost (CAC) of €45 in Poland (Year 1) and €55 across EU markets (Years 2–3), consistent with the Financial Analysis projections.
 
