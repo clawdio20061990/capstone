@@ -187,15 +187,16 @@ Gross margin: 22% → 59% (custom PCB transition)
 
 **Text:**
 ```
-€650K Seed Round
+€750K Seed Round
 18-Month Runway to Series A
 
 Use of Funds:
-• Product Development: 28%
-• Marketing & Sales: 28%
-• Inventory & Operations: 23%
-• Team (2 FTE): 18%
-• Legal & Regulatory: 3%
+• Product Development: 24%
+• Marketing & Sales: 24%
+• Inventory & Operations: 21%
+• Team (2 FTE): 16%
+• Regulatory & Legal: 5%
+• Buffer/Contingency: 10%
 
 Milestones:
 ✓ Poland launch (Month 7)
@@ -208,7 +209,7 @@ Let's talk.
 Questions?
 ```
 
-**Speaker Notes (35 seconds):** "We're raising €650,000. This gives us 18 months to launch in Poland, sell 1,000 units, and prove our unit economics. By Month 18, we'll be positioned for Series A to fuel EU expansion. The allocation is clear: product, marketing, operations, team. If you believe in this opportunity, let's talk. [Pause for questions]"
+**Speaker Notes (35 seconds):** "We're raising €750,000. This gives us 18 months to launch in Poland, sell 1,000 units, and prove our unit economics with proper contingency buffer. By Month 18, we'll be positioned for Series A to fuel EU expansion. The allocation is clear: product, marketing, operations, team, and regulatory. If you believe in this opportunity, let's talk. [Pause for questions]"
 
 ---
 

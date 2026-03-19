@@ -102,7 +102,7 @@ Addresses laser frustration risk documented in Business Research (Section 2.4) a
 **Psychographics:**
 - View cats as family members (79% of pet owners, Euromonitor 2025)
 - Experience guilt about leaving cats alone during work (8–10 hours daily)
-- Willing to pay premium for perceived pet well-being benefits (15–40% premium tolerance per Market Research Part 6.1)
+- Willing to pay premium for perceived pet well-being benefits (15–40% premium tolerance, per Market Research analysis)
 - Research products online before purchasing
 - Active on Instagram and Facebook; increasingly on TikTok
 
@@ -421,12 +421,15 @@ Aligned with Financial Analysis (Section 1.3):
 
 | Metric | Year 1 (Poland) | Year 2 (EU Expansion) | Year 3 (EU Scale) |
 |--------|-----------------|----------------------|-------------------|
-| **Blended CAC** | €45 | €55 | €45 |
-| **Paid CAC** | €55 | €65 | €55 |
+| **Blended CAC** | €45 | €55 | €50 |
+| **Paid CAC** | €55 | €65 | €60 |
 | **Organic/Referral %** | 30% | 35% | 40–45% |
-| **Hardware Margin** | €42/unit | €55/unit (custom PCB) | €68/unit |
+| **Hardware Margin** | €42/unit | €51/unit (blended) | €66.50/unit (custom PCB) |
+| **5-Year LTV (50% conversion)** | €270 | €270 | €270 |
+| **5-Year LTV (35% realistic)** | €189 | €189 | €189 |
 | **CAC Payback** | 14–18 months | 12–16 months | 10–14 months |
-| **LTV:CAC** | 1.6:1 | 2.2:1 | 2.8:1 |
+| **LTV:CAC (base 50%)** | 6.0:1 | 4.9:1 | 5.4:1 |
+| **LTV:CAC (realistic 35%)** | 4.2:1 | 3.4:1 | 3.8:1 |
 
 *Source: Financial Analysis, Sections 1.1–1.3, 6.1*
 

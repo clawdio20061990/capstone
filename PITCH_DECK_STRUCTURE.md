@@ -248,14 +248,15 @@ Subscription MRR: €675 → €2,925 → €10,125
 
 **Text:**
 ```
-Raising €650K Seed Round
+Raising €750K Seed Round
 
 Use of Funds:
-• Product Development: €180K (28%)
-• Marketing & Sales: €180K (28%)
-• Operations & Inventory: €150K (23%)
-• Team (2 FTE): €120K (18%)
-• Legal & Regulatory: €20K (3%)
+• Product Development: €180K (24%)
+• Marketing & Sales: €180K (24%)
+• Operations & Inventory: €155K (21%)
+• Team (2 FTE): €120K (16%)
+• Regulatory & Legal: €40K (5%)
+• Buffer/Contingency: €75K (10%)
 
 Milestones:
 ✓ Launch in Poland (Month 7)
@@ -266,7 +267,7 @@ Milestones:
 18-month runway to Series A
 ```
 
-**Speaker Notes:** "We're raising €650,000 to get us through Poland launch, validate unit economics, and position for Series A. This gives us 18 months of runway — enough to hit 1,000 units, prove subscription conversion, and demonstrate strong unit economics in our target market. By Month 18, we'll have the traction to raise a Series A of €1.5 to €2 million for EU expansion."
+**Speaker Notes:** "We're raising €750,000 to get us through Poland launch, validate unit economics, and position for Series A. This gives us 18 months of runway with proper contingency — enough to hit 1,000 units, prove subscription conversion, and demonstrate strong unit economics in our target market. By Month 18, we'll have the traction to raise a Series A of €1.5 to €2 million for EU expansion."
 
 ---
 
@@ -359,7 +360,7 @@ Data partnerships with veterinary platforms.
 ```
 Join Us in Making Cats Happier
 
-€650K Seed Round
+€750K Seed Round
 18-month runway to Series A
 Validated demand, working prototype, clear path to scale
 
@@ -373,7 +374,7 @@ Let's talk.
 Questions?
 ```
 
-**Speaker Notes:** "Indoor cats deserve better. Their owners deserve peace of mind. We've validated the problem, built the solution, and proven it works. We need €650K to bring this to market at scale. If you believe in this opportunity, let's talk. Thank you."
+**Speaker Notes:** "Indoor cats deserve better. Their owners deserve peace of mind. We've validated the problem, built the solution, and proven it works. We need €750K to bring this to market at scale. If you believe in this opportunity, let's talk. Thank you."
 
 ---
 

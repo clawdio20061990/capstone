@@ -39,7 +39,7 @@ The hardware-plus-subscription business model is viable for Reactacat, where com
 EU regulatory pathways for Reactacat (laser safety certification via EN 60825-1, GDPR compliance through text-log-only data architecture, CE marking) are achievable within realistic timelines (6-12 months) and budgets (€20,000-40,000), enabling market entry without prohibitive compliance barriers.
 
 **H5: Competitive Differentiation Hypothesis**
-Reactacat's combination of autonomous adaptive AI, treat-dispenser completion mechanism (compatible with standard third-party treats from major pet food brands—**Reactacat does not produce proprietary treats**), and self-educating cloud model creates defensible differentiation versus both Petcube (limited autonomy without owner interaction) and simple laser toys (no learning or frustration mitigation), positioning it as a premium offering commanding price premiums.
+Reactacat's combination of autonomous adaptive AI, treat-dispenser completion mechanism (compatible with standard third-party treats from major pet food brands), and self-educating cloud model creates defensible differentiation versus both Petcube (limited autonomy without owner interaction) and simple laser toys (no learning or frustration mitigation), positioning it as a premium offering commanding price premiums.
 
 ### 1.3 Research Testability & Feasibility
 
@@ -80,14 +80,14 @@ Petcube's laser functionality is owner-controlled via mobile app during active e
 - **Loona Robot:** AI companion with emotional recognition, high price point (€400+), positioned as general companion rather than focused play engagement device
 
 **Critical Gap Analysis:**
-No existing competitor combines the following elements: (1) dedicated laser play as primary function, (2) autonomous operation without owner control, (3) adaptive AI learning from individual cat behavior, (4) physical reward completion (treat dispenser compatible with third-party treats from major brands—**no proprietary Reactacat treats required**) mitigating laser frustration risk, and (5) cloud-based model retraining continuously improving gameplay. Reactacat occupies a unique intersection that addresses known shortcomings in existing solutions.
+No existing competitor combines the following elements: (1) dedicated laser play as primary function, (2) autonomous operation without owner control, (3) adaptive AI learning from individual cat behavior, (4) physical reward completion (treat dispenser compatible with third-party treats from major brands) mitigating laser frustration risk, and (5) cloud-based model retraining continuously improving gameplay. Reactacat occupies a unique intersection that addresses known shortcomings in existing solutions.
 
 ### 2.4 Laser Play Frustration Risk: Mitigation Strategy Validation
 
 Research on laser pointer use in cats reveals a legitimate behavioral concern. Behavioral and veterinary sources document that laser play triggers predatory instincts (stalking, chasing, pouncing) but denies the psychological satisfaction of a completed hunting sequence (catch, kill, consume), potentially causing frustration and compulsive behaviors (Catster, 2025; EWASH, n.d.; Animal Wellness Magazine, 2025). Studies show owners who frequently use laser light pointers (LLPs) report higher incidence of abnormal repetitive behaviors in their cats compared to non-LLP users (Reddit r/cats, 2025).
 
 **Reactacat's Risk Mitigation:**
-The treat dispenser module addresses this fundamental limitation by providing a tangible reward at game conclusion, completing the hunting sequence psychologically and satisfying prey-capture instincts. The dispenser is compatible with standard dry cat food kibble and treats from major pet food manufacturers (Royal Canin, Hill's, Purina, Orijen, etc.) that owners already use. **Importantly, Reactacat does not produce or sell proprietary treats**—this is a deliberate business decision that: (1) eliminates customer dependency on Reactacat treat purchases, (2) reduces hardware jamming risk (standardized kibble size 5–8mm), and (3) avoids regulatory burden of pet food product registration (EFSA, FSA compliance costs €15–30K per EU country). While less critical for cats than dogs (who show higher susceptibility to laser frustration and compulsive behaviors), the treat-completion mechanism represents a meaningful differentiation and risk mitigation strategy. This positions Reactacat's marketing as responsible pet technology acknowledging known risks and providing evidence-based solutions.
+The treat dispenser module addresses this fundamental limitation by providing a tangible reward at game conclusion, completing the hunting sequence psychologically and satisfying prey-capture instincts. **Importantly, Reactacat does not produce or sell proprietary treats**—the dispenser is compatible with standard dry cat food kibble and treats from major pet food manufacturers (Royal Canin, Hill's, Purina, Orijen, etc.) that owners already use. This is a deliberate business decision that: (1) eliminates customer dependency on Reactacat treat purchases, (2) reduces hardware jamming risk (standardized kibble size 5–8mm), and (3) avoids regulatory burden of pet food product registration (EFSA, FSA compliance costs €15–30K per EU country). While less critical for cats than dogs (who show higher susceptibility to laser frustration and compulsive behaviors), the treat-completion mechanism represents a meaningful differentiation and risk mitigation strategy. This positions Reactacat's marketing as responsible pet technology acknowledging known risks and providing evidence-based solutions.
 
 ### 2.5 Regulatory Landscape: CE Marking, Laser Safety, and GDPR
 
@@ -210,7 +210,7 @@ Academic and veterinary sources (Catster, EWASH, Animal Wellness Magazine, Reddi
 - Regulatory cost estimates from compliance consultancies (ComplianceGate, Sertifike, iCertifi, F2 Labs)
 
 **Technology Cost Benchmarks:**
-- Component pricing: Raspberry Pi Foundation, servo motor suppliers, camera module costs (2025 pricing)
+- Component pricing: Raspberry Pi 4B €35-50, servo motors €10-15, camera module (OV5647) €5-8, laser module €5-10 (2025 pricing)
 - AWS SageMaker & IoT infrastructure costs (published pricing documentation)
 - Cloud training and inference cost optimization case studies
 
@@ -325,9 +325,12 @@ Regulatory pathway is clear, achievable, and comparable to existing pet tech pro
 **Unit Economics Modeling:**
 
 **Hardware:**
-- Bill of Materials (COGS): €95-140 (Raspberry Pi 4B for prototyping; scales to €60-80 custom PCB at mass production 100,000+ units annually)
+- Bill of Materials (COGS): 
+  - Year 1: €95-104 (Raspberry Pi 4B prototyping)
+  - Year 2: €90 blended (transitioning to custom PCB from Month 15)
+  - Year 3: €75 (custom PCB at scale, optimized supply chain)
 - Retail Price (Direct-to-Consumer): €150 average
-- Gross Margin: 31-40% (after fulfillment costs)
+- Gross Margin: 31-40% Year 1, improving to 50% by Year 3 (after fulfillment costs)
 
 **Distribution Strategy:**
 Reactacat employs a **Direct-to-Consumer (DTC) model exclusively** via brand website, direct Amazon fulfillment, and select online pet retailers (avoiding brick-and-mortar retail that demands 30-50% margin cuts). This preserves unit economics; traditional retail channels would make subscription payback impossible. DTC also enables direct customer relationship management and data collection for AI improvement.
@@ -351,12 +354,12 @@ Reactacat employs a **Direct-to-Consumer (DTC) model exclusively** via brand web
 - Hardware margin per unit: €46
 - Paid subscription adoption: 17.5% of hardware buyers (25% conversion × 70% paid take rate)
 - Subscription revenue per hardware buyer (averaging paid + free): €8.60/year × 3.3 years retention = €28
-- **Total LTV per hardware customer: €74 (conservative relative to CAC)**
+- **Total LTV per hardware customer: €74 (conservative scenario)**
 
-*Optimistic Case (50% paid adoption):*
-- Hardware margin per unit: €46
-- Subscription revenue per hardware buyer: €24.50/year × 3.3 years = €81
-- **Total LTV per hardware customer: €127**
+*Base Case (50% paid adoption, 5-year horizon):*
+- Hardware margin per unit: €42
+- Subscription revenue per hardware buyer: €4.50/month × 60 months × 50% conversion × 65% retention = €228
+- **Total 5-year LTV per hardware customer: €270**
 
 **CAC Breakeven Analysis:**
 At digital pet tech CAC benchmarks (€40-80), Reactacat achieves payback within 18-36 months even in conservative scenario. Optimistic scenario yields 6-12 month payback. Critically, subscription retention is the leverage point: each 10% improvement in annual retention adds €25-30 LTV per customer, creating strong incentive for continuous product improvement via cloud AI retraining.
@@ -374,7 +377,7 @@ Multiple independent sources document laser play frustration:
 
 **Mitigation Validation:**
 Treat dispenser completion addresses this by:
-- Providing tangible prey-equivalent capture (using standard kibble/treats from brands like Royal Canin, Hill's, Purina—**Reactacat does not produce proprietary treats**)
+- Providing tangible prey-equivalent capture (using standard kibble/treats from brands like Royal Canin, Hill's, Purina, Orijen)
 - Completing psychological hunting sequence
 - Creating positive reinforcement at game end
 

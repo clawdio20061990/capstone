@@ -56,7 +56,7 @@ Reactacat enters a favorable macro-environment for premium pet tech in the EU. P
 - Pet humanization trend means emotional attachment overrides price sensitivity in premium segment
 
 **Currency Stability:**
-- EUR is stable baseline for all EU markets
+- € is stable baseline for all EU markets
 - No currency devaluation risks for eurozone operations
 - Poland's PLN managed within EU framework (low volatility)
 

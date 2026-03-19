@@ -100,19 +100,19 @@ Within the broader EU pet market, specific customer segments disproportionately 
 
 ### 4.1 Primary Competitors: Direct Comparison
 
-**Petcube (Market Leader):** Petcube dominates the interactive pet camera market with strong brand recognition and funding support (over USD 14 million raised from Y Combinator, Almaz Capital, and venture investors). The company offers multiple product tiers, with Petcube Play 2 (the flagship laser + camera product) priced at approximately EUR 90–100. The subscription model includes Petcube Care starting at USD 4/month, providing 24-hour cloud video storage and AI-driven pet behavior recognition (Hepper, 2025; PCMag, 2026).
+**Petcube (Market Leader):** Petcube dominates the interactive pet camera market with strong brand recognition and funding support (over USD 14 million raised from Y Combinator, Almaz Capital, and venture investors). The company offers multiple product tiers, with Petcube Play 2 (the flagship laser + camera product) priced at approximately €90–100. The subscription model includes Petcube Care starting at $4/month, providing 24-hour cloud video storage and AI-driven pet behavior recognition (Hepper, 2025; PCMag, 2026).
 
 **Competitive Positioning:** Petcube is strategically positioned as a premium camera with secondary laser toy functionality. The laser feature is controlled exclusively through mobile app, requiring active owner engagement. Multiple sources (The Pet Vet, 2025; PCMag, 2026) note that Petcube "excels for cat owners with its laser toy" but also acknowledge that interaction is owner-dependent. A critical weakness noted across reviews: when not actively controlled, the device reverts to random or no laser play, leaving pets unstimulated during owner absence—precisely the problem Reactacat addresses.
 
 Petcube's target demographic emphasizes remote owner monitoring and interaction rather than hands-free cat enrichment. Marketing emphasizes being "connected with your pets" and "always in touch," reflecting an interaction-centric rather than autonomous-centric value proposition.
 
-**Furbo 360:** Furbo takes a different market position, emphasizing treat-dispensing functionality at significantly higher price points. The Furbo 360 stands at approximately EUR 190–210, roughly 2x Petcube Play 2's price (Hepper, 2025; Oreate AI, 2026; People, 2025). The primary differentiator is 360-degree panoramic coverage and treat-dispensing, but with a critical limitation: Furbo is dog-centric, not cat-specific. The marketing and feature emphasis (treat size/type, slobber-resistant design, barking-response features) clearly targets dog owners.
+**Furbo 360:** Furbo takes a different market position, emphasizing treat-dispensing functionality at significantly higher price points. The Furbo 360 stands at approximately €190–210, roughly 2x Petcube Play 2's price (Hepper, 2025; Oreate AI, 2026; People, 2025). The primary differentiator is 360-degree panoramic coverage and treat-dispensing, but with a critical limitation: Furbo is dog-centric, not cat-specific. The marketing and feature emphasis (treat size/type, slobber-resistant design, barking-response features) clearly targets dog owners.
 
-Subscription pricing is comparable to Petcube (USD 6.99/month for Furbo's "Dog Nanny" service), but the value proposition emphasizes treat delivery and dog-specific notifications. Critically, Furbo offers no laser play functionality, eliminating this option entirely for cats.
+Subscription pricing is comparable to Petcube ($6.99/month for Furbo's "Dog Nanny" service), but the value proposition emphasizes treat delivery and dog-specific notifications. Critically, Furbo offers no laser play functionality, eliminating this option entirely for cats.
 
 Customer satisfaction data reveals quality concerns. Trustpilot reviews (2025) note durability issues and compare Furbo unfavorably to Petcube, with reviewers recommending Petcube or alternative brands as higher-quality alternatives. This indicates that Furbo competes primarily on price-to-feature ratio rather than quality or customer satisfaction.
 
-**Enabot EBO X & Loona:** These autonomous mobile robot toys represent a different category—general autonomous companions with play features, not dedicated play devices. Enabot EBO X prices in the EUR 250–300 range and functions as a general mobile robot with obstacle avoidance and simple interactive features. Loona (EUR 400+) is marketed as an AI companion with emotional recognition and is explicitly positioned as a general pet companion robot, not a play-focused device (Keyiro, 2025).
+**Enabot EBO X & Loona:** These autonomous mobile robot toys represent a different category—general autonomous companions with play features, not dedicated play devices. Enabot EBO X prices in the €250–300 range and functions as a general mobile robot with obstacle avoidance and simple interactive features. Loona (€400+) is marketed as an AI companion with emotional recognition and is explicitly positioned as a general pet companion robot, not a play-focused device (Keyiro, 2025).
 
 Neither product specializes in laser play or cat-specific enrichment. Loona features vision and language interactions but is pitched at the "emotional companion" market segment rather than focused play engagement.
 
@@ -120,7 +120,7 @@ Neither product specializes in laser play or cat-specific enrichment. Loona feat
 
 Beyond direct tech competitors, Reactacat faces indirect competition from established low-tech solutions:
 
-**Simple Laser Toys:** Countless unbranded laser pointer toys retail for EUR 5–20, requiring manual owner operation. Engagement is completely dependent on owner availability and initiative. These products are not autonomous, not intelligent, and provide no enrichment continuity when owners are absent.
+**Simple Laser Toys:** Countless unbranded laser pointer toys retail for €5–20, requiring manual owner operation. Engagement is completely dependent on owner availability and initiative. These products are not autonomous, not intelligent, and provide no enrichment continuity when owners are absent.
 
 **Traditional Interactive Toys:** Feather toys, balls, mice, puzzle feeders, and other manually-activated toys remain the dominant pet enrichment category by volume and price point. These are one-time purchases without ongoing engagement and provide no behavioral adaptation.
 
@@ -139,10 +139,10 @@ Analysis reveals a critical and defensible white space where no existing competi
 | **Adaptive AI Learning** | Pet detection only | No | No | Basic | **Yes (gameplay)** ✓ |
 | **Treat Completion** | No | Yes (dogs) | Optional | No | **Yes (cats)** ✓ |
 | **Cat-Specific Design** | Yes (secondary) | No (dogs) | No | No | **Yes** ✓ |
-| **Price Point** | EUR 90–100 | EUR 190–210 | EUR 250–300 | EUR 400+ | **EUR 120–150** ✓ |
+| **Price Point** | €90–100 | €190–210 | €250–300 | €400+ | **€120–150** ✓ |
 | **Subscription Model** | €3–4/month | €5–7/month | Optional | Optional | **€3–8/month** ✓ |
 
-Reactacat uniquely combines: (1) dedicated laser play as primary function, (2) fully autonomous operation (not app-dependent), (3) adaptive AI that learns cat-specific preferences, (4) treat dispenser completing the hunting sequence with third-party treats (frustration mitigation—**uses standard kibble/treats from major brands, no Reactacat proprietary treats**), and (5) premium but accessible pricing (EUR 120–150 vs. EUR 190–400 for direct competitors). This combination creates a defensible market position without direct substitutes.
+Reactacat uniquely combines: (1) dedicated laser play as primary function, (2) fully autonomous operation (not app-dependent), (3) adaptive AI that learns cat-specific preferences, (4) treat dispenser completing the hunting sequence with third-party treats (frustration mitigation—**uses standard kibble/treats from major brands, no Reactacat proprietary treats**), and (5) premium but accessible pricing (€120–150 vs. €190–400 for direct competitors). This combination creates a defensible market position without direct substitutes.
 
 ---
 
@@ -160,27 +160,27 @@ Reactacat's value proposition addresses a specific, underserved need: intelligen
 
 ### 5.2 Positioning Against Direct Competitors
 
-**vs. Petcube:** Position as "the laser play specialist vs. the camera generalist." Petcube's primary value is remote monitoring; laser is auxiliary. Reactacat's primary value is intelligent play; engagement is continuous. Price parity (EUR 90–100 vs. EUR 120–150) supports this positioning—buyers choose specialized engagement over generalist monitoring.
+**vs. Petcube:** Position as "the laser play specialist vs. the camera generalist." Petcube's primary value is remote monitoring; laser is auxiliary. Reactacat's primary value is intelligent play; engagement is continuous. Price parity (€90–100 vs. €120–150) supports this positioning—buyers choose specialized engagement over generalist monitoring.
 
-**vs. Furbo:** Position as "cat-focused intelligent play vs. dog treat-dispensing." Furbo is dog-centric; Reactacat is cat-optimized. Reactacat's price advantage (EUR 120–150 vs. EUR 190–210) combined with cat-specific benefits supports market differentiation.
+**vs. Furbo:** Position as "cat-focused intelligent play vs. dog treat-dispensing." Furbo is dog-centric; Reactacat is cat-optimized. Reactacat's price advantage (€120–150 vs. €190–210) combined with cat-specific benefits supports market differentiation.
 
-**vs. Enabot/Loona:** Position as "focused play engagement vs. general companion robots." Reactacat excels at one thing (intelligent laser play); Enabot/Loona try multiple functions with less specialization. Price advantage and specialization support this positioning.
+**vs. Enabot/Loona:** Position as "focused play engagement vs. general companion robots." Reactacat excels at one thing (intelligent laser play); Enabot/Loona try multiple functions with less specialization. Price advantage (€120-150 vs. €250-400+) and specialization support this positioning.
 
 ### 5.3 Pricing Strategy & Willingness to Pay
 
 Market research indicates strong support for Reactacat's proposed pricing:
 
-**Hardware Pricing (EUR 120–150):** Petcube Play 2 establishes EUR 90–100 as acceptable price for premium cat interactive device. Reactacat's proposed EUR 120–150 represents a 20–50% premium justified by enhanced autonomy and intelligence. Critically, Euromonitor's research shows that price-insensitive pet owners—those viewing pets as family—"prioritize functionality and perceived benefits over price." Reactacat's added functionality (full autonomy, adaptive learning, frustration mitigation) supports premium positioning.
+**Hardware Pricing (€120–150):** Petcube Play 2 establishes €90–100 as acceptable price for premium cat interactive device. Reactacat's proposed €120–150 represents a 20–50% premium justified by enhanced autonomy and intelligence. Critically, Euromonitor's research shows that price-insensitive pet owners—those viewing pets as family—"prioritize functionality and perceived benefits over price." Reactacat's added functionality (full autonomy, adaptive learning, frustration mitigation) supports premium positioning.
 
-UK data supports this: the 45–54 age cohort (peak earners, peak pet spenders) spends EUR 150+ annually on supplementary pet products, indicating willingness to allocate EUR 120–150 one-time purchases for meaningful enrichment devices. EAE research (Spain) indicates annual pet spending of EUR 500–1,000, with premium owners allocating EUR 15–25% of annual spending to toys and enrichment products. At EUR 1,000 annual spending, this suggests EUR 150–250 allocation to premium enrichment toys—supporting Reactacat's EUR 120–150 price point within household budgets.
+UK data supports this: the 45–54 age cohort (peak earners, peak pet spenders) spends €150+ annually on supplementary pet products, indicating willingness to allocate €120–150 one-time purchases for meaningful enrichment devices. EAE research (Spain) indicates annual pet spending of €500–1,000, with premium owners allocating 15–25% of annual spending to toys and enrichment products. At €1,000 annual spending, this suggests €150–250 allocation to premium enrichment toys—supporting Reactacat's €120–150 price point within household budgets.
 
-**Subscription Pricing (EUR 3–8/month):** Petcube establishes EUR 3–4/month as acceptable for premium pet app subscriptions. Furbo's EUR 5–7/month pricing suggests market tolerance for higher subscription if feature value is perceived. Reactacat's proposed tiered model (EUR 3 basic, EUR 6 premium, EUR 8 ultra-premium) aligns with SaaS freemium models proven in adjacent markets. Subscription pricing is justified by continuous cloud retraining improving AI models—value delivery is tangible and ongoing.
+**Subscription Pricing (€3–8/month):** Petcube establishes €3–4/month as acceptable for premium pet app subscriptions. Furbo's €5–7/month pricing suggests market tolerance for higher subscription if feature value is perceived. Reactacat's proposed tiered model (€3 basic, €6 premium, €8 ultra-premium) aligns with SaaS freemium models proven in adjacent markets. Subscription pricing is justified by continuous cloud retraining improving AI models—value delivery is tangible and ongoing.
 
-Market data indicates strong subscription acceptance in pet tech. Multiple sources note that 70% of pet owners prioritize premium/specialized products, and 75% of premium pet owners adopt subscription services when perceived value is clear. Monthly price point of EUR 3–6 represents 0.5–1% of the target demographic's monthly pet budget (EUR 25–50/month for premium households), indicating negligible price sensitivity.
+Market data indicates strong subscription acceptance in pet tech. Multiple sources note that 70% of pet owners prioritize premium/specialized products, and 75% of premium pet owners adopt subscription services when perceived value is clear. Monthly price point of €3–6 represents 0.5–1% of the target demographic's monthly pet budget (€25–50/month for premium households), indicating negligible price sensitivity.
 
 ### 5.4 Target Customer Segments & Go-to-Market Prioritization
 
-Primary Target: **Urban working professionals, ages 35–54, Germany/France/UK, household income EUR 60,000+, cat owners, technology adoption.**
+Primary Target: **Urban working professionals, ages 35–54, Germany/France/UK, household income €60,000+, cat owners, technology adoption.**
 
 Secondary Target: **Affluent retirees 55–70+, similar geographies/income, high premium product spending.**
 
@@ -198,7 +198,7 @@ European premium pet owners exhibit relative price insensitivity when products d
 
 FEDIAF data shows 70% of European pet owners prioritize premium/specialized diets, with willingness to pay 15–40% premiums for perceived superiority. Market Data Forecast (2025) notes that "despite economic constraints, spending on pet healthcare rose, reflecting prioritization of well-being," indicating that premium segments exhibit relative recession resistance.
 
-However, pricing must remain within perceived value boundaries. Reactacat's EUR 120–150 hardware price is approximately 30–50% above the cheapest interactive pet toy options but 20–50% below autonomous robot companions (Enabot EUR 250–300, Loona EUR 400+). This positioning within a reasonable premium range supports market acceptance.
+However, pricing must remain within perceived value boundaries. Reactacat's €120–150 hardware price is approximately 30–50% above the cheapest interactive pet toy options but 20–50% below autonomous robot companions (Enabot €250–300, Loona €400+). This positioning within a reasonable premium range supports market acceptance.
 
 ### 6.2 Purchase Decision Drivers
 
@@ -227,10 +227,10 @@ Applying market segmentation data, we can estimate Reactacat's addressable marke
 - **Estimated addressable market: 1.8–2.3 million premium households**
 
 **Market Penetration Scenarios:**
-- **Conservative (5% penetration by year 5):** 90,000–115,000 units at EUR 150 hardware = EUR 13.5–17.3M hardware revenue + EUR 4.3–6.5M annual recurring subscription revenue (at 65% retention, 3-year average)
-- **Optimistic (15% penetration by year 5):** 270,000–345,000 units at EUR 150 hardware = EUR 40.5–51.8M hardware revenue + EUR 12.9–19.5M annual recurring subscription revenue
+- **Conservative (5% penetration by year 5):** 90,000–115,000 units at €150 hardware = €13.5–17.3M hardware revenue + €4.3–6.5M annual recurring subscription revenue (at 65% retention, 3-year average)
+- **Optimistic (15% penetration by year 5):** 270,000–345,000 units at €150 hardware = €40.5–51.8M hardware revenue + €12.9–19.5M annual recurring subscription revenue
 
-This translates to a EUR 50–70M+ total addressable market opportunity for Reactacat in the 5-year horizon, positioning it as a meaningful venture-scale opportunity.
+This translates to a €50–70M+ total addressable market opportunity for Reactacat in the 5-year horizon, positioning it as a meaningful venture-scale opportunity.
 
 ---
 
@@ -244,7 +244,7 @@ This translates to a EUR 50–70M+ total addressable market opportunity for Reac
 
 3. **Validate Responsibility:** Acknowledge laser frustration risk explicitly and position treat dispenser as evidence-based solution. This builds trust and appeals to conscientious pet owners. Cite veterinary research; partner with pet behaviorists.
 
-4. **Target Urban Professionals:** Geographic and demographic targeting should focus on densely urban markets (Berlin, Paris, London) with professional populations (30–60 age range, EUR 60K+ household income). Digital advertising should run on platforms and communities where busy professionals research pet solutions.
+4. **Target Urban Professionals:** Geographic and demographic targeting should focus on densely urban markets (Berlin, Paris, London) with professional populations (30–60 age range, €60K+ household income). Digital advertising should run on platforms and communities where busy professionals research pet solutions.
 
 5. **Premium Subscription Value:** Differentiate subscription as continuous improvement (updated AI models, new play styles, behavioral insights), not static fee-for-service. Monthly value proposition: "Your cat's play gets smarter every month."
 

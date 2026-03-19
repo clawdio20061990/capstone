@@ -1,6 +1,6 @@
 # Reactacat ESG Sustainability Report 2026
 
-**Reporting Period:** January 2026 - December 2026  
+**Reporting Period:** March 2026 - February 2027 (projected)  
 **Report Type:** Inaugural ESG Disclosure  
 **Framework Alignment:** ESRS (European Sustainability Reporting Standards), GRI Standards  
 **Scope:** Product Lifecycle & Corporate Operations  

@@ -355,7 +355,7 @@ No identified risk is existential on its own, but combinations — particularly 
 | **Rationale** | BOM includes USD-denominated components (RPi, semiconductors) sold in EUR. PLN-denominated labor costs are an advantage if PLN weakens against EUR. |
 
 **Mitigation:**
-1. Price hardware BOM in EUR with 10% buffer for currency fluctuation
+1. Price hardware BOM in € with 10% buffer for currency fluctuation
 2. Consider forward contracts for large component purchases if USD/EUR volatility increases
 3. PLN labor costs provide natural hedge against EUR-denominated revenue
 

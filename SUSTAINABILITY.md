@@ -1,6 +1,6 @@
 # Reactacat - Sustainability & Right to Repair Strategy
 
-**Last Updated:** 2026-03-13  
+**Last Updated:** March 2026  
 **Status:** Concept Stage - Design for Sustainability
 
 ---
@@ -76,7 +76,7 @@ Reactacat embraces sustainable manufacturing and the right to repair as fundamen
 | Anti-pattern | Our Solution | Why It Matters |
 |--------------|--------------|----------------|
 | Glue instead of screws | Modular M3 screw mounting | Ability to disassemble without damage |
-| Proprietary batteries | Standard replaceable Li-ion 18650 | Availability of replacement in 2-5 years |
+| Proprietary power adapters | Standard USB-C power delivery | Universal charger compatibility, future-proof |
 | Sealed enclosures | Magnetic/screw-on panels | Quick access to internal components |
 | Soldered components | Connectors and sockets | Replacement without soldering iron |
 | Encrypted firmware | Open module firmware | Independent updates and repair |

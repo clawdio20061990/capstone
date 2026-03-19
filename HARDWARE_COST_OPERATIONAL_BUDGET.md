@@ -4,20 +4,20 @@
 **Date:** March 2026  
 **Scope:** Component-level BOM, manufacturing cost evolution, operational cost breakdown, monthly cash flow  
 **Integration:** Provides granular detail underlying Financial Analysis high-level projections  
-**Currency:** EUR (all prices converted where necessary at USD 1 = EUR 0.92, March 2026)
+**Currency:** € (all prices converted where necessary at USD 1 = €0.92, March 2026)
 
 ---
 
 ## Executive Summary
 
-This document provides a detailed breakdown of Reactacat's hardware Bill of Materials (BOM), manufacturing costs, and operational budget across the 3-year projection horizon. The Financial Analysis established a hardware COGS of €95–104 per unit (Year 1) declining to €60–80 with custom PCB (Year 2+). This document validates those figures with component-level pricing, identifies cost reduction pathways, and maps operational expenses to a monthly cash flow model.
+This document provides a detailed breakdown of Reactacat's hardware Bill of Materials (BOM), manufacturing costs, and operational budget across the 3-year projection horizon. The Financial Analysis established a hardware COGS of €95–104 per unit (Year 1), transitioning to €90 blended (Year 2), and optimizing to €75 at scale (Year 3). This document validates those figures with component-level pricing, identifies cost reduction pathways, and maps operational expenses to a monthly cash flow model.
 
 Key findings:
 
 - **Year 1 BOM (Raspberry Pi prototype):** €76.50–87.00 per unit (components only, excl. assembly and packaging)
-- **Year 1 Full COGS (incl. assembly, packaging, QC):** €99–108 per unit — consistent with Financial Analysis €95–104 estimate (within 5% variance)
-- **Year 2 Custom PCB COGS:** €62–74 per unit (30–35% cost reduction through purpose-built hardware)
-- **Year 3 Scaled COGS:** €55–65 per unit (volume discounts + supply chain optimization)
+- **Year 1 Full COGS (incl. assembly, packaging, QC):** €95–104 per unit (target midpoint €99.50)
+- **Year 2 Blended COGS:** €90 per unit (transition phase: 70% RPi, 30% custom PCB from Month 15)
+- **Year 3 Custom PCB COGS:** €75 per unit (optimistic but realistic, volume discounts + supply chain optimization)
 - **Injection mold tooling NRE:** €30–40K (one-time, amortized across 5,000+ units over Years 1–2)
 - **Monthly operational burn (Year 1):** €28,200 average — matches Financial Analysis projection
 
@@ -119,7 +119,8 @@ At 5,000+ cumulative units, transitioning from Raspberry Pi to a purpose-built P
 | **Component BOM Total** | **€44.80** | **€67.00** | |
 | **Assembly + QC + CM margin** | €15.00 | €20.00 | |
 | **Full Landed COGS** | **€59.80** | **€87.00** | |
-| **Target (midpoint)** | **€73.00** | | Financial Analysis uses €82 Year 3 (conservative, includes buffer) |
+| **Target (Year 2 blended)** | **€90** | | Transition phase: 70% RPi (€99), 30% custom PCB (€73) = €90 blended |
+| **Target (Year 3 full custom)** | **€75** | | Full custom PCB deployment with volume optimization |
 
 **Cost Reduction Summary (Phase 1 → Phase 2):**
 
@@ -144,7 +145,7 @@ At 18,000 units/year, additional cost reductions come from:
 | **Logistics/fulfillment** | €0.50/unit | Regional distribution centers reduce last-mile cost |
 | **Total additional savings** | **€5–8/unit** | On top of Phase 2 baseline |
 
-**Year 3 Target COGS: €55–65/unit** (Financial Analysis uses €82, providing significant margin buffer for unexpected costs or feature additions).
+**Year 3 Target COGS: €75/unit** (optimistic but realistic, incorporating volume discounts and supply chain optimization while maintaining quality buffer for unexpected costs).
 
 ---
 
@@ -295,7 +296,7 @@ Labor cost improvement driven by: learning curve (repeat assembly), process opti
 - OpEx includes all categories from Section 3.1
 
 **Cash position check:**
-- Seed funding: €650,000–680,000
+- Seed funding: €750,000
 - Month 12 cumulative burn: ~€303,000
 - Remaining cash: €347,000–377,000
 - Runway remaining: ~13 months at Year 2 burn rate
