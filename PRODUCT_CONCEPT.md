@@ -1,388 +1,223 @@
-# Reactacat - Product Concept Documentation
+# Reactacat — Product Concept Documentation
 
-**Last Updated:** March 2026  
-**Status:** Concept Stage - Starting Documentation
+**Last Updated:** March 2026
+**Status:** Concept Stage — Decisions Documented
+**Author:** Dmytro Matiushyn
+*AI tools used for research assistance and drafting*
 
 ---
 
 ## Problem Statement
 
 ### Core Problem
-Pets (specifically cats) suffer from boredom and inactivity when owners are unavailable to play due to:
-- Being busy with work or other activities
-- Being physically distant from home
-- Becoming bored with repetitive play patterns themselves
+
+Domestic cats suffer from boredom and inactivity when owners are unavailable to play. This is driven by owners being occupied with work or other activities, being physically away from home, and the repetitive nature of existing play solutions that fail to sustain engagement over time.
 
 ### Impact
-- Sedentary pets with reduced mental stimulation
-- Behavioral issues from unfulfilled hunting instincts
-- Owner guilt and concern about pet well-being
+
+Sedentary indoor cats experience reduced mental stimulation and may develop behavioural issues stemming from unfulfilled hunting instincts. Research documents that cats exhibit frustration-related compulsive behaviours when predatory instincts are triggered without resolution (Catster, 2025; Animal Wellness Magazine, 2025). For owners, this creates guilt and concern about pet well-being, particularly among working professionals who spend extended periods away from home.
 
 ---
 
 ## Solution Overview
 
-An AI-powered autonomous laser toy that uses edge computing and cloud-based machine learning to create adaptive, engaging play sessions that improve over time.
+Reactacat is an AI-powered autonomous laser toy that uses edge computing (Raspberry Pi 4B) and cloud-based machine learning to create adaptive, engaging play sessions that improve over time. An integrated treat dispenser completes the hunting sequence by providing a tangible reward at game conclusion, addressing the documented risk of laser play frustration in cats.
 
-**Core Differentiator:** Self-educating AI that learns each individual cat's preferences and adapts gameplay dynamically, unlike existing solutions with static or random patterns.
+**Core Differentiator:** A self-educating AI that learns each individual cat's preferences and adapts gameplay dynamically, combined with treat-based reward completion — unlike existing solutions that offer either static/random patterns or require continuous owner involvement.
 
 ---
 
 ## Competitive Landscape
 
-### Existing Solutions (3 Categories)
+### Existing Solutions
 
-#### 1. Simple Circle Pattern Toys
-- **Behavior:** Laser moves in predictable circles/patterns
-- **Problem:** Cats lose interest extremely quickly
-- **Market position:** Low-cost, commodity products
+The market for interactive pet play devices falls into three categories, each with documented limitations:
 
-#### 2. Random Movement Toys
-- **Behavior:** Laser moves randomly without intelligence
-- **Problem:** Slightly better engagement but still boring over time
-- **Market position:** Mid-range products
+**Simple circle pattern toys** move lasers in predictable patterns. Cats lose interest rapidly because the movement is entirely predictable, offering no challenge to hunting instincts. These are commodity products at the low end of the market.
 
-#### 3. Petcube (Closest Competitor)
-- **Features:**
-  - Owner-controlled laser pointer via phone app
-  - Camera with sound
-  - Scheduled random play sessions
-  - AI that only reacts to noise
-- **Strength:** Good gameplay when owner is actively involved
-- **Weakness:** Without owner involvement, reverts to boring random play (Category 2)
-- **Limitation:** Requires human engagement for quality play
+**Random movement toys** introduce unpredictability but lack intelligence. Engagement is marginally better than patterned toys but still degrades over time because the randomness is not responsive to the individual cat's behaviour or engagement state (Future Market Insights, 2025).
+
+**Petcube Play 2**, the closest competitor, combines a 1080p camera with an owner-controlled laser pointer via mobile app. When an owner is actively involved, it provides good gameplay. However, without owner involvement it reverts to basic random patterns that do not adapt to the cat (Lifehacker, 2025). Petcube is primarily a camera product with laser play as a secondary feature, priced at approximately €90–100 with a USD 4/month subscription for Petcube Care (CNET, 2026). Its September 2025 AI update adds behavioural recognition for monitoring but does not include adaptive autonomous play.
 
 ### Reactacat's Competitive Advantage
 
-**Adaptive AI that learns and improves:**
-- Analyzes cat behavior in real-time
-- Adjusts gameplay speed and patterns based on cat's reactions
-- Self-educates after each session via cloud training
-- Becomes more engaging over time without human intervention
-- Learns optimal play schedules based on cat's activity patterns
+Reactacat differentiates on five dimensions that no competitor combines: (1) dedicated laser play as primary function, (2) fully autonomous operation without owner control, (3) adaptive AI that learns individual cat behaviour and adjusts gameplay dynamically, (4) integrated treat dispenser completing the hunting sequence, and (5) subscription-funded cloud retraining that makes gameplay improve over time (see Business Research, Section 2.3 for full competitive matrix).
 
 ---
 
 ## Technical Architecture
 
 ### Hardware Platform
-- **Processing unit:** Single-board PC 
-- **Actuators:** 2 servos for laser pointer movement (X/Y axis)
-- **Sensors:** Camera for cat detection and tracking
-- **Laser:** Class 3 laser with optical filter
-- **Optional module:** Treat dispenser (launches standard kibble/treats after game completion, compatible with major pet food brands—**Reactacat does not produce proprietary treats**)
 
-**Rationale for hardware choice:**
-- Cost-effective single-board PC
-- Sufficient for edge AI inference but NOT for model training
-- Requires cloud backend for model retraining
+- **Processing unit:** Raspberry Pi 4B (€35–50) — sufficient for edge AI inference using TensorFlow Lite (25–50ms per frame), necessary for local video processing to avoid cloud video transmission (GDPR compliance)
+- **Actuators:** 2 servo motors for laser pointer movement (X/Y axis)
+- **Sensors:** Camera module (OV5647, €5–8) for cat detection and tracking
+- **Laser:** Class 3R laser source (5mW diode) with neutral-density (ND) optical filter reducing output to <1mW at target surface. This is a standard engineering approach for consumer laser products per EN 60825-1: the higher-powered source provides reliable beam quality, while the ND filter attenuates output to eye-safe levels at working distance (ComplianceGate, 2025; Lasermet, 2025)
+- **Treat dispenser:** Servo-driven hopper mechanism (€8–12) compatible with standard dry kibble and treats (5–8mm) from major pet food manufacturers. Reactacat does not produce proprietary treats — the dispenser works with treats owners already use
+
+**Rationale for Raspberry Pi 4B:** The Pi 4B provides sufficient compute for local TensorFlow Lite inference while keeping BOM costs manageable. Cheaper microcontrollers (ESP32, Arduino) cannot run CV inference and would require streaming video to the cloud — creating GDPR/UK GDPR exposure and latency issues. At scale (100K+ units), transition to a custom edge-AI PCB reduces BOM to €60–80.
 
 ### Software Architecture
 
 #### Edge (On-Device) AI
-**Cat Detection & Tracking:**
-1. **First frame:** Full cat detection algorithm to identify and locate cat(s)
-2. **Subsequent frames:** Movement detection only (assumes moving object = cat)
-3. **Efficiency:** Reduces processing load while maintaining tracking accuracy
 
-**Gameplay Decision Engine:**
-- Local lightweight AI model for real-time gameplay decisions
-- Analyzes cat position and movement
-- Determines laser movement (speed, direction, distance)
-- Detects cat engagement state:
-  - **Prepared to chase:** Cat is engaged and ready to play
-  - **Lost interest:** Cat disengaged → triggers game end
+The on-device software handles real-time cat detection, tracking, and gameplay decisions:
 
-**Data Logging (No Video Storage):**
-For each game session, logs include:
-- Cat coordinates in frame (array format for multi-cat support)
-- Laser coordinates (servo angles)
-- Timestamp for each position update
-- Position deltas (movement between frames)
-- Game duration
-- Time of day
-- Engagement state changes
+**Cat Detection & Tracking:** The first frame uses a full detection algorithm to identify and locate cats. Subsequent frames use movement detection only (assuming moving object is the tracked cat), reducing processing load while maintaining tracking accuracy. Multi-cat scenarios are supported by logging positions as arrays.
+
+**Gameplay Decision Engine:** A local lightweight AI model makes real-time decisions about laser movement — speed, direction, distance, pattern complexity — based on the cat's current position, movement intensity (0–100 scale), and engagement state. The engine detects two critical states: "prepared to chase" (engaged, ready to play) and "lost interest" (disengaged, triggering game end and treat dispensing).
+
+**Data Logging (No Video Storage):** For each session, the device logs cat coordinates (array format for multi-cat), laser coordinates (servo angles), timestamps, position deltas, game duration, time of day, and engagement state changes. Video frames are deleted from memory immediately after inference — only text-format game logs are transmitted to the cloud.
 
 #### Cloud Backend
-**Model Retraining:**
-- Receives gameplay logs after each session
-- Analyzes patterns:
-  - Which laser movements kept cat engaged longest
-  - Optimal speed/distance for individual cat
-  - Time-of-day preferences
-  - Multi-cat interaction patterns
-- Retrains local AI model with updated weights
-- Pushes updated model back to device
 
-**Frequency:** After every game session (current plan)
+The cloud backend receives gameplay logs after each session and analyses patterns: which movements sustained engagement longest, optimal speed and distance for the individual cat, time-of-day preferences, and multi-cat interaction dynamics. It retrains the local AI model with updated weights and pushes the improved model back to the device.
 
-**Adaptive Scheduling:**
-- Analyzes when cats are most active/receptive
-- Creates personalized play schedule
-- Learns individual cat routines over time
-
-### Multi-Cat Support
-**Implementation:**
-- Cat positions logged as arrays (supports multiple simultaneous cats)
-- Simplified approach: track both cats' positions independently
-- Gameplay adapts to multiple engagement states
+The cloud also manages adaptive scheduling — analysing when cats are most active and receptive to create personalised play schedules that evolve over time.
 
 ---
 
 ## Product Features
 
-### MVP (Minimum Viable Product) Scope
-**Core Features:**
-1. Live video streaming
-2. Autonomous AI-driven gameplay
-3. Cloud-based model reeducation system
-4. Basic safety features (time limits)
+### MVP Scope
 
-**Excluded from MVP (Future Iterations):**
-- Treat dispenser module
-- Recorded video clips
+The minimum viable product includes:
+
+1. **Autonomous AI-driven gameplay** — the core value proposition
+2. **Integrated treat dispenser** — addresses laser frustration risk and completes the hunting sequence; this is a key differentiator, not an optional accessory
+3. **Cloud-based model retraining** — gameplay improves after every session
+4. **Live video streaming** — owners can observe play sessions remotely
+5. **Basic safety features** — session duration limits, overheat protection, emergency stop
+
+### Features Deferred to Post-MVP
+
+- Recorded video clips and storage
 - Two-way audio
 - Advanced scheduling UI
 - Multi-user access controls
+- Mobile app (MVP uses web interface)
 
 ### Safety Features
-1. **Session duration limits:** Automatic game timeout to prevent over-stimulation
-2. **Laser safety:** Class 3 laser with optical filter for eye safety
-3. **Planned:** Overheat protection, emergency stop mechanisms
 
-### Remote Access Features
-**MVP:**
-- Live video streaming only
-- Basic remote control capability (Petcube-like manual play)
-
-**Future Considerations:**
-- Recorded clip storage
-- Two-way audio communication
-- Mobile app vs. web interface (TBD)
+Session duration limits prevent over-stimulation with automatic game timeout. The laser source (Class 3R, 5mW) is filtered through a neutral-density optical filter to deliver <1mW at target — meeting consumer safety requirements per EN 60825-1. Overheat protection and emergency stop mechanisms are included in MVP. The treat dispenser uses standardised kibble sizes (5–8mm) to minimise jamming risk.
 
 ---
 
 ## Business Model
 
-### Monetization Strategy
+### Hardware Sales
 
-#### Hardware Sales
-- One-time purchase of device
-- Pricing strategy: TBD (requires market research and cost analysis)
+One-time purchase at **€150** (direct-to-consumer). This pricing is based on a base-case BOM of approximately €105 (Year 1), yielding roughly 30% gross margin — comparable to consumer electronics benchmarks (see Business Research, Section 2.6).
 
-#### Subscription Model (Cloud Services)
-**What subscription covers:**
-- Cloud processing for model retraining
-- Continuous AI improvement
-- Data storage and analysis
-- Premium features (future)
+### Subscription Model (Cloud Services)
 
-**Pricing tiers:**
-- **Free tier:** Initial model training for new users
-- **Paid tier:** Ongoing model education and improvements
-- Subscription pricing: TBD (requires financial modeling)
+The subscription funds cloud processing for model retraining, continuous AI improvement, data storage and analysis, and premium features.
 
-**Rationale:**
-- Free tier reduces adoption friction
-- Paid tier captures value from long-term AI improvement
-- Recurring revenue model for sustainable business
+| Tier | Monthly Price | Features |
+|---|---|---|
+| Free | €0 | Basic autonomous play, initial model training |
+| Standard | €3/month | Cloud retraining, personalised schedules, basic analytics |
+| Premium | €8/month | Priority retraining, detailed engagement reports, multi-pet profiles |
 
-### Open Source Hardware Consideration
-**Concept:** 
-- Release hardware designs as open source
-- Users can build their own devices
-- Software/cloud services remain proprietary and paid
-
-**Status:** Option to be evaluated
-
-**Research needed:**
-- Pros: Community building, lower barrier to entry, innovation
-- Cons: IP protection, quality control, support burden, revenue impact
-- Feasibility and strategic fit analysis required
+The free tier reduces adoption friction. The paid tiers capture value from ongoing AI improvement — unlike static competitors, Reactacat demonstrably gets better over time. Base-case subscription conversion is projected at 50% (see Business Research, Section 5.4 for scenario analysis).
 
 ---
 
 ## Target Market
 
-### Primary Stakeholder
-**The Pet (Cat), Not the Owner**
+### Product Design Philosophy
 
-This is a fundamental differentiator in product philosophy:
-- Design decisions prioritize cat satisfaction over owner convenience
-- Success metrics focus on pet engagement and wellbeing
-- Marketing emphasizes pet-first value proposition
+Product design prioritises cat satisfaction and well-being; the purchase decision maker is the owner. Success metrics focus on pet engagement (play duration, movement frequency, sustained interest over weeks/months), while marketing and business metrics focus on owner satisfaction, subscription conversion, and retention.
 
 ### Geographic Focus
-TBD (requires market research)
+
+European market (EU + UK), with initial focus on Germany, France, and the United Kingdom — the three largest cat ownership markets in Europe. The UK is treated as a separate regulatory jurisdiction requiring UKCA marking alongside EU CE marking (see Business Research, Section 2.5).
 
 ### Customer Segment
-TBD (requires research on premium vs. mass market positioning)
+
+Premium cat owners spending €300–400+ annually on pet care, predominantly urban working professionals in apartments and congested cities who want enrichment solutions for cats left alone during work hours.
 
 ---
 
 ## Validation Approach
 
-### Success Metrics (Cat-Centric)
-**Primary indicators of cat satisfaction:**
+### Success Metrics
 
-1. **Increased game duration**
-   - Comparison: Trained AI vs. untrained baseline
-   - Measurement: Session length over time
+The primary indicators of product success are cat-centric:
 
-2. **Increased position changes**
-   - Metric: Number of cat movements per session
-   - Indicates sustained engagement vs. passive observation
-
-3. **Sustained long-term engagement**
-   - Cats continue to engage over weeks/months
-   - No decline in interest despite repeated play
+**Increased game duration** — comparing trained AI sessions vs. untrained baseline, measured as average session length over time. **Increased position changes** — number of cat movements per session, indicating active engagement vs. passive observation. **Sustained long-term engagement** — cats continue engaging over weeks and months with no decline in interest despite repeated play, demonstrating the value of adaptive AI.
 
 ### Testing Protocol
-**Alpha Testing:**
-1. **Internal testing:** Developer's own cats (controlled environment)
-2. **Alpha tester group:** Select early adopters with diverse cat personalities
-3. **Data collection:** Systematic logging of metrics above
-4. **Veterinary/behavioral expert input:** Validate engagement indicators
 
-**Success criteria:**
-- Measurable improvement in engagement metrics vs. untrained baseline
-- Sustained engagement over extended period (weeks/months)
-- Positive behavioral feedback from veterinary experts
+Alpha testing begins with the developer's own cats in a controlled environment, then expands to a small group of early adopters with diverse cat personalities (age, breed, activity level). Systematic logging of engagement metrics, combined with veterinary/behavioural expert input, validates whether adaptive AI play meaningfully outperforms random-pattern alternatives.
+
+Success criteria: measurable improvement in engagement metrics vs. untrained baseline, sustained engagement over an extended period (minimum 4 weeks), and positive behavioural assessment from veterinary consultation.
 
 ---
 
 ## Laser Pointer Safety Considerations
 
-### Known Issue
-Research indicates that laser pointer play can cause frustration in cats because they cannot complete the hunting sequence (stalk → chase → pounce → **catch** → kill bite). The inability to "catch" the prey may lead to stress and compulsive behaviors.
+### The Risk
+
+Research indicates that laser pointer play can cause frustration in cats because they cannot complete the hunting sequence (stalk, chase, pounce, **catch**, kill bite). The inability to "catch" the prey may lead to stress and compulsive behaviours, particularly with frequent unresolved laser play (Catster, 2025; Animal Wellness Magazine, 2025; Buffington, 2002).
 
 ### Mitigation Strategy
 
-#### 1. Target Audience Selection
-**Focus on cat owners (not dog owners):**
-- Laser frustration is a smaller problem for cats compared to dogs
-- Cats handle abstract play better than dogs
-- Lower risk of compulsive behaviors in feline population
+Reactacat mitigates this risk through two approaches:
 
-#### 2. Treat Dispenser Module
-**Solution:** Physical reward at game completion
-- Launches standard kibble/treats (from major pet food manufacturers like Royal Canin, Hill's, Purina) immediately after laser play ends
-- **Important note:** Reactacat does NOT produce or sell proprietary treats—dispenser is compatible with treats owners already have at home
-- Allows cat to "capture" and "consume" prey equivalent
-- Completes the hunting sequence psychologically
-- Provides positive reinforcement and satisfaction
+**Integrated treat dispenser (MVP feature).** At game conclusion, the dispenser releases standard kibble or treats, allowing the cat to "capture" and "consume" a prey equivalent. This completes the hunting sequence psychologically and provides positive reinforcement. The dispenser is compatible with treats from major manufacturers (Royal Canin, Hill's, Purina, Orijen) — Reactacat does not produce proprietary treats, avoiding customer lock-in and pet food regulatory burden.
 
-**Status:** Planned feature (may not be in MVP, marketed as "super recommended" accessory)
-
-**Design principle:** Using third-party treats avoids proprietary lock-in for customers, reduces regulatory burden (avoids pet food registration requirements), and standardizes treat sizes to prevent jamming risk.
+**Audience-appropriate risk level.** Laser frustration is a smaller concern for cats than for dogs, who show higher susceptibility to compulsive behaviours from laser play. Nonetheless, Reactacat addresses the risk proactively rather than ignoring it — positioning the product as responsible pet technology.
 
 ### Marketing Approach
-- Transparent communication about laser play research
-- Emphasize treat dispenser as completion mechanism (uses standard treats customers already buy)
-- Position as more responsible alternative to standalone laser toys
-- Clear messaging: "Works with the treats your cat already eats"
-- Align with pet-first stakeholder philosophy
 
----
-
-## Research Requirements
-
-The following areas require comprehensive research and documentation:
-
-### 1. Regulatory Compliance
-- Laser safety certifications and standards
-- CE/FCC compliance requirements
-- Pet product safety regulations
-- Geographic variance in requirements
-
-### 2. Financial Analysis
-- Hardware cost breakdown (BOM)
-- Manufacturing and scaling costs
-- Pricing strategy (competitive positioning)
-- Subscription tier pricing models
-- Break-even analysis
-- Revenue projections
-
-### 3. Competitive Analysis
-- Deep dive on Petcube (features, pricing, market position, user reviews)
-- Full landscape of autonomous pet toys
-- AI/smart pet tech trends
-- Competitor differentiation matrix
-
-### 4. Market Research
-- Pet tech market size and growth
-- Target customer segments and personas
-- Geographic market opportunities
-- Distribution channels
-- Marketing and customer acquisition
-
-### 5. Stakeholder Research
-- Framework for measuring cat satisfaction
-- Veterinary expert consultation
-- Animal behaviorist validation
-- Owner satisfaction correlation with pet engagement
-
-### 6. Technical Validation
-- Edge AI model requirements and performance
-- Cloud infrastructure costs
-- Scalability considerations
-- Data privacy and security
-
-### 7. Risk Analysis
-- Technical risks (hardware failure, AI performance)
-- Market risks (competition, adoption)
-- Regulatory risks (safety compliance)
-- Business model risks (subscription uptake)
-
-### 8. Open Source Strategy Analysis
-- IP protection vs. community building trade-offs
-- Revenue model implications
-- Support and quality control challenges
-- Case studies from similar products
+Transparent communication about laser play research, emphasising the treat dispenser as a science-informed completion mechanism. Clear messaging: "Works with the treats your cat already eats." This positions Reactacat as a more responsible alternative to standalone laser toys.
 
 ---
 
 ## Open Questions & Decisions Needed
 
-### Technical
-- [ ] Specific AI framework choice (TensorFlow Lite, PyTorch Mobile, ONNX)
-- [ ] Cat pose estimation vs. simple bounding box detection trade-off
-- [ ] Cloud retraining frequency optimization (every session vs. batched)
-- [ ] Video streaming technology stack
-- [ ] Data privacy and storage policies
+Several technical and product decisions remain for the prototype phase:
 
-### Product
-- [ ] Treat dispenser module: MVP or Phase 2?
-- [ ] Mobile app vs. web interface vs. both?
-- [ ] Recorded video storage feature priority
-- [ ] Two-way audio necessity
+**Technical decisions** include specific AI framework selection (TensorFlow Lite is the leading candidate given Pi 4B constraints), the trade-off between cat pose estimation and simpler bounding box detection (bounding box likely sufficient for MVP), cloud retraining frequency optimisation (every session vs. batched daily), and video streaming technology stack.
 
-### Business
-- [ ] Final pricing strategy (hardware + subscription tiers)
-- [ ] Open source hardware: yes/no decision
-- [ ] Geographic launch priority
-- [ ] Premium vs. mass market positioning
-- [ ] Distribution strategy (direct-to-consumer, retail, both)
+**Product decisions** include mobile app vs. web interface priority for post-MVP, recorded video storage feature timing, and two-way audio necessity assessment.
 
-### Validation
-- [ ] Alpha testing recruitment criteria
-- [ ] Required sample size for statistically significant validation
-- [ ] Veterinary partnership for expert validation
-- [ ] Long-term testing duration requirements
+**Business decisions** include open source hardware strategy (releasing hardware designs while keeping cloud services proprietary — requires IP protection vs. community building analysis), and detailed distribution strategy for Amazon FBA vs. brand website fulfilment.
+
+**Validation decisions** include alpha testing recruitment criteria, minimum sample size for statistically significant engagement data, and veterinary partnership for expert validation of behavioural outcomes.
 
 ---
 
 ## Next Steps
 
-1. Create comprehensive work plan
-2. Establish folder structure for research areas
-3. Begin systematic research on priority topics
-4. Develop documentation for each research area
-5. Validate assumptions through research and testing
+1. Finalise hardware prototype with integrated treat dispenser
+2. Implement edge AI inference pipeline on Raspberry Pi 4B
+3. Begin regulatory certification pathway (CE + UKCA) in parallel with prototype
+4. Conduct alpha testing with real cats — measure engagement metrics against baseline
+5. Validate subscription willingness-to-pay through early adopter feedback
 
 ---
 
-**Document Status:** Initial concept documentation complete  
-**Author:** Clawdio (AI Research Assistant)  
-**Reviewed by:** Dmytro Matiushyn  
-**Next Review:** After work plan approval
+## References
+
+Animal Wellness Magazine. (2025, September 29). Laser play for cats: Fun or hidden danger? *Animal Wellness Magazine*. https://animalwellnessmagazine.com/laser-play-for-cats-fun-or-hidden-danger/
+
+Buffington, C. A. T. (2002). External and internal influences on disease risk in cats. *Journal of the American Veterinary Medical Association*, *220*(7), 994–1002.
+
+Catster. (2025, June 19). Do lasers encourage play or trigger obsessive behavior? How different cats react. *Catster*. https://www.catster.com/felines-weekly/do-lasers-encourage-play-or-trigger-obsessive-behavior/
+
+CNET. (2026, January 9). Best home pet cameras of 2026: Watch from anywhere. *CNET*. https://www.cnet.com/home/security/best-home-pet-cams/
+
+ComplianceGate. (2025, September 3). Laser device regulations in the European Union: An overview. *ComplianceGate*. https://www.compliancegate.com/laser-device-regulations-european-union/
+
+Future Market Insights. (2025, April 9). Cat toys market size, demand & industry trends 2025 to 2035. *Future Market Insights*. https://www.futuremarketinsights.com/reports/cat-toys-market
+
+Lasermet. (2025, November 6). Laser warning labels: Requirements and what you need to know for compliance. *Lasermet*. https://www.lasermet.com/blog/laser-warning-labels-requirements-and-what-you-need-to-know-for-compliance/
+
+Lifehacker. (2025, June 9). Review: The Petcube Cam 360 isn't worth the monthly subscription cost. *Lifehacker*. https://lifehacker.com/tech/petcube-cam-360-review
+
+---
+
+**Document Status:** Concept documentation complete — ready for prototype phase
+**Next Review:** After alpha testing results
