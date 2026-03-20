@@ -23,14 +23,14 @@ Reactacat follows a **platform-first, feature-second** approach. The core platfo
 
 | Version | Timeline | Focus | Key Deliverables |
 |---------|----------|-------|------------------|
-| **v0.1** | Month 1–3 | Alpha prototype | Working hardware, basic AI, internal testing |
-| **v0.5** | Month 4–6 | Beta release | 50 beta units, cat behavior validation |
-| **v1.0** | Month 7 | MVP launch | Poland soft launch, core feature set |
-| **v1.1** | Month 9 | Stability + onboarding | Bug fixes, setup UX improvements |
-| **v1.2** | Month 11 | Treat dispenser | Hardware accessory, subscription tiering |
-| **v2.0** | Month 15 | Custom PCB platform | Cost reduction, performance improvement |
-| **v2.1** | Month 18 | Multi-cat support | Households with 2+ cats |
-| **v2.5** | Month 22 | EU expansion features | Localization, regional compliance |
+| **v0.1** | Month 1–4 | Alpha prototype | Working hardware, basic AI, internal testing |
+| **v0.5** | Month 5–8 | Beta release | 50 beta units, cat behavior validation |
+| **v1.0** | Month 9 | MVP launch | Poland soft launch, core feature set |
+| **v1.1** | Month 11 | Stability + onboarding | Bug fixes, setup UX improvements |
+| **v1.2** | Month 13 | Enhanced treat modes | Advanced treat scheduling, subscription tiering |
+| **v2.0** | Month 18 | Custom PCB platform | Cost reduction, performance improvement |
+| **v2.1** | Month 21 | Multi-cat support | Households with 2+ cats |
+| **v2.5** | Month 24 | EU + UK expansion features | Localization, regional compliance |
 | **v3.0** | Month 30 | Advanced AI modes | Predictive scheduling, health insights |
 
 ---
@@ -84,27 +84,27 @@ Reactacat follows a **platform-first, feature-second** approach. The core platfo
 
 ### 3.1 Edge AI (On-Device)
 
-**v0.1 – Basic Detection (Month 3)**
+**v0.1 – Basic Detection (Month 4)**
 - Cat detection using MobileNetV2 SSD (lightweight, RPi-optimized)
 - Bounding box tracking across frames
 - Simple movement patterns (circle, zigzag, random)
 
-**v1.0 – Adaptive Play (Month 7)**
+**v1.0 – Adaptive Play (Month 9)**
 - Cat engagement state detection (chasing / stalking / disengaged)
 - Session-based adaptation (speed, pattern type based on cat response)
 - Multi-cat detection (track up to 2 cats, play with most engaged)
 
-**v1.2 – Treat Integration (Month 11)**
-- "Catch" detection (laser pauses on surface, cat approaches)
-- Treat dispenser trigger coordination
-- Reward timing optimization
+**v1.2 – Enhanced Treat Modes (Month 13)**
+- Advanced "catch" detection with configurable reward timing
+- Treat scheduling and portion control
+- Multi-pattern reward sequences
 
-**v2.0 – Enhanced Inference (Month 15)**
+**v2.0 – Enhanced Inference (Month 18)**
 - Migration to custom PCB with NPU
 - Pose estimation (cat body position, not just bounding box)
 - Predictive movement (anticipate cat trajectory)
 
-**v2.5 – Personality Profiles (Month 22)**
+**v2.5 – Personality Profiles (Month 24)**
 - Cat "personality" classification (hunter, stalker, sprinter)
 - Breed-specific adjustments (if applicable)
 - Age-appropriate play (kitten vs. adult vs. senior modes)
@@ -116,22 +116,22 @@ Reactacat follows a **platform-first, feature-second** approach. The core platfo
 
 ### 3.2 Cloud Backend
 
-**v0.1 – Basic Pipeline (Month 3)**
+**v0.1 – Basic Pipeline (Month 4)**
 - Gameplay log ingestion (position data, timestamps)
 - Simple per-cat model storage
 - Manual model retraining (weekly batch jobs)
 
-**v1.0 – Automated Retraining (Month 7)**
+**v1.0 – Automated Retraining (Month 9)**
 - Triggered retraining after each gameplay session
 - A/B testing framework (compare model variants)
 - Model versioning and rollback capability
 
-**v1.5 – Analytics Platform (Month 10)**
+**v1.5 – Analytics Platform (Month 12)**
 - Engagement dashboards for users
 - Aggregate analytics for product team
 - Anomaly detection (device malfunction, unusual cat behavior)
 
-**v2.0 – Scale Architecture (Month 15)**
+**v2.0 – Scale Architecture (Month 18)**
 - Multi-region deployment (EU-West, EU-Central)
 - Edge caching for model distribution
 - Real-time inference pipeline for advanced features
@@ -143,28 +143,28 @@ Reactacat follows a **platform-first, feature-second** approach. The core platfo
 
 ### 3.3 Mobile Application
 
-**v1.0 – Core App (Month 7)**
+**v1.0 – Core App (Month 9)**
 - Device setup and WiFi configuration
 - Live video streaming (local network)
 - Basic gameplay stats (daily play time, sessions)
 - Subscription management
 
-**v1.1 – Enhanced UX (Month 9)**
+**v1.1 – Enhanced UX (Month 11)**
 - Improved onboarding flow
 - Push notifications ("Your cat played 15 minutes today!")
 - Troubleshooting wizard
 
-**v1.2 – Treat Control (Month 11)**
+**v1.2 – Enhanced Treat Control (Month 13)**
 - Manual treat dispensing
 - Treat schedule configuration
 - Treat inventory tracking
 
-**v2.0 – Social Features (Month 16)**
+**v2.0 – Social Features (Month 18)**
 - Share gameplay clips
 - Community leaderboards (most active cat, longest play session)
 - Tips and educational content
 
-**v2.5 – Multi-Device (Month 20)**
+**v2.5 – Multi-Device (Month 22)**
 - Multiple Reactacat devices per household
 - Multi-cat profile management
 - Per-cat analytics
@@ -196,12 +196,12 @@ Features evaluated on two axes:
 **Must-have for launch:**
 - Autonomous AI-driven laser play
 - Cat detection and tracking
+- Treat dispenser module (completes hunting sequence — addresses laser frustration concern)
 - Cloud-based model retraining
 - Mobile app (setup, streaming, stats)
 - Basic subscription tier (€3/month)
 
 **Explicitly excluded from MVP:**
-- Treat dispenser (Phase 2 feature)
 - Multi-cat optimization (detects multiple, plays with one)
 - Two-way audio
 - Video recording/cloud storage
@@ -219,7 +219,7 @@ Features evaluated on two axes:
 |------|------|-----------|-----------------|
 | **Cloud costs** | Single-region AWS (eu-central-1) | Speed to market | Month 15 (multi-region) |
 | **AI model** | Rule-based fallback patterns | Ensure play even if AI fails | Month 11 (confidence-based removal) |
-| **Mobile app** | Single-platform (iOS first) | 70% of target demographic | Month 9 (Android) |
+| **Mobile app** | Single-platform (iOS first) | Target demographic (premium cat owners, €60K+ income) skews iOS despite Android's ~70% overall market share in Poland (StatCounter, 2025). Cross-platform (React Native/Flutter) evaluation for v1.1 | Month 11 (Android) |
 | **Firmware OTA** | Basic update mechanism | Functional for launch | Month 12 (robust rollback, staged rollout) |
 
 ### 5.2 Architecture Decisions
@@ -234,10 +234,10 @@ Features evaluated on two axes:
 - **Rationale:** Full control over AI improvement cycle; subscription revenue; data moat
 - **Trade-off:** Higher infrastructure cost; operational burden
 
-**Decision 3: Open API vs. Closed ecosystem**
-- **Chosen:** Closed ecosystem initially, API evaluation in Year 3
-- **Rationale:** Focus on core product; API requires support burden and documentation
-- **Future:** Health data API for veterinary integration (v3.0)
+**Decision 3: Closed platform vs. Open ecosystem**
+- **Chosen:** Closed platform as base strategy, with selective openness roadmap for Phase 3+
+- **Rationale:** Focus on core product quality and security; API requires support burden and documentation; closed platform protects AI competitive advantage
+- **Future:** Open-source hardware documentation and selective API access planned for Phase 3+ as community development initiative. Health data API for veterinary integration (v3.0). Housing CAD files released for repair purposes under Creative Commons BY-SA.
 
 ---
 
@@ -256,8 +256,8 @@ Features evaluated on two axes:
 
 | Invention | Status | Filing Timeline | Jurisdiction |
 |-----------|--------|-----------------|--------------|
-| **Adaptive laser play algorithm** | Provisional filed | Month 6 (non-provisional) | EU, US, China |
-| **Treat completion mechanism** | Drafting | Month 9 | EU, US |
+| **Adaptive laser play algorithm** | Provisional — planned for filing at prototype completion (Month 4-5) | Month 12 (non-provisional) | EU, US |
+| **Treat completion mechanism** | Drafting — planned for filing Month 9 | Month 15 | EU, US |
 | **Cat engagement scoring method** | Research | Year 2 | TBD |
 
 ---
@@ -318,8 +318,8 @@ The Reactacat platform (edge AI + cloud + mobile) is designed to support additio
 |------|--------|--------|--------|
 | **CTO / Co-founder** | 1 | 1 | 1 |
 | **Software Engineer (full-stack)** | 1 | 1 | 2 |
-| **ML Engineer** | — | 0.5 | 1 |
-| **Hardware Engineer** | — | 0.5 | 1 |
+| **ML Engineer (part-time contractor)** | — | Part-time | 1 |
+| **Hardware Engineer (part-time contractor)** | — | Part-time | 1 |
 | **Total Engineering** | **2** | **3** | **5** |
 
 ### 9.2 R&D Budget

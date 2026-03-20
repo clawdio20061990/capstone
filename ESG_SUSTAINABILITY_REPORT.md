@@ -8,6 +8,12 @@
 
 ---
 
+> **⚠️ Forward-Looking ESG Framework Disclaimer**
+>
+> Reactacat is a pre-revenue startup at concept/prototype stage. This report presents a **forward-looking ESG framework** — a roadmap of intended sustainability commitments, not a retrospective disclosure of existing operations. The company does not yet have employees, revenue, manufacturing operations, or a formal governance structure. All structures, metrics, targets, and governance bodies described herein are **projected** and will be implemented progressively as the company develops. Quantitative estimates are based on industry benchmarks, comparable product analyses, and reasonable assumptions — not actual operational data. This framework serves as a design-stage commitment to integrate ESG principles from inception.
+
+---
+
 ## Table of Contents
 
 1. [Executive Summary](#1-executive-summary)
@@ -17,7 +23,7 @@
 5. [Governance (G)](#5-governance-g)
 6. [ESG Metrics & Targets](#6-esg-metrics--targets)
 7. [Stakeholder Engagement](#7-stakeholder-engagement)
-8. [Appendix: GRI Index](#8-appendix-gri-index)
+8. [Appendix: Planned GRI Alignment](#8-appendix-planned-gri-alignment)
 
 ---
 
@@ -25,15 +31,15 @@
 
 ### 1.1 ESG Vision Statement
 
-Reactacat is committed to becoming a net-positive technology company that creates value for all stakeholders—pets, owners, employees, communities, and the planet. Our approach integrates sustainability into product design, business model, and corporate culture from day one.
+Reactacat is committed to becoming a net-positive technology company that creates value for all stakeholders — pet owners, their animals, employees, communities, and the planet. Our approach integrates sustainability into product design, business model, and corporate culture from day one.
 
-### 1.2 Key ESG Highlights
+### 1.2 Key ESG Commitments (Projected)
 
-| Pillar | 2026 Commitment | 2030 Target |
-|--------|-----------------|-------------|
-| **Environmental** | 100% bio-based housing materials | Net-zero product lifecycle emissions |
-| **Social** | Pet-first design philosophy | 10,000+ cats engaged through our platform |
-| **Governance** | Open-source hardware licensing | B Corp certification |
+| Pillar | Year 1 Commitment | 2030 Target |
+|--------|-------------------|-------------|
+| **Environmental** | ABS housing with recycled ABS evaluation; <5W power design | Net-zero product lifecycle emissions (aspirational) |
+| **Social** | Animal welfare as core design principle | 10,000+ cats enriched through platform |
+| **Governance** | Transparent reporting from concept stage | B Corp certification (aspirational) |
 
 ### 1.3 Material Topics
 
@@ -72,48 +78,50 @@ Based on stakeholder analysis and impact assessment, the following ESG topics ar
 
 | Stakeholder | Impact Area | Assessment |
 |-------------|-------------|------------|
-| Environment | Resource use | Positive: Circular design, bio-materials |
-| Cats (primary) | Animal welfare | Positive: Safe, engaging enrichment |
+| Environment | Resource use | Positive: Circular design, material recycling roadmap |
+| Cats | Animal welfare | Positive: Safe, engaging enrichment following veterinary behavioral guidelines |
 | Pet owners | Financial burden | Positive: Longevity reduces replacement costs |
-| Workers | Labor conditions | Neutral: Limited operations, to be developed |
+| Workers | Labor conditions | To be developed as company scales |
 
-### 2.2 ESG Governance Structure
+### 2.2 ESG Governance Structure (Planned)
+
+*Note: The governance structure below will be implemented progressively as the company grows. At concept stage, the founding team manages all ESG responsibilities directly.*
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                    BOARD OF DIRECTORS                       │
-│              (ESG Oversight & Strategy)                     │
+│          (ESG Oversight & Strategy — planned)               │
 └─────────────────────┬───────────────────────────────────────┘
                       │
 ┌─────────────────────▼───────────────────────────────────────┐
 │                 ESG STEERING COMMITTEE                      │
-│        (Quarterly review, target setting, reporting)        │
+│    (Quarterly review, target setting — planned Year 2+)     │
 └─────────────────────┬───────────────────────────────────────┘
                       │
         ┌─────────────┼─────────────┐
         │             │             │
    ┌────▼────┐   ┌────▼────┐   ┌────▼────┐
    │Environmental│ │  Social   │ │ Governance│
-   │  Officer   │ │  Officer  │ │  Officer  │
+   │  Lead      │ │  Lead     │ │  Lead     │
    └───────────┘   └───────────┘   └───────────┘
 ```
 
 ### 2.3 ESG Integration in Business Model
 
 **Product Level:**
-- Design for longevity (10+ year lifespan)
+- Design for longevity (10+ year lifespan target)
 - Modular architecture enabling repair and upgrade
-- Bio-based, recyclable materials
+- ABS housing with sustainability roadmap toward recycled/bio-based alternatives
 
 **Business Model Level:**
 - Hardware + subscription reduces overconsumption
-- Local production partnerships minimize transport emissions
+- Local production partnerships minimize transport emissions (Phase 2+)
 - Take-back program ensures end-of-life responsibility
 
 **Corporate Level:**
-- Transparent supply chain reporting
+- Transparent supply chain reporting (from first production run)
 - Living wage commitment (as we scale)
-- Open innovation culture
+- Closed platform with future openness roadmap
 
 ---
 
@@ -121,19 +129,23 @@ Based on stakeholder analysis and impact assessment, the following ESG topics ar
 
 ### 3.1 Climate Change & Energy
 
-**Carbon Footprint Baseline (Projected Year 1 Operations)**
+**Projected Carbon Footprint Estimates (Year 1 Operations)**
+
+*Note: The following figures are projected estimates based on industry emission factors for comparable IoT/consumer electronics products, component-level LCA data from published studies, and standard transport emission calculators. These are not measured baselines — actual figures will be calculated once production begins.*
 
 | Emission Category | Estimated tCO2e | % of Total |
 |-------------------|-----------------|------------|
 | Scope 1 (Direct) | 0 | 0% |
-| Scope 2 (Energy) | 5.2 | 15% |
-| Scope 3 (Value Chain) | 29.8 | 85% |
-| **Total** | **35.0** | **100%** |
+| Scope 2 (Energy — estimated) | ~5 | ~15% |
+| Scope 3 (Value Chain — estimated) | ~30 | ~85% |
+| **Total (Projected)** | **~35** | **100%** |
 
-**Scope 3 Breakdown:**
-- Purchased goods & services: 60%
-- Transportation & distribution: 25%
-- End-of-life treatment: 15%
+**Scope 3 Breakdown (Estimated):**
+- Purchased goods & services: ~60%
+- Transportation & distribution: ~25%
+- End-of-life treatment: ~15%
+
+*Methodology: Estimates use GHG Protocol Scope 3 categories with emission factors from DEFRA 2025 conversion factors and ecoinvent database. Full LCA planned for Year 2.*
 
 **Climate Strategy:**
 
@@ -143,9 +155,11 @@ Based on stakeholder analysis and impact assessment, the following ESG topics ar
 4. **Removal:** Investment in carbon removal technologies (Year 3+)
 
 **Energy Efficiency:**
-- Device power consumption: <5W average (vs. 15W for typical pet cameras)
+- Device power consumption: <5W average design target (vs. 15W for typical pet cameras with always-on cloud streaming)
 - Sleep mode: <0.5W when inactive
-- Energy Star compliance target: Version 8.0
+- Design target aligned with EU Code of Conduct on Energy Consumption of Broadband Equipment (Version 7, 2022)
+
+*Note: Low-power design target: <5W average consumption. This benchmarks favorably against the EU Code of Conduct power allowances for broadband equipment of comparable functionality.*
 
 ### 3.2 Circular Economy
 
@@ -164,7 +178,7 @@ Priority 2: PREPARATION FOR REUSE
 
 Priority 3: RECYCLING
 ├── Material separation at end-of-life
-├── PLA-to-filament recycling program
+├── ABS mechanical recycling program
 └── Electronics to WEEE-compliant recyclers
 
 Priority 4: RECOVERY
@@ -173,76 +187,78 @@ Priority 4: RECOVERY
 
 Priority 5: DISPOSAL
 ├── Landfill only as last resort
-└── Zero waste to landfill target by 2028
+└── Zero waste to landfill aspiration by 2029
 ```
 
-**E-Waste Commitments:**
-- **Collection target:** 50% of end-of-life devices returned by Year 3
-- **Recycling rate:** >90% of materials recovered and recycled
-- **Repair rate:** >70% of issues resolved through module replacement vs. disposal
+**E-Waste Commitments (Targets):**
+- **Collection target:** 30% of end-of-life devices returned by Year 3 (aspirational; industry average for small electronics ~15-20%)
+- **Recycling rate:** >90% of materials recovered and recycled (for collected devices)
+- **Repair rate:** >70% of issues resolved through module replacement vs. disposal (target)
 
 ### 3.3 Sustainable Materials
 
 **Material Policy:**
 
-| Component | Current Material | Sustainable Alternative | Timeline |
-|-----------|------------------|------------------------|----------|
-| Housing | PLA (corn/sugarcane) | Hemp biocomposite | 2027 |
-| Internal structure | Recycled PETG | Ocean-bound plastic | 2027 |
-| Packaging | Recycled cardboard | Mushroom-based foam | 2026 |
-| Electronics | Standard components | Conflict-free minerals only | 2026 |
+| Component | Production Material | Sustainability Roadmap | Timeline |
+|-----------|---------------------|------------------------|----------|
+| Housing | ABS (injection molded) | Evaluate recycled ABS, bio-based alternatives | Year 2+ |
+| Internal structure | Standard electronic components | Conflict-free mineral sourcing | Year 1 |
+| Packaging | Recycled cardboard | Mushroom-based foam evaluation | Year 2 |
+| Electronics | Standard components | Conflict-free minerals only | Year 1 |
 
 **Packaging Sustainability:**
-- Plastic-free packaging commitment: 100% by end of 2026
+- Plastic-free packaging commitment: target 100% by end of Year 1
 - Packaging weight reduction target: 30% vs. industry average
 - FSC-certified paper and cardboard
 - Soy-based inks for all printing
 
 **Water Usage:**
-- Minimal water footprint (no manufacturing processes requiring water)
-- Focus area: Supply chain water risk assessment for component suppliers
+- Minimal direct water footprint (no in-house manufacturing processes requiring water)
+- Focus area: Supply chain water risk assessment for component suppliers (Year 2+)
 
 ### 3.4 Biodiversity
 
 **Impact Assessment:**
 - Direct impact: None (urban-focused product, no land use)
-- Indirect impact: Raw material sourcing
+- Indirect impact: Raw material sourcing (electronics supply chain)
 
 **Commitments:**
 - No deforestation-linked materials
 - Preference for suppliers with biodiversity protection policies
-- Annual review of high-risk supply chain areas
+- Annual review of high-risk supply chain areas (Year 2+)
 
 ---
 
 ## 4. Social (S)
 
-### 4.1 Animal Welfare (Primary Stakeholder)
+### 4.1 Animal Welfare (Core Design Principle)
 
 **Cat-Centric Design Philosophy:**
 
-Reactacat recognizes cats as our primary stakeholders. All product decisions prioritize feline wellbeing over human convenience or business metrics.
+Animal welfare is a core design principle for Reactacat. All product decisions prioritize feline wellbeing, informed by veterinary behavioral research and consultation with animal behaviorists. Cats cannot provide direct feedback or participate in stakeholder engagement, so their interests are represented through veterinary advisors and behavioral research protocols.
 
 **Animal Welfare Commitments:**
 
 | Aspect | Policy | Implementation |
 |--------|--------|----------------|
-| **Safety** | No physical harm risk | Class 1 laser (eye-safe), pinch-point-free design |
-| **Mental health** | Prevent frustration | Treat dispenser completes hunting sequence |
-| **Autonomy** | Opt-out capability | Cats choose to engage; no forced interaction |
+| **Safety** | No physical harm risk | Class 3R laser (5mW) with optical filter ensuring Class 1 conditions at play distance; IEC 60825-1 compliant; pinch-point-free design |
+| **Mental health** | Prevent frustration | Treat dispenser completes hunting sequence; session duration limits |
+| **Autonomy** | Opt-out capability | Cats choose to engage; no forced interaction; device deactivates when cat leaves |
 | **Data dignity** | No exploitation | Pet data not used for advertising |
 
 **Research Ethics:**
-- All cat testing conducted with owner consent
+- All cat testing conducted with owner informed consent
 - No laboratory cats; only companion animals in home environments
 - Veterinary oversight for all testing protocols
-- Right to withdraw: Any cat can stop participating at any time
+- Right to withdraw: any cat/owner can stop participating at any time
 
 **Product Safety Standards:**
-- IEC 60825-1 laser safety compliance
+- IEC 60825-1 laser safety compliance (Class 3R with optical filter)
 - CE marking for EU market
 - RoHS compliance (restricted substances)
 - REACH compliance (chemical safety)
+
+*Reference: IEC 60825-1:2014 "Safety of laser products — Part 1: Equipment classification and requirements"*
 
 ### 4.2 Data Privacy & AI Ethics
 
@@ -258,21 +274,23 @@ Reactacat recognizes cats as our primary stakeholders. All product decisions pri
 
 | Principle | Implementation |
 |-----------|----------------|
-| **Transparency** | Open documentation of AI decision-making |
+| **Transparency** | Documentation of AI decision-making logic |
 | **Fairness** | AI trained on diverse cat breeds and ages |
 | **Accountability** | Human oversight of AI model updates |
-| **Safety** | Fail-safes prevent overstimulation |
+| **Safety** | Fail-safes prevent overstimulation; session time limits |
 
-### 4.3 Human Capital (Future)
+### 4.3 Human Capital (Planned)
 
 **Workforce Strategy (As We Scale):**
 
-**Diversity & Inclusion:**
+*Note: Reactacat is currently a 2-person founding team. The following policies will be implemented as the company grows.*
+
+**Diversity & Inclusion (Targets):**
 - Target: 40% women in technical roles by 2030
 - Target: 30% underrepresented groups in leadership by 2030
-- Equal pay certification commitment
+- Equal pay commitment
 
-**Employee Wellbeing:**
+**Employee Wellbeing (Planned):**
 - Remote-first culture (reduces commuting emissions)
 - Mental health support program
 - Pet-friendly workplace policy
@@ -280,38 +298,37 @@ Reactacat recognizes cats as our primary stakeholders. All product decisions pri
 
 **Professional Development:**
 - Annual training budget per employee
-- ESG awareness training mandatory for all staff
-- Open-source contribution encouraged
+- ESG awareness training for all staff
+- Open-source contribution encouraged (Phase 3+)
 
 ### 4.4 Community Engagement
 
-**Open Innovation:**
-- Hardware designs released under open-source licenses
-- API access for third-party developers
-- Community contribution program
-- Annual Reactacat Maker Summit
+**Planned Initiatives:**
+- Hardware design documentation release for repair/community use (Phase 3+)
+- Selective API access for third-party developers (Phase 3+)
+- Community contribution program (Phase 3+)
 
 **Education:**
 - Free resources on responsible pet technology use
-- Partnerships with veterinary schools for research
+- Partnerships with veterinary schools for research (Year 2+)
 - Educational content on cat enrichment and welfare
 
 **Local Impact:**
 - Priority hiring in production regions
 - Local supply chain development
-- Community recycling programs
+- Community recycling programs (partnering with existing WEEE infrastructure)
 
 ### 4.5 Customer Responsibility
 
 **Product as a Service:**
-- Subscription model reduces e-waste through continuous improvement
+- Subscription model reduces e-waste through continuous software improvement
 - Transparency in pricing (no hidden costs)
 - Clear communication on device longevity and repair options
 
-**Financial Inclusion:**
-- Refurbished device program at 40% discount
-- Payment plan options
-- Educational institutions discount
+**Financial Inclusion (Planned):**
+- Refurbished device program at reduced price (Year 2+)
+- Payment plan options (market-dependent)
+- Educational institutions and shelter discount program
 
 ---
 
@@ -320,16 +337,16 @@ Reactacat recognizes cats as our primary stakeholders. All product decisions pri
 ### 5.1 Corporate Governance
 
 **Legal Structure:**
-- Target: B Corporation certification by 2028
+- Target: B Corporation certification by 2028 (aspirational)
 - Benefit corporation structure consideration for EU operations
 - Stakeholder governance model (not just shareholder-focused)
 
-**Board Composition (Future):**
+**Board Composition (Planned for Year 2+):**
 - Independent directors with ESG expertise
-- Employee representative on board (as we scale)
+- Employee representative on board (as team grows)
 - Advisory board including animal behaviorists, sustainability experts
 
-**Ethics Policy:**
+**Ethics Policy (Planned):**
 - Zero tolerance for corruption and bribery
 - Whistleblower protection program
 - Conflict of interest disclosure requirements
@@ -337,7 +354,7 @@ Reactacat recognizes cats as our primary stakeholders. All product decisions pri
 
 ### 5.2 Supply Chain Management
 
-**Supplier Code of Conduct:**
+**Supplier Code of Conduct (To be implemented with first production run):**
 
 All suppliers must commit to:
 - Compliance with local labor laws
@@ -346,7 +363,7 @@ All suppliers must commit to:
 - Environmental compliance
 - Transparency in subcontracting
 
-**Due Diligence Process:**
+**Due Diligence Process (Planned):**
 
 ```
 ┌──────────────┐    ┌──────────────┐    ┌──────────────┐
@@ -362,93 +379,95 @@ All suppliers must commit to:
 ```
 
 **High-Risk Materials:**
-- Conflict minerals policy: Full traceability for 3TG (Tin, Tantalum, Tungsten, Gold)
-- Cobalt: Preference for ethically sourced cobalt in batteries
-- Rare earth elements: Recycling and alternative sourcing research
+- Conflict minerals policy: Full traceability for 3TG (Tin, Tantalum, Tungsten, Gold) — to be implemented with first production run
+- Rare earth elements: Recycling and alternative sourcing research (Year 2+)
+
+
 
 ### 5.3 Regulatory Compliance
 
 **Applicable Regulations:**
 
-| Regulation | Status | Compliance Approach |
-|------------|--------|---------------------|
-| **EU Right to Repair Directive** | Pending 2024-2025 | Design already compliant |
-| **EU Ecodesign Regulation** | Applicable | PLA materials, energy efficiency |
-| **EU WEEE Directive** | Applicable | Take-back program, WEEE registration |
-| **EU CSRD** | Future | This report aligns with ESRS |
-| **GDPR** | Applicable | Privacy by design, DPO appointment |
-| **RoHS/REACH** | Applicable | Material compliance certification |
+| Regulation | Status (as of March 2026) | Compliance Approach |
+|------------|--------------------------|---------------------|
+| **EU Right to Repair Directive** | Adopted 2024; member state transposition underway (deadline 2026) | Design already aligned with requirements |
+| **EU Ecodesign for Sustainable Products Regulation (ESPR)** | In force; delegated acts being developed | ABS recyclability, energy efficiency, Digital Product Passport readiness |
+| **EU WEEE Directive (2012/19/EU)** | In force | Take-back program, WEEE registration per market |
+| **EU CSRD** | Phased applicability | This report aligns with ESRS framework proactively |
+| **GDPR** | In force | Privacy by design, DPO appointment planned |
+| **UK WEEE Regulations** | In force (separate from EU) | UK-specific producer registration |
+| **RoHS/REACH** | In force | Material compliance certification |
 
-**Risk Management:**
+*Note: UK regulatory compliance tracked separately from EU following Brexit. Market entry in UK (Phase 2) requires distinct WEEE registration, UKCA marking, and UK GDPR compliance.*
+
+**Risk Management (Planned):**
 - Annual regulatory horizon scanning
-- ESG risk register maintained by Compliance Officer
-- Board-level ESG risk review quarterly
+- ESG risk register maintained by compliance lead
+- Board-level ESG risk review quarterly (once board established)
 
 ### 5.4 Business Ethics
 
 **Marketing & Communication:**
 - Truthful environmental claims (no greenwashing)
 - Substantiation for all sustainability statements
-- Clear distinction between aspirational targets and current performance
+- **Clear distinction between aspirational targets and current performance** (as demonstrated throughout this report)
 - Transparent reporting of challenges and setbacks
 
 **Competitive Practices:**
 - Fair competition commitment
 - No anti-competitive behavior
-- Respect for intellectual property while promoting open innovation
+- Respect for intellectual property while promoting repair rights
 
 **Tax Transparency:**
 - Tax strategy aligned with substance (operations where value created)
 - No use of tax havens for profit shifting
-- Country-by-country reporting commitment
+- Country-by-country reporting commitment (as operations scale)
 
 ---
 
 ## 6. ESG Metrics & Targets
 
-### 6.1 Environmental KPIs
+### 6.1 Environmental KPIs (All Projected Targets)
 
-| Metric | Baseline (2026) | 2028 Target | 2030 Target |
-|--------|-----------------|-------------|-------------|
-| Product carbon footprint (kg CO2e/unit) | 35 | 25 | 15 |
-| Recycled/bio-based materials (%) | 70 | 85 | 95 |
+| Metric | Year 1 (Projected) | 2028 Target | 2030 Target |
+|--------|---------------------|-------------|-------------|
+| Product carbon footprint (estimated kg CO2e/unit) | ~35 | ~25 | ~15 |
+| Recycled/bio-based materials (%) | 10-15% (packaging only) | 40% | 70% |
 | Packaging recyclability (%) | 100 | 100 | 100 |
-| End-of-life device return rate (%) | N/A | 30 | 50 |
-| Energy consumption per device (W) | 5 | 4 | 3 |
-| Zero waste to landfill achieved | No | Partial | Yes |
+| End-of-life device return rate (%) | N/A (first year) | 20% | 30% |
+| Device power consumption (W avg) | <5 | <4 | <3 |
+| Zero waste to landfill | No | Partial | Aspiration |
 
-### 6.2 Social KPIs
+### 6.2 Social KPIs (All Projected Targets)
 
-| Metric | Baseline (2026) | 2028 Target | 2030 Target |
-|--------|-----------------|-------------|-------------|
-| Cats actively engaged (cumulative) | 0 | 5,000 | 10,000 |
+| Metric | Year 1 (Projected) | 2028 Target | 2030 Target |
+|--------|---------------------|-------------|-------------|
+| Cats actively enriched (cumulative) | ~1,200 | ~15,000 | ~40,000 |
 | Product safety incidents | 0 | 0 | 0 |
 | Customer satisfaction (NPS) | Target 50+ | 60 | 70 |
 | Repair success rate (%) | Target 80 | 85 | 90 |
-| Women in tech roles (%) | TBD | 35 | 40 |
-| Employee engagement score | TBD | 75 | 80 |
+| Women in tech roles (%) | TBD (2-person team) | 35 | 40 |
 
-### 6.3 Governance KPIs
+### 6.3 Governance KPIs (All Projected Targets)
 
-| Metric | Baseline (2026) | 2028 Target | 2030 Target |
-|--------|-----------------|-------------|-------------|
-| Suppliers audited for compliance (%) | 100 (critical) | 80 (all) | 100 (all) |
-| Conflict-free materials verified | Yes | Yes | Yes |
-| B Corp certification achieved | In progress | Yes | Maintained |
-| ESG training completion (%) | 100 | 100 | 100 |
-| Whistleblower cases resolved (%) | N/A | 100 | 100 |
+| Metric | Year 1 (Projected) | 2028 Target | 2030 Target |
+|--------|---------------------|-------------|-------------|
+| Critical suppliers audited (%) | 100 | 80 (all tiers) | 100 (all tiers) |
+| Conflict-free materials verified | Target | Yes | Yes |
+| B Corp certification | Not applicable | In progress | Maintained |
+| ESG training completion (%) | 100 (founding team) | 100 | 100 |
 
 ### 6.4 ESG Data Quality
 
 **Assurance:**
-- Internal audit of ESG data annually
+- Internal audit of ESG data annually (from Year 2)
 - External limited assurance planned for 2028
 - External reasonable assurance target: 2030
 
 **Methodology:**
 - GHG Protocol for emissions calculations
 - GRI Standards for sustainability disclosures
-- ISO 14040/14044 for lifecycle assessments
+- ISO 14040/14044 for lifecycle assessments (planned Year 2)
 
 ---
 
@@ -458,14 +477,16 @@ All suppliers must commit to:
 
 | Stakeholder | Interest | Engagement Method | Frequency |
 |-------------|----------|-------------------|-----------|
-| **Cats (primary)** | Product safety, engagement | Behavioral research, welfare monitoring | Continuous |
+| **Cats** | Product safety, enrichment quality | Behavioral research, veterinary consultation, welfare monitoring | Continuous |
 | Pet owners | Value, longevity, safety | Surveys, support channels, community | Monthly |
-| Employees | Fair treatment, purpose | Town halls, surveys, 1:1s | Weekly |
+| Employees | Fair treatment, purpose | Town halls, surveys, 1:1s | Weekly (once team grows) |
 | Investors | Financial return, risk | Board meetings, reports | Quarterly |
 | Suppliers | Fair partnership, stability | Reviews, audits, development | Quarterly |
 | Regulators | Compliance, transparency | Filings, consultations | As required |
 | Communities | Local impact, jobs | Local partnerships, programs | Annual |
 | Environment | Resource use, emissions | LCA, monitoring | Annual |
+
+*Note: Animal welfare considerations are integrated through veterinary advisors and published behavioral research, as cats cannot directly participate in stakeholder engagement processes.*
 
 ### 7.2 Materiality Matrix
 
@@ -487,13 +508,13 @@ All suppliers must commit to:
      IMPACT ON BUSINESS
 ```
 
-### 7.3 Grievance Mechanisms
+### 7.3 Grievance Mechanisms (Planned)
 
-**Channels:**
+**Channels (to be activated with product launch):**
 - Customer support: product issues, returns, repairs
-- Ethics hotline: confidential reporting of misconduct
+- Ethics reporting channel: confidential reporting of misconduct
 - Community forum: open discussion and feedback
-- Direct email to ESG Officer: sustainability@reactacat.com
+- Direct email to ESG lead
 
 **Process:**
 1. Receipt within 24 hours
@@ -504,82 +525,94 @@ All suppliers must commit to:
 
 ---
 
-## 8. Appendix: GRI Index
+## 8. Appendix: Planned GRI Alignment
 
-| GRI Standard | Disclosure | Location in Report |
-|--------------|------------|-------------------|
-| **GRI 2: General Disclosures** | | |
-| 2-1 | Organizational details | Executive Summary |
-| 2-2 | Entities included in sustainability reporting | Executive Summary |
-| 2-3 | Reporting period, frequency, and contact point | Header, Section 1 |
-| 2-6 | Activities, value chain, and other business relationships | Section 3, 5 |
-| 2-9 | Governance structure and composition | Section 5.1 |
-| 2-12 | Role of the highest governance body in overseeing ESG | Section 2.2 |
-| 2-22 | Statement on sustainable development strategy | Section 2 |
-| 2-23 | Policy commitments | Sections 3-5 |
-| 2-29 | Approach to stakeholder engagement | Section 7 |
-| 2-30 | Collective bargaining agreements | Section 4.3 |
-| **GRI 3: Material Topics** | | |
-| 3-1 | Process to determine material topics | Section 2.1 |
-| 3-2 | List of material topics | Section 2.1 |
-| 3-3 | Management of material topics | Throughout report |
-| **GRI 201: Economic Performance** | | |
-| 201-1 | Direct economic value generated | Financial Analysis (separate doc) |
-| **GRI 205: Anti-corruption** | | |
-| 205-2 | Communication and training about anti-corruption | Section 5.1 |
-| **GRI 301: Materials** | | |
-| 301-1 | Materials used by weight or volume | Section 3.3 |
-| 301-2 | Recycled input materials | Section 3.3 |
-| **GRI 302: Energy** | | |
-| 302-1 | Energy consumption within the organization | Section 3.1 |
-| 302-3 | Energy intensity | Section 3.1 |
-| **GRI 303: Water** | | |
-| 303-5 | Water consumption | Section 3.3 |
-| **GRI 305: Emissions** | | |
-| 305-1 | Direct (Scope 1) GHG emissions | Section 3.1 |
-| 305-2 | Energy indirect (Scope 2) GHG emissions | Section 3.1 |
-| 305-3 | Other indirect (Scope 3) GHG emissions | Section 3.1 |
-| 305-4 | GHG emissions intensity | Section 3.1 |
-| **GRI 306: Waste** | | |
-| 306-1 | Waste generation and significant waste-related impacts | Section 3.2 |
-| 306-2 | Management of significant waste-related impacts | Section 3.2 |
-| **GRI 308: Supplier Environmental Assessment** | | |
-| 308-1 | New suppliers that were screened using environmental criteria | Section 5.2 |
-| **GRI 401: Employment** | | |
-| 401-1 | New employee hires and employee turnover | Section 4.3 |
-| 401-2 | Benefits provided to full-time employees | Section 4.3 |
-| **GRI 403: Occupational Health and Safety** | | |
-| 403-6 | Promotion of worker health | Section 4.3 |
-| **GRI 404: Training and Education** | | |
-| 404-1 | Average hours of training per year per employee | Section 4.3 |
-| 404-2 | Programs for upgrading employee skills | Section 4.3 |
-| **GRI 413: Local Communities** | | |
-| 413-1 | Operations with local community engagement | Section 4.4 |
-| **GRI 417: Marketing and Labeling** | | |
-| 417-1 | Requirements for product and service information | Section 5.4 |
-| **GRI 418: Customer Privacy** | | |
-| 418-1 | Substantiated complaints concerning breaches of customer privacy | Section 4.2 |
+*Note: As a pre-revenue concept-stage company, Reactacat cannot yet fully report against GRI Standards. The table below indicates our planned alignment with GRI disclosures, with an estimated timeline for when actual data will be available.*
+
+| GRI Standard | Disclosure | Planned Report Location | Data Available From |
+|--------------|------------|------------------------|---------------------|
+| **GRI 2: General Disclosures** | | | |
+| 2-1 | Organizational details | Executive Summary | Company registration |
+| 2-2 | Entities included in reporting | Executive Summary | Company registration |
+| 2-3 | Reporting period & contact | Header | Year 1 report |
+| 2-6 | Activities, value chain | Sections 3, 5 | First production run |
+| 2-9 | Governance structure | Section 5.1 | Board formation (Year 2+) |
+| 2-12 | Governance body ESG oversight | Section 2.2 | Board formation (Year 2+) |
+| 2-22 | Sustainability strategy statement | Section 2 | Year 1 report |
+| 2-23 | Policy commitments | Sections 3-5 | Year 1 (framework stage) |
+| 2-29 | Stakeholder engagement | Section 7 | Product launch |
+| 2-30 | Collective bargaining agreements | Section 4.3 | When workforce exceeds 10 |
+| **GRI 3: Material Topics** | | | |
+| 3-1 | Process to determine material topics | Section 2.1 | Year 1 report |
+| 3-2 | List of material topics | Section 2.1 | Year 1 report |
+| 3-3 | Management of material topics | Throughout report | Year 1 report |
+| **GRI 201: Economic Performance** | | | |
+| 201-1 | Direct economic value | Financial Analysis | First fiscal year |
+| **GRI 205: Anti-corruption** | | | |
+| 205-2 | Anti-corruption training | Section 5.1 | When workforce exceeds 5 |
+| **GRI 301: Materials** | | | |
+| 301-1 | Materials used by weight/volume | Section 3.3 | First production run |
+| 301-2 | Recycled input materials | Section 3.3 | First production run |
+| **GRI 302: Energy** | | | |
+| 302-1 | Energy consumption | Section 3.1 | First fiscal year |
+| 302-3 | Energy intensity | Section 3.1 | First fiscal year |
+| **GRI 305: Emissions** | | | |
+| 305-1 | Scope 1 GHG emissions | Section 3.1 | First fiscal year |
+| 305-2 | Scope 2 GHG emissions | Section 3.1 | First fiscal year |
+| 305-3 | Scope 3 GHG emissions | Section 3.1 | First production run + LCA |
+| 305-4 | GHG emissions intensity | Section 3.1 | First production run + LCA |
+| **GRI 306: Waste** | | | |
+| 306-1 | Waste generation | Section 3.2 | First production run |
+| 306-2 | Waste management | Section 3.2 | First production run |
+| **GRI 308: Supplier Assessment** | | | |
+| 308-1 | Suppliers screened (environmental) | Section 5.2 | First production run |
+| **GRI 401: Employment** | | | |
+| 401-1 | New hires and turnover | Section 4.3 | When workforce exceeds 5 |
+| 401-2 | Employee benefits | Section 4.3 | When workforce exceeds 5 |
+| **GRI 403: OHS** | | | |
+| 403-6 | Worker health promotion | Section 4.3 | When workforce exceeds 5 |
+| **GRI 404: Training** | | | |
+| 404-1 | Training hours per employee | Section 4.3 | When workforce exceeds 5 |
+| **GRI 413: Local Communities** | | | |
+| 413-1 | Community engagement operations | Section 4.4 | First production run |
+| **GRI 417: Marketing & Labeling** | | | |
+| 417-1 | Product information requirements | Section 5.4 | Product launch |
+| **GRI 418: Customer Privacy** | | | |
+| 418-1 | Privacy breach complaints | Section 4.2 | Product launch |
 
 ---
 
 ## Independent Assurance Statement
 
-*[To be added once external assurance is obtained]*
+*External assurance is not applicable at concept stage. Internal ESG data validation will begin with first production run. External limited assurance planned for 2028.*
 
 ---
 
 ## Contact & Feedback
 
-**ESG Inquiries:** esg@reactacat.com  
-**General Contact:** info@reactacat.com  
-**Report Feedback:** We welcome feedback on this report to improve our disclosures.
+**ESG Inquiries:** To be established with company registration  
+**General Contact:** To be established with company registration  
+**Report Feedback:** We welcome feedback on this framework to improve our planned disclosures.
 
 ---
 
-**Report Prepared By:** Reactacat ESG Committee  
+**Report Prepared By:** Reactacat founding team  
 **Date Published:** March 2026  
-**Next Review:** March 2027  
-**Version:** 1.0
+**Next Review:** March 2027 (or upon first production run, whichever comes first)  
+**Version:** 2.0
+
+---
+
+## References
+
+1. European Commission. (2024). *Directive on common rules promoting the repair of goods*. Directive (EU) 2024/1799.
+2. European Commission. (2024). *Ecodesign for Sustainable Products Regulation*. Regulation (EU) 2024/1781.
+3. European Parliament. (2012). *WEEE Directive*. Directive 2012/19/EU.
+4. IEC. (2014). *IEC 60825-1:2014 — Safety of laser products*.
+5. European Commission. (2022). *EU Code of Conduct on Energy Consumption of Broadband Equipment, Version 7*.
+6. GRI. (2021). *GRI Universal Standards 2021*. Global Reporting Initiative.
+7. EFRAG. (2023). *European Sustainability Reporting Standards (ESRS)*. European Financial Reporting Advisory Group.
+8. GHG Protocol. (2011). *Corporate Value Chain (Scope 3) Accounting and Reporting Standard*. WRI/WBCSD.
 
 ---
 

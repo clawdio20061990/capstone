@@ -24,10 +24,10 @@ Reactacat embraces sustainable manufacturing and the right to repair as fundamen
 | **Main Board (SBC)** | Computing, AI inference | Plug-and-play via standard GPIO/USB |
 | **Camera Module** | Video capture, tracking | USB/UVC standard |
 | **Servos (2x)** | Laser movement on X/Y axes | Standard 3-pin PWM servos |
-| **Laser Module** | Light source | Discrete module with standard power supply |
-| **Power Supply Unit** | Device power | Standard DC barrel jack 5.5x2.1mm |
-| **Housing Elements** | Component protection | 3D-replaceable sections |
-| **Treat Dispenser Module** | Optional accessory | USB-C connection + magnetic mounting |
+| **Laser Module** | Class 3R (5mW) light source with optical filter | Discrete module with standard power supply |
+| **Power Supply Unit** | Device power | Standard USB-C power delivery |
+| **Housing Elements** | Component protection | Injection-molded ABS (replaceable sections) |
+| **Treat Dispenser Module** | Treat reward system (included in MVP) | USB-C connection + magnetic mounting |
 
 #### Benefits of Modularity:
 
@@ -64,10 +64,11 @@ Reactacat embraces sustainable manufacturing and the right to repair as fundamen
    - Troubleshooting tables
    - Preventive maintenance recommendations
 
-3. **Open specifications**
-   - Housing CAD files for 3D printing (STL/STEP formats)
+3. **Specifications**
+   - Housing CAD files for 3D printing replacement parts (STL/STEP formats)
    - Bill of Materials (BOM) with supplier links
    - Inter-module communication protocols
+   - Open-source hardware documentation and selective API access planned for Phase 3+ as community development initiative
 
 ### 2.2 Design for Repair
 
@@ -76,16 +77,16 @@ Reactacat embraces sustainable manufacturing and the right to repair as fundamen
 | Anti-pattern | Our Solution | Why It Matters |
 |--------------|--------------|----------------|
 | Glue instead of screws | Modular M3 screw mounting | Ability to disassemble without damage |
-| Proprietary power adapters | Standard USB-C power delivery | Universal charger compatibility, future-proof |
+| Proprietary power adapters | Standard USB-C power delivery | Universal charger compatibility, EU compliant, future-proof |
 | Sealed enclosures | Magnetic/screw-on panels | Quick access to internal components |
 | Soldered components | Connectors and sockets | Replacement without soldering iron |
-| Encrypted firmware | Open module firmware | Independent updates and repair |
+| Encrypted firmware | Documented module firmware with update capability | Independent updates and repair |
 
 ### 2.3 Spare Parts & Support
 
 **Spare parts policy:**
 - Warranty: 2 years on all components
-- Post-warranty support: 7+ years of spare parts availability
+- Post-warranty support: Target 7+ years of spare parts availability. This aspiration is supported by: (a) use of widely available standard components (SG90 servos, USB cameras, Raspberry Pi ecosystem), reducing single-supplier dependency; (b) design documentation enabling third-party manufacturing of replacement parts; and (c) a dedicated spare parts inventory reserve budgeted from Year 2 onwards.
 - "Repair Kit" program — sets of most common spare parts at a discount
 - Partnership with independent repair shops
 
@@ -93,33 +94,35 @@ Reactacat embraces sustainable manufacturing and the right to repair as fundamen
 
 ## 3. Eco-Friendly Materials
 
-### 3.1 Housing: PLA and Biodegradable Alternatives
+### 3.1 Housing: ABS with Sustainability Roadmap
 
-**Primary material: PLA (Polylactic Acid)**
+**Production material: ABS (Acrylonitrile Butadiene Styrene) — Injection Molded**
+
+Early prototypes used PLA via 3D printing for rapid iteration and low-volume testing. Production units use injection-molded ABS, which offers superior impact resistance, thermal stability, and manufacturing scalability required for a consumer electronics product. We plan to evaluate recycled ABS and bio-based alternatives (e.g., bio-based PA, PHA composites) for future production versions.
 
 | Characteristic | Value |
 |----------------|-------|
-| **Source** | Corn starch, sugarcane |
-| **Biodegradability** | Industrial composting 3-6 months (EN 13432) |
-| **Home composting** | Slow decomposition (1-2 years) — not ideal |
-| **Strength** | Sufficient for consumer use |
-| **3D printing** | Excellent suitability for FDM printers |
-| **Recycling** | Mechanical recycling into new filament |
+| **Source** | Petroleum-based polymer |
+| **Biodegradability** | Not biodegradable; fully recyclable via mechanical recycling (plastic type code 7/ABS) |
+| **Strength** | Excellent impact resistance, suitable for consumer electronics |
+| **Manufacturing** | Injection molding — cost-effective at scale |
+| **Recycling** | Mechanical recycling into new ABS products; take-back program ensures proper collection |
 
-**Why PLA:**
-- **Renewable source:** does not depend on oil
-- **Low carbon footprint:** production emits less CO₂
-- **Local production:** ability to manufacture housings locally in each region
-- **Recycling:** worn housings can be ground up and new ones printed
+**Sustainability roadmap for housing materials:**
 
-**Alternatives for specific needs:**
+| Phase | Material | Rationale |
+|-------|----------|-----------|
+| **Prototyping** | PLA (3D printed) | Rapid iteration, low-volume, corn-based feedstock |
+| **Production v1.0** | Virgin ABS (injection molded) | Proven durability, manufacturing scalability |
+| **Production v2.0+** | Recycled ABS / bio-based alternatives | Evaluate recycled ABS suppliers; test bio-based PA or PHA composites for structural integrity |
+
+**Alternatives under evaluation for specific components:**
 
 | Material | Application | Features |
 |----------|-------------|----------|
-| **PETG** | Parts requiring flexibility | Recycled plastic, durability |
-| **Hemp Plastic** | External panels | 100% biodegradable, aesthetics |
+| **PETG** | Parts requiring flexibility | Recyclable, good durability |
+| **Recycled ABS** | Housing (future production runs) | Closed-loop production, reduced virgin material |
 | **Cork Composite** | Damping elements | Natural, antibacterial |
-| **Recycled ABS** | Internal structural elements | Closed-loop production |
 
 ### 3.2 Packaging
 
@@ -140,24 +143,25 @@ Reactacat embraces sustainable manufacturing and the right to repair as fundamen
 │  MANUFACTURING           USAGE                END OF LIFE   │
 │                                                             │
 │  ┌──────────┐           ┌──────────┐           ┌──────────┐ │
-│  │ PLA      │──────────→│ 5-10     │──────────→│ Mechanical│
-│  │ pellets  │           │ years    │           │ recycling│ │
+│  │ ABS      │──────────→│ 5-10     │──────────→│ Mechanical│ │
+│  │ pellets  │           │ years    │           │ recycling │ │
 │  └──────────┘           └──────────┘           └────┬─────┘ │
 │       ↑                                             │       │
 │       │                                             ↓       │
-│  ┌────┴─────┐                                 ┌──────────┐ │
-│  │ Biomass  │                                 │ New      │ │
-│  │ (corn/   │←────────────────────────────────│ filament │ │
-│  │ sugarcane│                                 └──────────┘ │
+│  ┌────┴─────┐                                 ┌──────────┐  │
+│  │ Recycled │                                 │ Recycled  │  │
+│  │ ABS      │←────────────────────────────────│ granulate │  │
+│  │ (future) │                                 └──────────┘  │
 │  └──────────┘                                               │
 │                                                             │
 │  ┌──────────┐           ┌──────────┐           ┌──────────┐ │
 │  │ Electronics│         │ Replaceable│          │ Replacement│
-│  │ (standard)│───────→│ modules  │──────────→│ / repair │ │
+│  │ (standard)│───────→  │ modules  │──────────→│ / repair │ │
 │  └──────────┘           └──────────┘           └────┬─────┘ │
 │       ↑                                             │       │
 │       │                                      ┌──────┴──────┐│
-│       └──────────────────────────────────────┤ Secondary   ││
+│       └──────────────────────────────────────┤ WEEE-       ││
+│                                              │ compliant   ││
 │                                              │ recycling   ││
 │                                              │ (collection ││
 │                                              │ points)     ││
@@ -177,13 +181,13 @@ Reactacat embraces sustainable manufacturing and the right to repair as fundamen
 
 | Purpose | Standard | Why This Choice |
 |---------|----------|-----------------|
-| **Device power** | DC Barrel Jack 5.5x2.1mm | Universal, inexpensive adapters |
+| **Device power** | USB-C 5V 3A | Modern universal standard, EU-mandated direction, supports power + data |
 | **Internal module power** | JST-XH 2.54mm | DIY community standard |
-| **Camera** | USB 2.0 Type-A / UVC | Plug-and-play, any compatible camera |
+| **Camera** | MIPI CSI-2 (RPi compatible) / USB UVC | Plug-and-play, ecosystem compatibility |
 | **Servos** | 3-pin PWM (Futaba/JR) | Universal RC model standard |
 | **Additional modules** | USB-C | Modern standard, power + data |
 | **Expansion** | GPIO header (Raspberry Pi compatible) | HAT board ecosystem |
-| **Connectivity** | Wi-Fi 802.11n / Ethernet RJ45 | Open standards |
+| **Connectivity** | Wi-Fi 802.11ac / Ethernet RJ45 | Open standards |
 
 ### 4.3 Mechanical Standards
 
@@ -206,20 +210,22 @@ Reactacat embraces sustainable manufacturing and the right to repair as fundamen
 
 ### 4.4 Computing Platform
 
-**Recommended: Raspberry Pi Zero 2 W**
+**Phase 1: Raspberry Pi 4B**
 
 | Characteristic | Value |
 |----------------|-------|
-| **Architecture** | ARM Cortex-A53 (open) |
+| **Architecture** | ARM Cortex-A72 (quad-core @ 1.5GHz) |
+| **RAM** | 2GB LPDDR4 |
 | **GPIO** | 40-pin, HAT compatible |
 | **OS** | Raspberry Pi OS (Linux, open source) |
+| **Connectivity** | Built-in Wi-Fi 5 + BT 5.0 |
+| **Power** | USB-C 5V 3A |
 | **Community** | Millions of users, thousands of projects |
 | **Replaceability** | Any SBC with compatible GPIO (Orange Pi, Banana Pi) |
 
-**Alternatives (plug-and-play):**
-- Orange Pi Zero 2W
-- Banana Pi M2 Zero
-- Radxa Zero
+**Rationale:** Proven platform with extensive ecosystem and sufficient compute for real-time computer vision with MobileNetV2 SSD. Quad-core A72 and 2GB RAM provide comfortable headroom for edge AI inference. Higher BOM cost (vs. lighter SBCs) accepted for development speed and reliability during initial production.
+
+**Phase 2 (Month 18+): Custom PCB** based on Rockchip RK3566 or equivalent, achieving 30-35% cost reduction at scale.
 
 ---
 
@@ -230,29 +236,32 @@ Reactacat embraces sustainable manufacturing and the right to repair as fundamen
 **"Reactacat Forever":**
 - **Trade-in:** 20% discount on new device when returning old one
 - **Repair vs Replacement:** free diagnostics, transparent choice
-- **Recycling:** sending worn devices for disassembly and recycling
+- **Recycling:** WEEE-compliant collection and disassembly of returned devices through certified e-waste partners
 
-### 5.2 Open Design
+### 5.2 Platform Strategy & Openness
 
-**Licensing:**
-- **Housing CAD files:** CERN Open Hardware Licence v2
-- **Schematics:** Creative Commons BY-SA
-- **Software:** GPL v3 or MIT (TBD)
+**Base strategy: Closed platform** with proprietary AI models and cloud services, ensuring quality control, security, and consistent user experience.
 
-**What this enables:**
-- Community can create their own modifications
-- Independent manufacturers can make compatible accessories
-- Device lives on even if the company ceases to exist
+**Future openness roadmap (Phase 3+):**
+- Open-source hardware documentation and selective API access planned as community development initiative
+- Housing CAD files for replacement parts under Creative Commons BY-SA
+- Health data API for veterinary integration
+- Third-party accessory compatibility specification
+
+**Licensing (planned for Phase 3+):**
+- **Housing CAD files:** Creative Commons BY-SA (for repair/replacement purposes)
+- **Hardware schematics:** Under evaluation — CERN Open Hardware Licence v2 considered
+- **Software/AI models:** Proprietary (core competitive advantage)
 
 ### 5.3 Local Production
 
-**"Produce Where You Sell" Strategy:**
+**"Produce Where You Sell" Strategy (Phase 2+):**
 
 | Region | Production Approach |
 |--------|---------------------|
-| **Europe** | Local 3D print shops + assembly centers |
-| **North America** | Partnership with local manufacturers |
-| **Other markets** | Design licensing to local manufacturers |
+| **Europe** | Contract manufacturing (injection molding) + assembly centers |
+| **North America** | Partnership with local manufacturers (Phase 3+) |
+| **Other markets** | Design licensing to local manufacturers (Phase 3+) |
 
 **Benefits:**
 - Reduced carbon footprint from transportation
@@ -267,11 +276,11 @@ Reactacat embraces sustainable manufacturing and the right to repair as fundamen
 
 | Component | Expected Lifespan | Extension Strategy |
 |-----------|-------------------|-------------------|
-| PLA housing | 5-10 years | Section replacement, 3D printing |
+| ABS housing | 5-10 years | Section replacement; CAD files available for 3D printing custom replacements |
 | Servos | 2-5 years (depending on use) | Easy replacement, <$5 |
-| SBC | 5-10 years | Upgrade to newer model |
-| Camera | 5+ years | USB replacement with any compatible |
-| Power supply | 5-10 years | Standard adapter |
+| SBC (Raspberry Pi 4B) | 5-10 years | Upgrade to newer compatible model |
+| Camera | 5+ years | CSI/USB replacement with any compatible module |
+| Power supply | 5-10 years | Standard USB-C adapter |
 | Laser module | 10,000+ hours | Module replacement |
 
 **Total device service life:** 10+ years with regular maintenance
@@ -282,18 +291,20 @@ Reactacat embraces sustainable manufacturing and the right to repair as fundamen
 - AI models update via cloud (software improvement)
 - Hardware compatible with open standards
 - Modularity allows individual component updates
-- Community can create their own improvements
+- Community can create compatible accessories and modifications (Phase 3+)
 
 ### 6.3 Comparison with Competitors
 
-| Characteristic | Reactacat | Typical Competitors |
-|----------------|-----------|---------------------|
-| Modularity | Full | Limited or absent |
-| Repairability | Documented | Not supported |
-| Spare parts | Available 7+ years | Warranty period only |
-| Housing materials | PLA/biodegradable | ABS/PC (petroleum-based) |
-| Standard connectors | 100% | Partially proprietary |
-| Open design | Yes | No |
+| Characteristic | Reactacat | Petcube Play 2 | PetSafe Bolt |
+|----------------|-----------|-----------------|--------------|
+| Modularity | Full modular design | Limited (sealed unit) | None |
+| Repairability | Documented disassembly | Not officially supported | Not supported |
+| Spare parts | Target 7+ years | Warranty period only | Warranty period only |
+| Housing materials | ABS (recycled ABS planned) | ABS/PC | ABS/PC |
+| Standard connectors | 100% open standards | Proprietary power | Proprietary |
+| Open design files | Planned for Phase 3+ | No | No |
+
+*Sources: Product teardowns and official specifications from Petcube (petcube.com) and PetSafe (petsafe.com) as of March 2026.*
 
 ---
 
@@ -301,28 +312,41 @@ Reactacat embraces sustainable manufacturing and the right to repair as fundamen
 
 ### 7.1 European Directives
 
-**Right to Repair Directive (2024+):**
+**EU Right to Repair Regulation (adopted 2024, member state transposition by 2026):**
 - ✅ Design for disassembly
-- ✅ Spare parts availability 7+ years
+- ✅ Spare parts availability target: 7+ years
 - ✅ Repair documentation
 - ✅ Software updates 5+ years
 
-**Ecodesign Directive:**
-- ✅ Low carbon footprint materials
-- ✅ Recycling and reuse
-- ✅ Environmental impact information
+*Reference: Directive (EU) 2024/1799 on common rules promoting the repair of goods*
 
-**WEEE Directive:**
+**Ecodesign for Sustainable Products Regulation (ESPR):**
+- ✅ Low carbon footprint materials roadmap
+- ✅ Recycling and reuse design
+- ✅ Environmental impact information (Digital Product Passport readiness)
+
+**WEEE Directive (2012/19/EU):**
 - ✅ Take-back program
-- ✅ Material separation
+- ✅ Material separation design
 - ✅ Hazardous substance minimization
+- ✅ Producer registration in each EU market
 
-### 7.2 Certifications
+*Reference: Directive 2012/19/EU on waste electrical and electronic equipment*
+
+### 7.2 Product Safety Standards
 
 **Target certifications:**
+- **CE marking** — mandatory for EU market
+- **IEC 60825-1** — laser safety classification (Class 3R with optical filter ensuring Class 1 conditions at user distance)
+- **RoHS / REACH** — restricted substances and chemical safety compliance
+- **RED Directive** — radio equipment (Wi-Fi/Bluetooth)
+
+*Reference: IEC 60825-1:2014 "Safety of laser products"*
+
+### 7.3 Aspirational Certifications (Year 2+)
+
 - **TCO Certified** — IT product sustainability
 - **EPEAT** — electronics environmental assessment
-- **Cradle to Cradle** — circular design (prospect)
 
 ---
 
@@ -334,18 +358,18 @@ Reactacat embraces sustainable manufacturing and the right to repair as fundamen
 > "Reactacat is the last cat toy you'll ever buy. Repairable. Upgradable. Built to last for years."
 
 **Key messages:**
-1. **For eco-conscious:** "Made from plants, not oil"
+1. **For eco-conscious:** "Designed for repair, not replacement — with a recycling take-back program"
 2. **For practical users:** "Servo broken? Replacement in 5 minutes for $3"
-3. **For tech enthusiasts:** "Open code, open schematics, your toy — your rules"
+3. **For tech enthusiasts:** "Standard components, documented design, upgrade-friendly"
 4. **For cost-conscious:** "10+ years of service instead of 2-3 years of planned obsolescence"
 
 ### 8.2 Transparency
 
-**What we publish:**
-- Carbon footprint of manufacturing one device
-- Materials supplier map
-- Recycling and waste report
-- Product Lifecycle Assessment (LCA)
+**What we plan to publish:**
+- Carbon footprint estimate for manufacturing one device
+- Materials supplier information
+- Recycling and waste report (once production begins)
+- Product Lifecycle Assessment (LCA) — planned for Year 2
 
 ---
 
@@ -354,25 +378,27 @@ Reactacat embraces sustainable manufacturing and the right to repair as fundamen
 ### 9.1 Cost of Sustainable Design
 
 **Additional costs:**
-- Modular architecture development: +5-10% to R&D
-- Documentation and open specifications: +2-3%
-- PLA vs ABS: +15-20% material cost (offset by local production)
+- Modular architecture development: estimated +5-10% to R&D (based on comparable IoT product development)
+- Documentation and specifications: +2-3%
+- ABS vs. cheaper materials: minimal premium; recycled ABS evaluation may add 10-15% to material cost in future
 
-**Savings:**
-- Fewer warranty cases: -15% support costs
-- Customer loyalty: +30% repeat purchases (accessories, upgrades)
-- Premium positioning: +20% price
+**Expected savings (projected, based on industry benchmarks for modular consumer electronics):**
+- Fewer warranty cases through self-repair: estimated -10-15% support costs
+- Customer loyalty from repairability: higher repeat purchase rate for accessories and upgrades
+- Premium positioning: sustainable design supports €150 price point vs. commodity alternatives
+
+*Note: Specific financial projections are detailed in the Financial Analysis document.*
 
 ### 9.2 Sustainability Monetization Model
 
 **Main device:**
-- Sale with small margin (cover costs)
+- Sale with margin (see Financial Analysis for detailed unit economics)
 
 **Long-term revenue:**
-- Cloud AI subscription (primary model)
+- Cloud AI subscription (primary recurring model)
 - Module upgrade sales
 - Spare parts and accessories
-- Design licensing to local manufacturers
+- Design licensing to local manufacturers (Phase 3+)
 
 ---
 
@@ -382,25 +408,25 @@ Reactacat embraces sustainable manufacturing and the right to repair as fundamen
 
 | Feature | MVP (Year 1) | Full Version (Year 2+) |
 |---------|--------------|------------------------|
-| Modularity | Main modules | Full modularity |
-| Documentation | Basic | Complete + videos |
-| CAD files | Basic housings | All parts |
-| Take-back program | Pilot (EU) | Global |
-| Materials | 50% PLA | 90%+ eco-friendly |
-| Local production | 1 region | 3+ regions |
+| Modularity | Main modules (servo, camera, SBC, laser, treat dispenser) | Full modularity with expansion port |
+| Documentation | Basic disassembly guide | Complete guide + video tutorials |
+| CAD files | Internal use | Repair-use release (Phase 3+) |
+| Take-back program | Pilot (Poland) | EU-wide |
+| Materials | ABS injection molded | Evaluate recycled ABS |
+| Local production | Contract manufacturing (1 region) | 3+ regions |
 
 ### 10.2 Success Metrics
 
 **Quantitative:**
 - Average device service life: >5 years
-- Repair vs replacement rate: >70% repairs
-- Percentage of recycled materials: >80%
-- Carbon footprint reduction vs competitors: -40%
+- Repair vs replacement rate: >70% repairs (target)
+- Percentage of recyclable materials: >90%
+- WEEE-compliant end-of-life collection rate: >30% by Year 3
 
 **Qualitative:**
-- Accessory developer community: active
-- Independent reviews: positive
-- Sustainability awards: 2+ in first 3 years
+- Accessory developer community (Phase 3+): active
+- Independent reviews: positive on repairability
+- Sustainability recognition: target 1-2 industry awards in first 3 years
 
 ---
 
@@ -408,11 +434,11 @@ Reactacat embraces sustainable manufacturing and the right to repair as fundamen
 
 | Risk | Probability | Impact | Mitigation |
 |------|-------------|--------|------------|
-| PLA not strong enough | Medium | High | PETG for structural elements; testing |
-| Users don't repair | High | Medium | Service network; video instructions; community |
-| Open design → copies | Medium | Medium | Focus on AI service (not clonable) |
-| Cost higher than competitors | High | Medium | Premium/sustainable marketing; TCO arguments |
-| Standard parts suppliers | Low | High | Diversification; stocking key components |
+| ABS housing durability issues | Low | Medium | Proven material for consumer electronics; extensive testing in prototype phase |
+| Users don't repair | High | Medium | Service network; video instructions; community; repair kit program |
+| Closed platform limits community | Medium | Medium | Phase 3+ openness roadmap addresses long-term; core product value not dependent on community |
+| Cost higher than competitors | High | Medium | Premium/sustainable marketing; TCO arguments; subscription value |
+| Standard parts supplier disruption | Low | High | Multiple supplier qualification; 3-month component buffer |
 
 ---
 
@@ -422,19 +448,30 @@ Reactacat places sustainability and the right to repair at the center of product
 
 1. **Longevity** reduces total cost of ownership for the user
 2. **Modularity** creates additional revenue channels for the business
-3. **Openness** builds a loyal community around the product
-4. **Eco-friendliness** meets growing demand and regulatory requirements
+3. **Closed platform with future openness** balances quality control with community potential
+4. **Sustainability roadmap** meets growing demand and regulatory requirements (WEEE, Right to Repair, ESPR)
 5. **Standardization** reduces supplier dependency and risks
 
 **Next Steps:**
 - [ ] Finalize CAD design with modular architecture
-- [ ] Test PLA housing durability
+- [ ] Test ABS housing durability (prototype phase with PLA, production with ABS)
 - [ ] Develop service documentation
-- [ ] Find local manufacturers for pilot launch
-- [ ] Carbon footprint assessment (LCA)
+- [ ] Find contract manufacturer for injection molding (Poland/EU)
+- [ ] Carbon footprint assessment (LCA) — planned for Year 2
 
 ---
 
-**Document Status:** Draft v1.0  
+## References
+
+1. Directive 2012/19/EU of the European Parliament and of the Council on waste electrical and electronic equipment (WEEE). *Official Journal of the European Union*, L 197/38.
+2. IEC 60825-1:2014. *Safety of laser products — Part 1: Equipment classification and requirements*. International Electrotechnical Commission.
+3. Directive (EU) 2024/1799 on common rules promoting the repair of goods. *Official Journal of the European Union*.
+4. Regulation (EU) 2024/1781 establishing a framework for setting ecodesign requirements for sustainable products (ESPR). *Official Journal of the European Union*.
+5. EN 13432:2000. *Packaging — Requirements for packaging recoverable through composting and biodegradation*. European Committee for Standardization. *(Applicable to PLA prototype packaging only.)*
+6. FEDIAF (European Pet Food Industry). (2024). *Annual Report: European Facts & Figures*.
+
+---
+
+**Document Status:** Draft v2.0  
 **Author:** Clawdio (AI Research Assistant)  
 **Next Review:** After design finalization
