@@ -139,7 +139,7 @@ The SWOT analysis reveals a fundamentally favorable strategic posture. The compa
 
 ### 1. Expand Addressable Market Through Category Education
 
-**Market Creation:** With 127 million cats across 139 million pet-owning European households (FEDIAF, 2025), the potential audience is vast. Most cat owners do not currently consider autonomous adaptive play a product category. Reactacat's opportunity is not merely capturing existing demand but creating new demand through education.
+**Market Creation:** With 127 million cats across approximately 91 million pet-owning households in the EU and UK (FEDIAF, 2024), the potential audience is vast. Most cat owners do not currently consider autonomous adaptive play a product category. Reactacat's opportunity is not merely capturing existing demand but creating new demand through education.
 
 **Mechanism:**
 - Content marketing demonstrating cat behavioral benefits
@@ -353,6 +353,8 @@ Euromonitor International. (2025, November 26). *Top pet care trends 2025: Prici
 Eurostat. (2026, March 4). *Euro area unemployment at 6.1%*. Euro indicators. Retrieved from https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-04032026-AP
 
 Expert Market Research. (2025). *Europe pet tech market size, share, growth and forecast 2025-2034*. Retrieved from https://www.expertmarketresearch.com/reports/europe-pet-tech-market
+
+FEDIAF. (2024). *Facts & Figures 2024*. European Pet Food Industry Federation. Retrieved from https://europeanpetfood.org/wp-content/uploads/2024/09/FEDIAF-Annual-Report-2024-3.pdf
 
 FEDIAF. (2025, June). *Facts & Figures 2025*. European Pet Food Industry Federation. Retrieved from https://europeanpetfood.org/wp-content/uploads/2025/06/FEDIAF-Facts-Figures-2025.pdf
 

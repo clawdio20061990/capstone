@@ -96,7 +96,7 @@ Reactacat enters a favorable macro-environment for premium pet tech in the EU. P
 - **68% of Gen Z and 69% of Millennial pet owners** consider pets as family members (Euromonitor, 2025)
 - This trend is structural (not cyclical); driven by urbanization, delayed childbirth, and emotional companionship needs
 - Pet humanization is growing across all age groups, with younger demographics leading the shift
-- FEDIAF (2025) reports 139 million European households (49%) own pets, confirming the mass-market scale of pet companionship
+- FEDIAF (2024) reports approximately 91 million households across the EU and UK own pets, confirming the mass-market scale of pet companionship
 
 **Urbanization: Works in Reactacat's Favor**
 - Target markets (Germany, France, UK, Poland) are highly urbanized (70–85% urban)
@@ -315,6 +315,8 @@ Euromonitor International. (2025, November 26). *Top pet care trends 2025: Prici
 Eurostat. (2026, March 4). *Euro area unemployment at 6.1%*. Euro indicators. Retrieved from https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-04032026-AP
 
 Expert Market Research. (2025). *Europe pet tech market size, share, growth and forecast 2025-2034*. Retrieved from https://www.expertmarketresearch.com/reports/europe-pet-tech-market
+
+FEDIAF. (2024). *Facts & Figures 2024*. European Pet Food Industry Federation. Retrieved from https://europeanpetfood.org/wp-content/uploads/2024/09/FEDIAF-Annual-Report-2024-3.pdf
 
 FEDIAF. (2025, June). *Facts & Figures 2025*. European Pet Food Industry Federation. Retrieved from https://europeanpetfood.org/wp-content/uploads/2025/06/FEDIAF-Facts-Figures-2025.pdf
 
