@@ -130,35 +130,35 @@ The treat dispenser is explicitly designed for standard dry cat food kibble (5�
 
 ### Unit Economics
 - **Hardware CAC Payback:** 14–18 months (subscription-driven; hardware alone negative Year 1)
-- **Customer LTV (per hardware buyer):** €62 (5-year: hardware margin €42 + blended subscription revenue €20, base case 50% conversion, 70% retention)
-- **Customer LTV (per paying subscriber):** €200 (5-year: hardware margin €42 + subscription revenue €158, shows value of converted customers)
-- **LTV:CAC Ratio (per buyer):** 1.4:1 (€62 / €45, marginal; emphasizes conversion optimization need)
+- **Customer LTV (per hardware buyer):** €61 (5-year: hardware margin €41.50 + blended subscription revenue €20, base case 12.5% effective conversion, 70% retention)
+- **Customer LTV (per paying subscriber):** €200 (5-year: hardware margin €41.50 + subscription revenue €158, shows value of converted customers)
+- **LTV:CAC Ratio (per buyer):** 1.4:1 (€61 / €45, marginal; emphasizes conversion optimization need)
 - **LTV:CAC Ratio (per subscriber):** 4.4:1 (€200 / €45, strong subscriber economics)
-- **Realistic Case (35% conversion):** LTV per buyer €56, LTV:CAC 1.2:1 (marginal; requires efficient CAC management)
-- **Note:** LTV calculated using 70% annual retention (industry upper quartile for well-designed SaaS). Conservative scenario (65% retention) yields LTV €186 per subscriber, €60 per hardware buyer.
+- **Realistic Case (35% trial-to-paid):** LTV per buyer €55, LTV:CAC 1.2:1 (marginal; requires efficient CAC management)
+- **Note:** LTV calculated using 70% annual retention (~2.9% monthly churn; industry upper quartile for well-designed SaaS). Conservative scenario (65% retention) yields LTV €186 per subscriber, €59 per hardware buyer.
 
 ### Growth Metrics
 - **Hardware Units:** 1.2K (Y1) → 6.5K (Y2) → 18K (Y3)
-- **Revenue Growth:** 440% (Y1→Y2), 180% (Y2→Y3)
-- **MRR Growth:** €2.1K → €18K (Y1) → €45K (Y2) → €145K (Y3)
+- **Revenue Growth:** 445% (Y1→Y2), 180% (Y2→Y3)
+- **MRR Growth:** €0 → €675/month (Y1 end) → €4,131/month (Y2 end) → €14,112/month (Y3 end)
 
 ### Product Metrics
-- **Subscription Conversion:** 50% base case (12.5% of hardware buyers)
-- **Annual Retention:** 70% (industry upper quartile for well-designed SaaS; track for improvement)
+- **Trial-to-Paid Conversion:** 50% base case (= 12.5% effective conversion of hardware buyers: 25% trial signup × 50% trial-to-paid)
+- **Annual Retention:** 70% (~2.9% monthly churn; industry upper quartile for well-designed SaaS; track for improvement)
 - **Daily Active Users:** Target 40%+ of installed base (engagement metric)
 - **NPS (Net Promoter Score):** Target >50 (indicates strong product-market fit)
 
 ### Financial Metrics
 - **Monthly Cash Flow Positive:** Month 28–30
-- **Cumulative Break-Even:** Month 34–35
-- **Gross Margin:** 23.6% (Y1) → 43.2% (Y3)
+- **Cumulative Break-Even:** Month 33–34
+- **Gross Margin:** 24.6% (Y1) → 42.7% (Y3)
 - **CAC:** €45 Poland, €55 EU
 - **Burn Rate:** €28.3K/month (Year 1)
 
 ### Series A Trigger Metrics (Month 18–20)
 - 1,000+ units sold (validation)
-- 200+ paying subscribers (€9K+ MRR)
-- <5% monthly churn (product-market fit signal)
+- 200+ paying subscribers
+- <3% monthly churn (consistent with 70% annual retention; product-market fit signal)
 - 40%+ organic acquisition (marketing efficiency)
 
 ---
@@ -243,7 +243,7 @@ The treat dispenser is explicitly designed for standard dry cat food kibble (5�
 ### Direct-to-Consumer (Primary, 100% of distribution)
 
 **Why DTC Only:**
-- Retail margins (30–50% cuts) reduce hardware margin from €42 to €30–35
+- Retail margins (30–50% cuts) reduce hardware margin from €41.50 to €30–35
 - CAC (€45–55) exceeds retail margin; unit economics break
 - DTC required for profitability
 
@@ -306,26 +306,27 @@ The treat dispenser is explicitly designed for standard dry cat food kibble (5�
 - Year 2: 6,500 units × €150 = €975K
 - Year 3: 18,000 units × €150 = €2.7M
 
-**Margin:** €42 per unit (28% after COGS + fulfillment)
+**Margin:** €41.50 per unit (27.7% after COGS + fulfillment; €150 – €99.50 – €9)
 
 ### Subscription Revenue (Secondary, growing)
 
 **Pricing Strategy (Freemium + Tiers):**
-- **Free Trial:** 30 days (converts 50% of users to paid)
+- **Free Trial:** 30 days (25% of hardware buyers sign up; 50% of trial users convert to paid)
 - **Standard Tier:** €3/month (50% of paid subscribers)
-- **Premium Tier:** €6/month (30% of paid subscribers)
+- **Premium Tier:** €6/month (30% of paid subscribers, 50% in Year 1 before Ultra launches)
 - **Ultra-Premium Tier:** €8/month (20% of paid subscribers, Year 2+)
-- **Blended Average:** €4.50/month per paying subscriber
+- **Blended Average:** €4.50/month Y1–2, €4.90/month Y3+ (after Ultra-Premium tier matures)
 
 **Conversion Metrics:**
 - Trial signup: 25% of hardware buyers
-- Trial-to-paid: 50% of trial users (= 12.5% of hardware buyers)
-- Annual retention: 70%
+- Trial-to-paid: 50% of trial users
+- **Effective conversion: 12.5% of hardware buyers become paying subscribers** (25% × 50%)
+- Annual retention: 70% (~2.9% monthly churn)
 
-**Subscription Revenue by Year:**
-- Year 1: €8.1K (150 paying subs avg)
-- Year 2: €35.1K (650 paying subs avg) + carryover €5.7K = €40.8K
-- Year 3: €121.5K (2,250 paying subs avg) + carryover €28.5K = €150.0K
+**Subscription Revenue by Year (reflecting subscriber ramp):**
+- Year 1: €4.1K (~75 avg paying subs; end-of-year run-rate: €675/month)
+- Year 2: €21.9K (new) + carryover €5.7K = €27.6K
+- Year 3: €66.2K (new) + carryover €37.7K = €103.9K
 
 ### Future Revenue Opportunities (Not Modeled)
 
@@ -353,14 +354,14 @@ The treat dispenser is explicitly designed for standard dry cat food kibble (5�
 
 | Cost Item | Amount | Notes |
 |---|---|---|
-| **Hardware COGS** | €95–104 (Y1) → €60–80 (Y2+) | Scales with volume; custom PCB reduces cost |
+| **Hardware COGS** | €99.50 (Y1) → €90 (Y2) → €75 (Y3) | Scales with volume; custom PCB reduces cost |
 | **Fulfillment** | €9/unit | DTC shipping + packaging |
 | **Payment Processing** | 2.9% + €0.30 | Hardware + subscription transactions |
 | **Customer Support** | €0.50/customer/month | Outsourced, scales with user base |
 
 ### Cost Assumptions
 
-- **Break-Even Analysis:** Hardware margin (€42) insufficient; requires subscription to achieve LTV > CAC
+- **Break-Even Analysis:** Hardware margin (€41.50) insufficient; requires subscription to achieve LTV > CAC
 - **Subscription Leverage:** Each 10% improvement in retention adds €25–30 LTV per customer
 - **CAC Sensitivity:** Above €60, unit economics marginal; below €45, highly attractive
 - **Scaling Benefit:** Cloud costs per customer decline as user base grows (fixed AWS infrastructure spread across more users)
@@ -372,22 +373,22 @@ The treat dispenser is explicitly designed for standard dry cat food kibble (5�
 ### The Math That Works
 
 **Unit Level (Per Customer)**
-- Hardware margin: €42 (Year 1), €51 (Year 2), €66.50 (Year 3)
+- Hardware margin: €41.50 (Year 1: €150 – €99.50 – €9), €51 (Year 2), €66.50 (Year 3)
 - CAC: €45–55
 - Hardware alone: NEGATIVE Year 1 (requires subscription)
-- Subscription revenue (5-year, 50% conversion, 70% retention): €20 blended per hardware buyer
-- **Total LTV per hardware buyer: €62 (5-year horizon, base case)**
+- Subscription revenue (5-year, 12.5% effective conversion, 70% retention): €20 blended per hardware buyer
+- **Total LTV per hardware buyer: €61 (5-year horizon, base case)**
 - **Total LTV per paying subscriber: €200 (5-year horizon, shows subscriber value)**
-- **Realistic Case (35% conversion): LTV per buyer €56, per subscriber €200**
+- **Realistic Case (35% trial-to-paid): LTV per buyer €55, per subscriber €200**
 - **LTV:CAC Ratio: 1.4:1 per buyer (marginal), 4.4:1 per subscriber — marginal to strong**
 - **Payback: 14–18 months**
-- **Note:** LTV calculated using 70% annual retention (industry upper quartile). Conservative scenario (65% retention) yields LTV €186 per subscriber, €60 per hardware buyer.
+- **Note:** LTV calculated using 70% annual retention (~2.9% monthly churn; industry upper quartile). Conservative scenario (65% retention) yields LTV €186 per subscriber, €59 per hardware buyer.
 
 **Company Level (Year 3 Profitability)**
-- Revenue: €2.85M
+- Revenue: €2.80M
 - COGS: €1.61M (improved with €75 custom PCB at scale)
 - OpEx: €985K
-- **Net Income: +€253K** ✓ Positive, strong margins
+- **Net Income: +€213K** ✓ Positive, strong margins
 
 **Funding Path**
 - Seed: €750K (26+ month runway)
@@ -397,9 +398,9 @@ The treat dispenser is explicitly designed for standard dry cat food kibble (5�
 
 1. **Clear Problem:** 79% of cat owners acknowledge pet humanization; boredom + frustration risk = real pain points
 2. **Defensible Solution:** No competitor combines autonomous + AI + treats + laser specialization
-3. **Viable Unit Economics:** LTV €62 per buyer (5-year base case), €200 per subscriber; LTV:CAC 1.4:1 per buyer (marginal but viable with volume), 4.4:1 per subscriber (strong). Subscription conversion is THE critical lever; optimizing trial-to-paid from 50% → 70% improves LTV per buyer to €72 (LTV:CAC 1.6:1).
+3. **Viable Unit Economics:** LTV €61 per buyer (5-year base case), €200 per subscriber; LTV:CAC 1.4:1 per buyer (marginal but viable with volume), 4.4:1 per subscriber (strong). Trial-to-paid conversion is THE critical lever; optimizing from 50% → 70% improves LTV per buyer to €71 (LTV:CAC 1.6:1).
 4. **Large Market:** €50–70M TAM (5–15% penetration of 1.8–2.3M premium households)
-5. **Venture Path:** Monthly positive Month 28–30, cumulative break-even Month 32–33; positive net income Year 3 (+€253K); Series A viable at Month 18–20
+5. **Venture Path:** Monthly positive Month 28–30, cumulative break-even Month 33–34; positive net income Year 3 (+€213K); Series A viable at Month 18–20
 6. **Experienced Team:** Dmytro (AI/Product), Fabian (Finance), Agnieszka (Legal), Ewa (Business)
 
 ---

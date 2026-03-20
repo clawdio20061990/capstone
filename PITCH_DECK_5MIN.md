@@ -30,9 +30,9 @@ March 2026
 
 **Text:**
 ```
-50 Million Indoor Cats Are Bored
+127 Million Cats — Millions Are Bored
 
-• 50M+ cats in EU + UK spend 8-10 hours alone (FEDIAF, 2024)
+• 127M+ cats in EU + UK, millions spend 8-10 hours alone (FEDIAF, 2024)
 • ~50% show signs of boredom/depression (Ellis et al., 2013)
 • Owners feel guilty but lack time
 • Existing toys: boring, repetitive, cats lose interest
@@ -40,7 +40,7 @@ March 2026
 Cats need stimulation. Owners lack time.
 ```
 
-**Speaker Notes (30 seconds):** "Fifty million cats across Europe and the UK spend most of their day alone. Veterinary studies show around half exhibit signs of boredom or depression. Their owners — busy professionals — feel guilty but simply don't have time to play. Existing solutions don't work: random laser toys bore cats in days, manual toys require you to be home. This is a real, growing problem."
+**Speaker Notes (30 seconds):** "127 million cats across Europe and the UK — and millions of them spend most of their day alone. Veterinary studies show around half exhibit signs of boredom or depression. Their owners — busy professionals — feel guilty but simply don't have time to play. Existing solutions don't work: random laser toys bore cats in days, manual toys require you to be home. This is a real, growing problem."
 
 ---
 
@@ -125,14 +125,14 @@ Hardware + Subscription Model
 €150 hardware (one-time)
 €3-8/month subscription (3 tiers)
 
-Target: 50% subscription conversion (critical lever)
-Retention: 70% annual
+Target: 50% trial-to-paid conversion (12.5% effective: 25% trial × 50% paid)
+Retention: 70% annual (~3% monthly churn)
 
 See Financial Analysis for current projections
 (LTV:CAC ratios, break-even timeline, margin trajectory)
 ```
 
-**Speaker Notes (35 seconds):** "We're not just selling hardware. €150 gets you the device. But the real business is subscription — €3 to €8 per month depending on tier. The AI continuously improves with a subscription. We're targeting 50% trial-to-paid conversion, which is our critical lever. See our Financial Analysis for current projections on unit economics, LTV:CAC ratios, and break-even timeline."
+**Speaker Notes (35 seconds):** "We're not just selling hardware. €150 gets you the device. But the real business is subscription — €3 to €8 per month depending on tier. The AI continuously improves with a subscription. 25% of buyers start a free trial, and we're targeting 50% trial-to-paid conversion — that's 12.5% of all hardware buyers becoming paying subscribers. This trial-to-paid conversion is our critical lever. See our Financial Analysis for current projections on unit economics, LTV:CAC ratios, and break-even timeline."
 
 ---
 

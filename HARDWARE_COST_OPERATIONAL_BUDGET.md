@@ -14,8 +14,8 @@ This document provides a detailed breakdown of Reactacat's hardware Bill of Mate
 
 Key findings:
 
-- **Year 1 BOM (Raspberry Pi prototype):** €76.50–87.00 per unit (components only, excl. assembly and packaging)
-- **Year 1 Full COGS (incl. assembly, packaging, QC):** €95–104 per unit (target midpoint €99.50)
+- **Year 1 BOM (Raspberry Pi prototype):** €67.50–84.90 per unit (components only, excl. assembly and packaging)
+- **Year 1 Full COGS (incl. assembly, packaging, QC):** €88–112 per unit (target midpoint €99.50)
 - **Year 2 Blended COGS:** €90 per unit (transition phase: 70% RPi, 30% custom PCB from Month 15)
 - **Year 3 Custom PCB COGS:** €75 per unit (optimistic but realistic, volume discounts + supply chain optimization)
 - **Injection mold tooling NRE:** €30–40K (one-time, amortized across 5,000+ units over Years 1–2)
@@ -92,7 +92,7 @@ The initial production run uses Raspberry Pi 4 Model B as the processing platfor
 
 **Reconciliation with Financial Analysis:**
 
-The Financial Analysis uses €95–104 COGS (excl. fulfillment). The detailed BOM yields a midpoint of ~€99.50, within the stated range. The €9 fulfillment/shipping cost is additional, bringing total to €108.50 delivered — matching the Financial Analysis total of €104–113 per unit.
+The Financial Analysis uses €99.50 COGS midpoint (excl. fulfillment). The detailed BOM yields a midpoint of ~€99.50, validating this figure. The €9 fulfillment/shipping cost is additional, bringing total to €108.50 delivered. Hardware margin per unit: €150 – €99.50 – €9 = €41.50.
 
 ### 1.3 Phase 2: Custom PCB Platform (Year 2+, 6,500+ units)
 
@@ -298,16 +298,16 @@ Labor cost improvement driven by: learning curve (repeat assembly), process opti
 - Note: Monthly breakdown is approximate and illustrative; actual cash flow depends on payment timing, inventory cycles, and marketing spend patterns. Monthly cash flow model uses simplified assumptions (e.g., inventory build timing in Month 6); refer to FINANCIAL_ANALYSIS.md for precise annual figures using accrual accounting methodology
 
 **Reconciliation with Financial Analysis Section 2.1:**
-- Revenue: €188,100 ✓
-- COGS: €143,700 (Hardware €124,800 + Fulfillment €10,800 + Payment Processing €5,400 + Customer Support €2,700) ✓
-- Gross Profit: €44,400 ✓
+- Revenue: €184,050 ✓ (hardware €180,000 + subscription €4,050 reflecting subscriber ramp)
+- COGS: €138,730 (Hardware €119,400 at €99.50 midpoint + Fulfillment €10,800 + Payment Processing €5,830 + Customer Support €2,700) ✓
+- Gross Profit: €45,320 (24.6% margin) ✓
 - OpEx: €384,440 ✓
-- Net Income: -€340,040 ✓
+- Net Income: -€339,120 ✓
 
 **Cash position check:**
 - Seed funding: €750,000
-- Year 1 cumulative burn: ~€340,000
-- Remaining cash: €410,000
+- Year 1 cumulative burn: ~€339,000
+- Remaining cash: €411,000
 - Runway remaining: ~12–13 months at Year 2 burn rate
 - **Conclusion: Seed round provides sufficient runway through Month 18–20 Series A trigger**
 
@@ -433,12 +433,12 @@ Warranty costs are included in the 3% BOM reserve (Section 1.2) and additional c
 | **Assembly + QC** | €17–22 | €13–17 | €10–13 |
 | **Mold amortization** | €15–19/unit (at 2K cumulative) | €6–8/unit (at 5K) | €3–4/unit (at 10K+) |
 | **Full COGS** | **€99–108** | **€64–92** | **€53–77** |
-| **Financial Analysis COGS (excl. fulfillment)** | €104 | €95 (blended) | €75 |
+| **Financial Analysis COGS (excl. fulfillment)** | €99.50 (midpoint) | €90 (blended) | €75 |
 | **Fulfillment** | €9 | €9 | €8.50 |
-| **Total Delivered Cost (FA)** | **€113** | **€104** | **€83.50** |
-| **Gross Margin (at €150 retail, per FA)** | 24.7% | 30.7% | 44.3% |
+| **Total Delivered Cost (FA)** | **€108.50** | **€99** | **€83.50** |
+| **Hardware Margin (at €150 retail)** | €41.50 (27.7%) | €51 (34.0%) | €66.50 (44.3%) |
 
-**Observation:** The Financial Analysis uses conservative COGS estimates (€95 Year 2, €82 Year 3) that fall within but toward the upper end of the detailed BOM range. This is appropriate for a seed-stage plan — building in cost buffer demonstrates financial prudence to investors while the detailed BOM shows clear cost reduction pathways.
+**Observation:** The Financial Analysis uses COGS estimates (€99.50 Year 1 midpoint, €90 Year 2 blended, €75 Year 3) that fall within the detailed BOM range. This is appropriate for a seed-stage plan — building in cost buffer demonstrates financial prudence to investors while the detailed BOM shows clear cost reduction pathways.
 
 ---
 

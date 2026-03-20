@@ -148,9 +148,9 @@ Hardware cost for Reactacat's bill of materials (BOM):
 | Treat dispenser (servo + hopper) | €8–12 |
 | Enclosure, PCB, cables, PSU, assembly | €25–35 |
 | **Total COGS (Year 1)** | **€88–130** |
-| **Base case COGS estimate** | **€105** |
+| **Base case COGS estimate (midpoint)** | **€99.50** |
 
-At retail pricing of €150 (DTC), the base case gross margin is approximately €45 per unit (30%). This is consistent with hardware margins in the consumer electronics space and comparable to Petcube's hardware margins.
+At retail pricing of €150 (DTC) with €9 fulfillment cost, the base case gross margin is approximately €41.50 per unit (27.7%). This is consistent with hardware margins in the consumer electronics space and comparable to Petcube's hardware margins. See FINANCIAL_ANALYSIS.md for detailed COGS breakdown and margin calculations.
 
 ### 2.7 Knowledge Gaps & Limitations
 
@@ -372,26 +372,28 @@ Regulatory pathways are clear, achievable, and comparable to existing pet tech p
 | **Base Case** | **50%** | **€4.50** | **€27.00** |
 | Optimistic | 70% | €4.50 | €37.80 |
 
-*Conversion rate = percentage of hardware buyers who become paying subscribers. ARPU based on blended Standard (€3/mo) and Premium (€8/mo) tiers, weighted 70/30.*
+*Conversion rate = percentage of trial-to-paid conversion. Effective conversion = conversion rate × 25% trial signup. ARPU based on blended Standard (€3/mo) and Premium (€6/mo) tiers, weighted 50/50 for Year 1–2 (€4.50), then Standard 50% + Premium 30% + Ultra-Premium €8/mo 20% for Year 3+ (€4.90).*
 
 **Unit LTV Calculation (5-year horizon, base case):**
 
-- Hardware margin per unit: €45 (Year 1)
-- Subscription revenue per hardware buyer (50% conversion, 70% annual retention): €27/year × 3.3 year effective lifetime = €89
-- Subscription revenue per hardware buyer blended (accounting for non-converters): €45
-- **Total LTV per hardware buyer: €90** (€45 hardware + €45 subscription)
+- Hardware margin per unit: €41.50 (Year 1: €150 retail – €99.50 COGS – €9 fulfillment)
+- Effective conversion: 12.5% of hardware buyers become paying subscribers (25% trial signup × 50% trial-to-paid)
+- Annual retention: 70% (~2.9% monthly churn)
+- 5-year subscription LTV per paying subscriber: €158 (Y1: €54 at €4.50/month; Y2–5: €41.16 + €28.81 + €20.17 + €14.12 at €4.90/month with 70% retention)
+- **Total LTV per paying subscriber: €200** (€41.50 hardware + €158 subscription)
+- **Total LTV per hardware buyer: €61** (€41.50 hardware + 12.5% × €158 = €19.78 blended subscription)
 
 **LTV:CAC Analysis:**
 
 At digital pet tech CAC benchmarks of €40–80:
 
-| Period | LTV:CAC Ratio | Assessment |
+| Metric | LTV:CAC Ratio | Assessment |
 |---|---|---|
-| Year 1 (hardware only + first-year subscription) | ~1.4:1 | Marginal — common for hardware startups pre-scale |
-| Year 3 (with improved COGS + retention data) | ~2.5:1 | Approaching healthy SaaS benchmarks |
-| Year 5 (at scale, optimised CAC + custom PCB) | 3.0:1+ | Target for sustainable unit economics |
+| Per hardware buyer (base case) | 1.4:1 (€61 / €45) | Marginal — common for hardware startups pre-scale |
+| Per paying subscriber | 4.4:1 (€200 / €45) | Strong subscriber economics when conversion achieved |
+| Year 3 (with improved COGS + retention data) | ~2.5:1 per buyer | Approaching healthy SaaS benchmarks |
 
-**Honest Assessment:** Year 1 LTV:CAC of 1.4:1 is below the commonly cited 3:1 SaaS benchmark (Skok, 2013). This is typical for hardware-software hybrid businesses at launch, where hardware margin is thin and subscription revenue takes time to accumulate. The business becomes sustainable only if: (a) subscription conversion reaches ≥50%, (b) retention stays ≥70%, and (c) COGS decreases through custom PCB transition. These are achievable but not guaranteed conditions.
+**Honest Assessment:** Per-buyer LTV:CAC of 1.4:1 is below the commonly cited 3:1 SaaS benchmark (Skok, 2013). This is typical for hardware-software hybrid businesses at launch, where hardware margin is thin and subscription revenue takes time to accumulate. However, per-subscriber LTV:CAC of 4.4:1 demonstrates strong value creation when conversion is achieved. The business becomes sustainable only if: (a) trial-to-paid conversion reaches ≥50% (12.5% effective), (b) retention stays ≥70% (~2.9% monthly churn), and (c) COGS decreases through custom PCB transition. These are achievable but not guaranteed conditions.
 
 **Hypothesis H3 Assessment:** **PARTIALLY SUPPORTED**
 The hardware-plus-subscription model is structurally sound and proven in adjacent markets. However, unit economics in Year 1 are marginal (LTV:CAC 1.4:1), and sustainability depends on achieving base-case subscription conversion (50%) and planned COGS reduction. The model becomes clearly viable at Year 3+ scale. This is a realistic trajectory for a hardware startup but carries execution risk — subscription conversion is the critical leverage point.
@@ -477,7 +479,7 @@ User testing with real cats (Dmytro's cat + friends' cats) will validate whether
 | Base Case | 50% | Required for sustainable business model |
 | Optimistic | 70% | Strong product-market fit scenario |
 
-Retention baseline: 70% annual (industry upper quartile for well-designed consumer SaaS). Each 10% improvement in retention adds approximately €15–20 LTV per customer.
+Retention baseline: 70% annual (~2.9% monthly churn; industry upper quartile for well-designed consumer SaaS). Each 10% improvement in retention adds approximately €15–20 LTV per customer.
 
 **Contingency Planning: If Findings Contradict Expectations**
 

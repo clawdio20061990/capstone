@@ -16,14 +16,14 @@
 REACTACAT
 AI-Powered Autonomous Cat Play System
 
-Bringing intelligent enrichment to 50 million indoor cats
+Bringing intelligent enrichment to 127 million cats across the EU and UK
 
 [Your Name]
 Co-Founder & CTO
 March 2026
 ```
 
-**Speaker Notes:** Brief introduction. "We're solving a problem that affects 50 million cat owners across Europe and their pets who spend 8+ hours alone every day."
+**Speaker Notes:** Brief introduction. "We're solving a problem that affects millions of cat owners across Europe and their 127 million cats who spend 8+ hours alone every day."
 
 ---
 
@@ -35,7 +35,7 @@ March 2026
 ```
 Indoor Cats Are Bored & Depressed
 
-• 50M+ cats in EU + UK spend 8-10 hours alone daily (FEDIAF, 2024)
+• 127M+ cats in EU + UK, millions spend 8-10 hours alone daily (FEDIAF, 2024)
 • ~50% show signs of boredom or depression (Ellis et al., 2013; Casey & Bradshaw, 2008)
 • Owners feel guilty but lack time to play
 • Existing toys: random, repetitive, cats lose interest in days
@@ -162,14 +162,14 @@ Subscription: €3-8/month
 • Premium (€6): Advanced modes, detailed analytics
 • Ultra (€8): Multi-cat, veterinary insights
 
-Target: 50% subscription conversion (critical lever)
-Retention: 70% annual
+Target: 50% trial-to-paid conversion (12.5% effective: 25% trial × 50% paid)
+Retention: 70% annual (~3% monthly churn)
 
 See Financial Analysis for current projections
 (unit economics, LTV:CAC ratios, margin trajectory)
 ```
 
-**Speaker Notes:** "We're not just selling hardware. The hardware is the entry point. The subscription is where the long-term value lives. €150 gets you the device. But the AI continuously improves with a subscription. We've modeled three tiers. Our base case is 50% trial-to-paid conversion — achievable for a product where ongoing value is this clear. Subscription conversion is our critical lever. See our Financial Analysis for detailed unit economics, LTV:CAC ratios, and margin projections."
+**Speaker Notes:** "We're not just selling hardware. The hardware is the entry point. The subscription is where the long-term value lives. €150 gets you the device. But the AI continuously improves with a subscription. We've modeled three tiers. 25% of hardware buyers start a free trial, and our base case is 50% trial-to-paid conversion — meaning 12.5% of all hardware buyers become paying subscribers. That's achievable for a product where ongoing value is this clear. Trial-to-paid conversion is our critical lever. See our Financial Analysis for detailed unit economics, LTV:CAC ratios, and margin projections."
 
 ---
 
