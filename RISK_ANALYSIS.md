@@ -12,7 +12,7 @@
 
 This document provides a systematic risk assessment for Reactacat across seven categories: Market, Competitive, Technical, Operational, Financial, Regulatory & Legal, and Reputational. Each risk is evaluated on probability and impact, assigned a severity rating (1–5), and paired with specific mitigation strategies and contingency triggers.
 
-Hardware startups face uniquely hostile conditions — CB Insights reports that 97% of seed-funded hardware startups fail (Titoma, 2025; HardwareFYI, 2025). The most common failure modes are: (1) lack of market need, (2) running out of capital, (3) manufacturing and supply chain challenges, and (4) prototype-to-production scaling failures (MacroFab, 2024). Reactacat's risk profile is shaped by these industry realities, compounded by the specific challenges of a laser-based pet technology product operating across multiple EU regulatory environments.
+Hardware startups face uniquely hostile conditions — as reported in Forbes, 97% of seed-crowdfunded hardware products fail to deliver on their promises (Titoma, 2025; HardwareFYI, 2025). While this statistic specifically applies to crowdfunded hardware ventures rather than traditionally seed-funded startups, it underscores the extreme difficulty of hardware product development. The most common failure modes are: (1) lack of market need, (2) running out of capital, (3) manufacturing and supply chain challenges, and (4) prototype-to-production scaling failures (MacroFab, 2024). Reactacat's risk profile is shaped by these industry realities, compounded by the specific challenges of a laser-based pet technology product operating across multiple EU regulatory environments.
 
 The analysis identifies **5 critical risks** requiring active management:
 
@@ -189,7 +189,7 @@ No identified risk is existential on its own, but combinations — particularly 
 | **Rationale** | MG90S micro servos have limited lifespan (~10,000 cycles). Daily use (30 minutes, continuous movement) could exhaust servo life within 12–18 months. RPi 4B thermal management required for continuous operation. |
 
 **Mitigation:**
-1. **Servo selection:** Specify metal-gear servos rated for 25,000+ cycles (MG90S). Limit continuous operation to 30-minute sessions with cooldown periods
+1. **Servo selection:** Specify metal-gear MG90S servos rated for ~10,000 cycles (standard specification). For extended life beyond 18 months, consider upgrading to higher-spec servos (e.g., MG996R) rated for 25,000+ cycles in future production revisions. Limit continuous operation to 30-minute sessions with cooldown periods
 2. **Thermal management:** Include heatsink + thermal monitoring in firmware. Auto-shutdown at 80°C CPU temperature
 3. **Warranty engineering:** Design for servo replaceability (user-accessible with screwdriver). Replacement servo kit as purchasable accessory
 4. **Burn-in testing:** Run 100-hour continuous stress test on pre-production samples
@@ -371,14 +371,14 @@ No identified risk is existential on its own, but combinations — particularly 
 | **Probability** | Low–Medium |
 | **Impact** | Critical |
 | **Severity** | **4 (Priority)** |
-| **Rationale** | Laser safety is the most sensitive regulatory and reputational risk for Reactacat. IEC 60825-1 defines Class 3R lasers as low risk but not inherently safe. Cat eye physiology differs from human — there are no established Maximum Permissible Exposure (MPE) studies specifically for feline eyes (LaserPointerSafety.com). An incident could trigger product recalls, regulatory investigation, and media backlash. |
+| **Rationale** | Laser safety is the most sensitive regulatory and reputational risk for Reactacat. IEC 60825-1 defines Class 3R lasers (<5mW) as low risk but not inherently safe. Reactacat uses a Class 3R laser diode with an ND (neutral density) optical filter that reduces effective output power, bringing the accessible emission closer to Class 1/2 levels while maintaining sufficient brightness for cat engagement. Cat eye physiology differs from human — there are no established Maximum Permissible Exposure (MPE) studies specifically for feline eyes (LaserPointerSafety.com). An incident could trigger product recalls, regulatory investigation, and media backlash. |
 
 **Mitigation strategies:**
-1. **Conservative laser specification:** Use Class 1 or Class 2 laser (<1mW) instead of Class 3R (<5mW) if sufficient for cat engagement. Lower class = fewer regulatory requirements + inherently safer
-2. **Optical diffusion filter:** Reduce beam coherence and power density at any point on the surface. Implemented in hardware design (Hardware Cost Analysis, Section 1.1)
+1. **Class 3R + ND optical filter approach:** The 5mW Class 3R laser diode is paired with a neutral density (ND) optical filter that attenuates beam power to effective Class 2 or lower levels at the projected surface. This approach ensures sufficient brightness for cat visibility across room-sized areas while reducing peak irradiance to safer levels. The filter is a permanent, non-removable hardware component integrated into the laser module assembly
+2. **Beam diffusion:** The optical filter also partially diffuses the beam, reducing coherence and power density at any single point on the surface. Combined with the ND filter, this creates a larger, lower-power spot that is more engaging for cats and safer by design
 3. **Eye-zone avoidance algorithm:** Software prevents laser from pointing at detected cat head/face area (requires reliable cat head detection — part of CV model)
 4. **Session time limits:** Automatic game timeout (maximum 30 minutes) to prevent continuous exposure
-5. **Third-party testing:** Pre-launch certification by accredited EU laser safety laboratory (TÜV, SGS). Budget: €3,000–6,000 (Hardware Cost Analysis, Section 2.3)
+5. **Third-party testing:** Pre-launch certification by accredited EU laser safety laboratory (TÜV, SGS) per IEC 60825-1. Includes verification of effective emission levels with ND filter installed. Budget: €3,000–6,000 (Hardware Cost Analysis, Section 2.3; Operations, Section 6A.1)
 6. **Product liability insurance:** €3,000/year product liability coverage (included in OpEx)
 7. **Veterinary advisory relationship:** Engage veterinary ophthalmologist as advisor to validate safety claims. Letters of support for marketing and regulatory defense
 
@@ -444,17 +444,17 @@ No identified risk is existential on its own, but combinations — particularly 
 | **Probability** | Medium–High |
 | **Impact** | High |
 | **Severity** | **4 (Priority)** |
-| **Rationale** | Two peer-reviewed studies (Kogan et al., 2021; Kogan et al., 2022) published in Animals and Journal of Applied Animal Welfare Science found statistically significant associations between laser light pointer play and abnormal repetitive behaviors (pARBs) in cats. While correlational (not causal), these findings are frequently cited by veterinarians and pet media as evidence against laser play. This is Reactacat's most unique reputational risk — no competitor faces this scrutiny because no competitor positions as laser-first play. |
+| **Rationale** | Two peer-reviewed studies (Kogan & Grigg, 2021; Grigg & Kogan, 2024) published in *Animals* and *Journal of Applied Animal Welfare Science* found statistically significant associations between laser light pointer play and abnormal repetitive behaviors (pARBs) in cats. While correlational (not causal), these findings are frequently cited by veterinarians and pet media as evidence against laser play. This is Reactacat's most unique reputational risk — no competitor faces this scrutiny because no competitor positions as laser-first play. |
 
 **Research findings (key citations):**
-- Kogan, L.R., et al. (2021). "Laser Light Pointers for Use in Companion Cat Play: Association with Guardian-Reported Abnormal Repetitive Behaviors." *Animals*, 11(8), 2178. — Found that cats exposed to laser pointers showed significantly more pARBs (staring at walls, light/shadow chasing) than control groups.
-- Kogan, L.R., et al. (2022). "Associations between Laser Light Pointer Play and Repetitive Behaviors in Companion Cats: Does Participant Recruitment Method Matter?" *Journal of Applied Animal Welfare Science*, 27(2). — Replicated findings across different recruitment methods, strengthening the correlation.
+- Kogan, L.R., & Grigg, E.K. (2021). "Laser Light Pointers for Use in Companion Cat Play: Association with Guardian-Reported Abnormal Repetitive Behaviors." *Animals*, 11(8), 2178. https://doi.org/10.3390/ani11082178 — Found that cats exposed to laser pointers showed significantly more pARBs (staring at walls, light/shadow chasing) than control groups.
+- Grigg, E.K., & Kogan, L.R. (2024). "Associations between Laser Light Pointer Play and Repetitive Behaviors in Companion Cats: Does Participant Recruitment Method Matter?" *Journal of Applied Animal Welfare Science*, 27(2). https://doi.org/10.1080/10888705.2022.2065880 — Replicated findings across different recruitment methods, strengthening the correlation.
 
 **Mitigation strategies:**
-1. **Treat dispenser as core solution:** Market the treat dispenser not as an accessory but as an integral part of responsible laser play. It completes the hunting sequence (stalk → chase → pounce → catch → consume), directly addressing the frustration mechanism cited in research (Business Research, Section 2.4; Product Concept, Laser Safety Considerations)
-2. **Proactive transparency:** Acknowledge the research openly on product page, blog, and packaging. Position Reactacat as "the responsible answer to laser play concerns" rather than ignoring them
-3. **Session design:** AI gameplay includes natural "catch" moments where laser pauses on a surface (simulating prey stopping) before treat dispensing. This addresses the "uncatchable prey" frustration
-4. **Veterinary partnerships:** Engage 3–5 veterinary behaviorists as paid advisors. Commission independent study on Reactacat's specifically (with treat completion) vs. standard laser play
+1. **Treat dispenser as core MVP feature:** The treat dispenser is included in the base product (not an accessory), completing the hunting sequence (stalk → chase → pounce → catch → **consume**). This directly addresses the frustration mechanism cited in research—laser play creates an uncatchable prey scenario that violates the natural predatory sequence. The treat dispenser provides a tangible "catch" reward, resolving the behavioral concern identified in Kogan & Grigg (2021) and Grigg & Kogan (2024)
+2. **Proactive transparency:** Acknowledge the research openly on product page, blog, and packaging. Position Reactacat as "the responsible answer to laser play concerns" rather than ignoring them. Marketing messaging: "We studied the science—so we built the solution"
+3. **Session design:** AI gameplay includes natural "catch" moments where laser pauses on a surface (simulating prey stopping) before treat dispensing. Each session ends with a treat reward, ensuring the hunting sequence completes successfully. Frequency: 1 treat per 5–10 minutes of play, configurable by owner
+4. **Veterinary partnerships:** Engage 3–5 veterinary behaviorists as paid advisors. Commission independent study on Reactacat specifically (with treat completion mechanism) vs. standard laser play to demonstrate reduced pARB risk
 5. **Content marketing:** Publish educational content: "What the research actually says about laser play for cats" — transparent, evidence-based, positioning Reactacat as industry leader on this topic
 6. **Community monitoring:** Track social media, Reddit (r/cats), and veterinary forums for emerging negative sentiment. Rapid response team for media inquiries
 
@@ -594,9 +594,9 @@ GDPR Advisor. (2024, September 22). *GDPR and IoT devices: Addressing privacy co
 
 HardwareFYI. (2025, October 25). *Why so many startups fail.* Retrieved from https://hardwarefyi.substack.com/p/why-so-many-startups-fail
 
-Kogan, L.R., Schoenfeld-Tacher, R., & Simon, A.A. (2021). Laser light pointers for use in companion cat play: Association with guardian-reported abnormal repetitive behaviors. *Animals*, 11(8), 2178. https://doi.org/10.3390/ani11082178
+Grigg, E.K., & Kogan, L.R. (2024). Associations between laser light pointer play and repetitive behaviors in companion cats: Does participant recruitment method matter? *Journal of Applied Animal Welfare Science*, 27(2), 250–265. https://doi.org/10.1080/10888705.2022.2065880
 
-Kogan, L.R., Schoenfeld-Tacher, R., & Simon, A.A. (2022). Associations between laser light pointer play and repetitive behaviors in companion cats: Does participant recruitment method matter? *Journal of Applied Animal Welfare Science*, 27(2). https://doi.org/10.1080/10888705.2022.2065880
+Kogan, L.R., & Grigg, E.K. (2021). Laser light pointers for use in companion cat play: Association with guardian-reported abnormal repetitive behaviors. *Animals*, 11(8), 2178. https://doi.org/10.3390/ani11082178
 
 LaserPointerSafety.com. (2025). *Laser pointer safety — Tips for using lasers with animals.* Retrieved from https://www.laserpointersafety.com/tips-animals.html
 
