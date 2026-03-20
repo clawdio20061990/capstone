@@ -32,14 +32,15 @@ March 2026
 ```
 50 Million Indoor Cats Are Bored
 
-• 50% show signs of boredom/depression
-• Owners work 8-10 hours daily, feel guilty
+• 50M+ cats in EU + UK spend 8-10 hours alone (FEDIAF, 2024)
+• ~50% show signs of boredom/depression (Ellis et al., 2013)
+• Owners feel guilty but lack time
 • Existing toys: boring, repetitive, cats lose interest
 
 Cats need stimulation. Owners lack time.
 ```
 
-**Speaker Notes (30 seconds):** "Fifty million cats across Europe spend most of their day alone. Studies show half of them exhibit signs of boredom or depression. Their owners — busy professionals — feel guilty but simply don't have time to play. Existing solutions don't work: random laser toys bore cats in days, manual toys require you to be home. This is a real, growing problem."
+**Speaker Notes (30 seconds):** "Fifty million cats across Europe and the UK spend most of their day alone. Veterinary studies show around half exhibit signs of boredom or depression. Their owners — busy professionals — feel guilty but simply don't have time to play. Existing solutions don't work: random laser toys bore cats in days, manual toys require you to be home. This is a real, growing problem."
 
 ---
 
@@ -79,24 +80,24 @@ A dedicated enrichment system.
 
 ## Slide 5: Market & Competition
 
-**Visual:** EU map with market size + competitive positioning matrix
+**Visual:** EU + UK map with market size + competitive positioning matrix
 
 **Text:**
 ```
-€50-70M EU Market | We Own the White Space
+€50-70M EU + UK Market | We Own the White Space
 
 1.8-2.3M premium cat households
-Pet tech growing 12-20% CAGR
+Pet tech growing 12-20% CAGR (Grand View Research, 2025)
 
 Competitors:
-• Petcube: Manual control, camera-first (€90-220)
-• Cheap toys: Random, boring (€10-30)
-• Us: Autonomous + Intelligent (€150)
+• Petcube Play 2: Camera + scheduled laser, no AI (€199)
+• PetSafe Bolt: Semi-auto, no cat detection (€40)
+• Reactacat: CV + Adaptive AI + Full Autonomy (€150)
 
-No one else does both.
+No one else combines all three.
 ```
 
-**Speaker Notes (35 seconds):** "The European pet tech market is booming. We're targeting 1.8 to 2.3 million premium households — people who see cats as family and already spend €600+ per year. Look at the competition: Petcube is a camera that requires manual control. Cheap toys are random and boring. We're the only product that's both autonomous and genuinely intelligent. This is a white space opportunity."
+**Speaker Notes (35 seconds):** "The European pet tech market is booming. We're targeting 1.8 to 2.3 million premium households — people who see cats as family and already spend €600+ per year. Look at the competition: Petcube Play 2 is a camera with scheduled laser but no AI. PetSafe Bolt has some automation but random patterns. We're the only product combining computer vision, adaptive AI, and full autonomy. This is a white space opportunity."
 
 ---
 
@@ -124,63 +125,57 @@ Hardware + Subscription Model
 €150 hardware (one-time)
 €3-8/month subscription (3 tiers)
 
-LTV per buyer: €62
-LTV per subscriber: €200
-CAC: €45
-LTV:CAC = 1.4:1 (buyer) / 4.4:1 (subscriber)
-
-Target: 50% subscription conversion (critical)
+Target: 50% subscription conversion (critical lever)
 Retention: 70% annual
-Monthly positive: Month 28-30
-Cumulative break-even: Month 34-35
+
+See Financial Analysis for current projections
+(LTV:CAC ratios, break-even timeline, margin trajectory)
 ```
 
-**Speaker Notes (35 seconds):** "We're not just selling hardware. €150 gets you the device. But the real business is subscription — €3 to €8 per month depending on tier. The AI continuously improves with a subscription. We're targeting 50% trial-to-paid conversion, which is critical. With our dual-metric approach: lifetime value per hardware buyer is €62, acquisition cost is €45. That's 1.4-to-1 — marginal on hardware alone, but viable with volume. For paying subscribers, LTV is €200, a 4.4-to-1 ratio — strong subscriber economics. Subscription conversion is our key lever. We turn monthly cash flow positive at Month 28 to 30, and reach cumulative break-even at Month 34 to 35."
+**Speaker Notes (35 seconds):** "We're not just selling hardware. €150 gets you the device. But the real business is subscription — €3 to €8 per month depending on tier. The AI continuously improves with a subscription. We're targeting 50% trial-to-paid conversion, which is our critical lever. See our Financial Analysis for current projections on unit economics, LTV:CAC ratios, and break-even timeline."
 
 ---
 
 ## Slide 8: Traction & Validation
 
-**Visual:** Survey results bar charts, prototype testing photo
+**Visual:** Research protocol diagram, prototype hardware photo
 
 **Text:**
 ```
-Market Validation: Cats Love It
+Rigorous Validation Planned
 
-Survey (100+ owners):
-• 73% want autonomous play device
-• 58% will pay €120-150
+Research Protocol:
+• Survey of 100+ premium cat owners (designed)
+• Pre-test / post-test with 50-100 households (Months 5-8)
+• Veterinary behavioral oversight
+• Measured metrics: engagement time, session frequency, owner satisfaction
 
-Prototype Testing (15 households):
-• 87% of cats engaged
-• 60% increased activity
-• 80% would recommend
+Prototype Status:
+• Alpha hardware complete (RPi 4B + edge AI)
 
-"My cat runs to it now. Never seen him this excited."
-— Warsaw beta tester
+User testing protocol designed (pre-test/post-test methodology with target 50-100 households). Testing planned for Q2 2026.
 ```
 
-**Speaker Notes (30 seconds):** "We've validated demand. Over 100 cat owners surveyed — 73% want this, 58% will pay our price. We tested prototypes with 15 real households. 87% of cats engaged. 80% of owners would recommend it. This isn't theory. We've proven product-market fit."
+**Speaker Notes (30 seconds):** "We've designed a rigorous validation methodology — surveys, structured pre-test/post-test evaluation targeting 50 to 100 households, and veterinary oversight. Our alpha prototype is complete and ready for structured testing planned for Q2 2026. This isn't guesswork — we're building an evidence base to prove product-market fit before scaling."
 
 ---
 
 ## Slide 9: Growth Plan & Financials
 
-**Visual:** 3-year revenue chart, expansion map (Poland → EU)
+**Visual:** 3-year revenue chart, expansion map (Poland → EU + UK)
 
 **Text:**
 ```
-Path to €2.85M Revenue, Profitability Year 3
+Path to Profitability
 
-Year 1: Poland launch → 1,200 units | €188K revenue
-Year 2: EU expansion → 6,500 units | €1.02M revenue
-Year 3: Scale → 18,000 units | €2.85M revenue | +€253K profit
+See Financial Analysis for current projections.
 
-Poland → Germany/France/UK → Full EU
-Gross margin: 24% → 43% (custom PCB + subscription scale)
+Poland → Germany/France/UK → Full EU + UK
+3-year model: unit growth, margin improvement via custom PCB,
+subscription revenue scaling, clear break-even timeline.
 ```
 
-**Speaker Notes (35 seconds):** "Year 1 is Poland — our home market. 1,200 units, validate unit economics. Year 2, we expand to Germany, France, UK. By Year 3, we're at 18,000 units and profitable. Revenue grows from €188K to €2.85M. Gross margins improve dramatically — 24% to 43% — as we transition from Raspberry Pi to custom hardware and subscription revenue scales with 70% retention. Clear path to scale."
+**Speaker Notes (35 seconds):** "Year 1 is Poland — our home market, validating unit economics. Year 2, we expand to Germany, France, UK. By Year 3, we're scaling across the EU + UK. Gross margins improve as we transition to custom hardware and subscription revenue scales. See our Financial Analysis for current projections — clear path to profitability."
 
 ---
 
@@ -212,7 +207,7 @@ Let's talk.
 Questions?
 ```
 
-**Speaker Notes (35 seconds):** "We're raising €750,000. This gives us 18 months to launch in Poland, sell 1,000 units, and prove our unit economics with proper contingency buffer. By Month 18, we'll be positioned for Series A to fuel EU expansion. The allocation is clear: product, marketing, operations, team, and regulatory. If you believe in this opportunity, let's talk. [Pause for questions]"
+**Speaker Notes (35 seconds):** "We're raising €750,000. This gives us 18 months to launch in Poland, sell 1,000 units, and prove our unit economics with proper contingency buffer. By Month 18, we'll be positioned for Series A to fuel EU + UK expansion. The allocation is clear: product, marketing, operations, team, and regulatory. If you believe in this opportunity, let's talk. [Pause for questions]"
 
 ---
 

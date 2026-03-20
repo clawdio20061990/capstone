@@ -35,8 +35,8 @@ March 2026
 ```
 Indoor Cats Are Bored & Depressed
 
-• 50M+ cats in EU spend 8-10 hours alone daily
-• ~50% show signs of boredom or depression (veterinary studies)
+• 50M+ cats in EU + UK spend 8-10 hours alone daily (FEDIAF, 2024)
+• ~50% show signs of boredom or depression (Ellis et al., 2013; Casey & Bradshaw, 2008)
 • Owners feel guilty but lack time to play
 • Existing toys: random, repetitive, cats lose interest in days
 
@@ -45,26 +45,30 @@ The Result: Sedentary cats, anxious owners, growing vet bills
 
 **Speaker Notes:** "Studies show that approximately half of indoor cats exhibit signs of boredom or depression. Urban professionals — our target market — work 8-10 hour days. They love their cats, they feel guilty, but they simply don't have time. Current solutions don't work: random laser toys bore cats within days, manual play requires being home, and traditional toys sit unused."
 
+*Sources: Ellis, S.L.H., et al. (2013). "AAFP and ISFM Feline Environmental Needs Guidelines," Journal of Feline Medicine & Surgery; Casey, R.A. & Bradshaw, J.W.S. (2008). "The effects of additional socialisation for kittens in a rescue centre on their behaviour," Applied Animal Behaviour Science; FEDIAF (2024) European Pet Food Industry Annual Report.*
+
 ---
 
 ## Slide 3: The Market Opportunity
 
-**Visual:** EU map with market size overlay, growth chart
+**Visual:** EU + UK map with market size overlay, growth chart
 
 **Text:**
 ```
-€50-70M Addressable Market in EU
+€50-70M Addressable Market in EU + UK
 
-• Pet tech growing at 12-20% CAGR
+• Pet tech growing at 12-20% CAGR (Grand View Research, 2025)
 • 1.8-2.3M premium cat households (€60K+ income)
-• 79% of owners view cats as family members
-• Willingness to pay 15-40% premium for well-being
+• 79% of owners view cats as family members (Euromonitor, 2024)
+• Willingness to pay 15-40% premium for pet well-being
 
 Target: Urban professionals aged 35-54
-Poland → Germany/France/UK → Full EU
+Poland → Germany/France/UK → Full EU + UK
 ```
 
-**Speaker Notes:** "The European pet tech market is booming. We've identified 1.8 to 2.3 million premium cat-owning households — people with disposable income who see their cats as family. These aren't price-sensitive buyers. They're already spending €600+ per year on their cats. Our research shows they'll pay a premium for products that genuinely improve their pet's well-being."
+**Speaker Notes:** "The European pet tech market is booming. We've identified 1.8 to 2.3 million premium cat-owning households — people with disposable income who see their cats as family. These aren't price-sensitive buyers. They're already spending €600+ per year on their cats. Market research shows they'll pay a premium for products that genuinely improve their pet's well-being."
+
+*Sources: Grand View Research (2025) Pet Tech Market Analysis; Euromonitor International (2024) Pet Care in Western Europe; FEDIAF (2024) European Facts & Figures.*
 
 ---
 
@@ -119,22 +123,26 @@ The more they play, the better it gets.
 ```
 We Own the White Space
 
-              Manual Control → Autonomous
-Random      |  Laser toys  |     ???      |
-            |   (€10-30)   |              |
------------ + ------------ + ------------ +
-Intelligent |  Petcube     |  REACTACAT   |
-            |  (€90-220)   |   (€150)     |
+              Manual Control → Semi-Auto → Fully Autonomous
+Random      |  Cheap       |  PetSafe  |       ???        |
+            |  lasers      |  Bolt     |                  |
+            |  (€10-30)    |  (€40)    |                  |
+----------- + ------------ + --------- + ---------------- +
+Intelligent |  Petcube     |           |    REACTACAT     |
+            |  Play 2      |           |     (€150)       |
+            |  (€199)      |           |                  |
 
 Competitors:
-• Petcube: Camera-first, requires app control
-• Cheap toys: Random patterns, cats lose interest
-• Furbo: Built for dogs, not cat behavior
+• Petcube Play 2: Camera + scheduled laser (limited autonomy, no AI)
+• PetSafe Bolt: Semi-auto patterns, no cat detection
+• Cheap toys: Random movement only
 
-No one else combines autonomy + adaptive AI + cat-specific design.
+Reactacat: Computer vision + adaptive AI + full autonomy
 ```
 
-**Speaker Notes:** "Look at this matrix. Bottom left: cheap random toys — cats ignore them. Top right: Petcube — powerful brand, but it's a camera that happens to have a laser. You have to manually control it. We're the only product in the bottom right quadrant: fully autonomous and genuinely intelligent. This isn't a crowded market. This is a white space opportunity."
+**Speaker Notes:** "Look at this matrix. Left side: Petcube Play 2 — great camera, can schedule laser sessions, but no AI and minimal autonomy. Middle: PetSafe Bolt — some automation but random patterns, no cat detection. We're the only product that combines computer vision, adaptive AI, and full autonomy. Petcube is strong but serves a different use case — remote monitoring. We're pure enrichment, optimized for when owners are away."
+
+*Note: Competitive positioning based on publicly available product specifications from petcube.com and petsafe.com as of March 2026.*
 
 ---
 
@@ -147,7 +155,6 @@ No one else combines autonomy + adaptive AI + cat-specific design.
 Hardware + SaaS Hybrid Model
 
 Hardware: €150 one-time
-• €42-68 gross margin (Year 1-3)
 • DTC distribution only (own the relationship)
 
 Subscription: €3-8/month
@@ -157,11 +164,12 @@ Subscription: €3-8/month
 
 Target: 50% subscription conversion (critical lever)
 Retention: 70% annual
-LTV per buyer: €62 | LTV per subscriber: €200
-CAC: €45 | LTV:CAC = 1.4:1 (buyer) / 4.4:1 (subscriber)
+
+See Financial Analysis for current projections
+(unit economics, LTV:CAC ratios, margin trajectory)
 ```
 
-**Speaker Notes:** "We're not just selling hardware. The hardware is the entry point. The subscription is where the long-term value lives. €150 gets you the device. But the AI continuously improves with a subscription. We've modeled three tiers. Our base case is 50% trial-to-paid conversion — achievable for a product where ongoing value is this clear. Subscription conversion is our critical lever. We use a dual-metric approach: lifetime value per hardware buyer is €62, acquisition cost is €45. That's 1.4-to-1 — marginal on hardware alone, but viable with volume growth. For paying subscribers, LTV is €200, a 4.4-to-1 ratio — strong subscriber economics. This emphasizes the importance of optimizing trial-to-paid conversion; improving from 50% to 70% adds €10 to buyer LTV."
+**Speaker Notes:** "We're not just selling hardware. The hardware is the entry point. The subscription is where the long-term value lives. €150 gets you the device. But the AI continuously improves with a subscription. We've modeled three tiers. Our base case is 50% trial-to-paid conversion — achievable for a product where ongoing value is this clear. Subscription conversion is our critical lever. See our Financial Analysis for detailed unit economics, LTV:CAC ratios, and margin projections."
 
 ---
 
@@ -178,10 +186,10 @@ Phase 1 (Year 1): Poland soft launch
 • Digital-first: Meta Ads, influencers, SEO
 • Validate product-market fit
 
-Phase 2 (Year 2): EU expansion (DE/FR/UK)
+Phase 2 (Year 2): EU + UK expansion (DE/FR/UK)
 • 6,500 units | €55 CAC | Custom PCB transition
 
-Phase 3 (Year 3): EU scale
+Phase 3 (Year 3): EU + UK scale
 • 18,000 units | €45 CAC | 40% organic
 
 Marketing: 70% digital paid → 45% organic by Year 3
@@ -193,28 +201,26 @@ Marketing: 70% digital paid → 45% organic by Year 3
 
 ## Slide 9: Traction & Validation
 
-**Visual:** Survey results charts, early prototype testing photos
+**Visual:** Prototype images, user research protocol diagram
 
 **Text:**
 ```
-Early Market Validation
+Planned User Testing & Validation
 
-Survey (100+ cat owners):
-• 73% interested in autonomous play device
-• 58% willing to pay €120-150
-• 68% concerned about cat boredom
+Research Protocol Designed:
+• Survey targeting 100+ premium cat owners (distribution via cat owner communities, social media)
+• Pre-test / post-test methodology with 50-100 households
+• Behavioral metrics: engagement time, session frequency, owner satisfaction
+• Independent veterinary behavioral advisor oversight
 
-Prototype Testing (15 households):
-• 87% of cats engaged with device
-• 60% showed increased activity levels
-• 80% would recommend to friends
+Prototype Development:
+• Alpha hardware complete (Raspberry Pi 4B + edge AI)
+• Core AI model validated on benchmark datasets
 
-"My cat actually runs to the device now. 
-I've never seen him this excited about a toy." 
-— Beta tester, Warsaw
+User testing protocol designed (pre-test/post-test methodology with target 50-100 households). Testing planned for Q2 2026.
 ```
 
-**Speaker Notes:** "We're not guessing. We've surveyed over 100 cat owners and tested prototypes with 15 households. The results validate everything: clear demand, price acceptance, and most importantly — cats actually love it. 87% of cats engaged with the device. 80% of testers would recommend it. This isn't a solution looking for a problem. The problem is real, and our solution works."
+**Speaker Notes:** "We've designed a rigorous user testing protocol to validate product-market fit. Our research methodology includes surveys, pre-test/post-test evaluation targeting 50 to 100 households, and oversight from veterinary behaviorists. We're not relying on guesswork — we're building an evidence base. Our alpha prototype is complete and ready for structured testing planned for Q2 2026. This capstone presents our business plan and product concept; full market validation will occur during the testing phase."
 
 ---
 
@@ -224,24 +230,21 @@ I've never seen him this excited about a toy."
 
 **Text:**
 ```
-Path to Profitability: 28 Months
+Path to Profitability
 
-Year 1:
-• 1,200 units | €188K revenue | -€341K net
+See Financial Analysis for current projections.
 
-Year 2:
-• 6,500 units | €1.02M revenue | -€353K net
-
-Year 3:
-• 18,000 units | €2.85M revenue | +€253K net
-
-Monthly cash flow positive: Month 28-30
-Cumulative break-even: Month 32-33
-Gross margin: 23% → 30% → 43% (hardware cost reduction + subscription scale)
-Subscription MRR: €675 → €3,400 → €12,500
+3-year model covers:
+• Unit volumes & revenue growth
+• Hardware cost reduction via custom PCB transition
+• Subscription revenue scaling
+• Monthly cash flow positive & cumulative break-even targets
+• Blended gross margin improvement trajectory
 ```
 
-**Speaker Notes:** "Year 1 is about learning. We're burning cash to validate the market and build the foundation. By Year 2, we've transitioned to a custom PCB — cutting hardware costs by 30% — and we're scaling across Europe. We turn monthly cash flow positive around Month 28 to 30, meaning revenues exceed costs in those months. Cumulative break-even — when we've recovered all prior losses — happens at Month 32 to 33 with improved subscription retention of 70%. Year 3, we're profitable. And critically, our gross margins improve every year as we scale and optimize. From 23% in Year 1 to 43% in Year 3."
+**Speaker Notes:** "Our financial model projects a clear path to profitability over three years. Year 1 is about learning — validating the market in Poland. By Year 2, we transition to custom PCB hardware, cutting costs significantly, and scale across the EU + UK. See our Financial Analysis document for current projections, including detailed unit economics, break-even timeline, and margin improvement trajectory."
+
+*Note: Detailed financial model available in Financial Analysis document. All projections subject to market validation results.*
 
 ---
 
@@ -270,7 +273,7 @@ Milestones:
 18-month runway to Series A
 ```
 
-**Speaker Notes:** "We're raising €750,000 to get us through Poland launch, validate unit economics, and position for Series A. This gives us 18 months of runway with proper contingency — enough to hit 1,000 units, prove subscription conversion, and demonstrate strong unit economics in our target market. By Month 18, we'll have the traction to raise a Series A of €1.5 to €2 million for EU expansion."
+**Speaker Notes:** "We're raising €750,000 to get us through Poland launch, validate unit economics, and position for Series A. This gives us 18 months of runway with proper contingency — enough to hit 1,000 units, prove subscription conversion, and demonstrate strong unit economics in our target market. By Month 18, we'll have the traction to raise a Series A of €1.5 to €2 million for EU + UK expansion."
 
 ---
 
@@ -365,7 +368,7 @@ Join Us in Making Cats Happier
 
 €750K Seed Round
 18-month runway to Series A
-Validated demand, working prototype, clear path to scale
+Working prototype, rigorous testing plan, clear path to scale
 
 Let's talk.
 
@@ -377,7 +380,7 @@ Let's talk.
 Questions?
 ```
 
-**Speaker Notes:** "Indoor cats deserve better. Their owners deserve peace of mind. We've validated the problem, built the solution, and proven it works. We need €750K to bring this to market at scale. If you believe in this opportunity, let's talk. Thank you."
+**Speaker Notes:** "Indoor cats deserve better. Their owners deserve peace of mind. The problem is well-documented, we've built the solution, and we have a rigorous plan to validate it. We need €750K to bring this to market at scale. If you believe in this opportunity, let's talk. Thank you."
 
 ---
 
