@@ -30,24 +30,24 @@
 ├──────────────────┼────────────────────────┼──────────────────┼──────────────────┤
 │ CUSTOMER         │    CHANNELS            │  REVENUE STREAMS │  COST STRUCTURE  │
 │ SEGMENTS         │                        │                  │                  │
-│ • Urban          │ • DTC: Brand website   │ • Hardware:      │ • COGS: €104 Y1, │
-│   professionals  │ • DTC: Amazon direct   │   €150/unit      │   €90 Y2 blend,  │
-│   35–54          │ • Online pet retailers │   (Y1: €42 margin│   €75 Y3 custom  │
-│   €60K+ income   │ • Influencer           │ • Subscription:  │ • Fulfillment:   │
-│   (primary)      │   partnerships         │   €3–8/month     │   €9/unit        │
-│                  │ • Vet clinic           │   blended avg    │ • Cloud infra:   │
-│ • Affluent       │   partnerships (B2B)   │   €4.50/month    │   €18–45K/year   │
-│   retirees 55+   │ • PR + social media    │ • Year 3 MRR:    │ • Marketing:     │
-│   (secondary)    │ • YouTube, Instagram,  │   €150.0K/year   │   €180–450K/year │
-│                  │   TikTok content       │   (subscription  │ • Team: €120–360K│
-│ • Millennials/   │                        │   revenue only)  │   /year          │
-│   Gen Z (growth) │ FOCUS: Direct-to-      │                  │ • Support: €0.50 │
-│   69% view pets  │ Consumer only          │ TOTAL Y3:        │   /customer/month│
-│   as family      │ (retail margins break) │ €2.85M revenue   │ • Regulatory:    │
-│                  │                        │                  │   €18–30K (Y1)   │
+│ • Urban          │ • DTC: Brand website   │ • Hardware:      │ • COGS: €99.50   │
+│   professionals  │ • DTC: Amazon direct   │   €150/unit      │   Y1, €90 Y2,    │
+│   35–54          │ • Online pet retailers │   (Y1: €41.50    │   €75 Y3 custom  │
+│   €60K+ income   │ • Influencer           │   margin)        │ • Fulfillment:   │
+│   (primary)      │   partnerships         │ • Subscription:  │   €9/unit        │
+│                  │ • Vet clinic           │   €3–8/month     │ • Cloud infra:   │
+│ • Affluent       │   partnerships (B2B)   │   blended avg    │   €18–45K/year   │
+│   retirees 55+   │ • PR + social media    │   €4.50/month    │ • Marketing:     │
+│   (secondary)    │ • YouTube, Instagram,  │ • Year 3 Sub Rev:│   €180–450K/year │
+│                  │   TikTok content       │   €103.9K/year   │ • Team: €120–360K│
+│ • Millennials/   │                        │   (annual sub    │   /year          │
+│   Gen Z (growth) │ FOCUS: Direct-to-      │   revenue only)  │ • Support: €0.50 │
+│   69% view pets  │ Consumer only          │                  │   /customer/month│
+│   as family      │ (retail margins break) │ TOTAL Y3:        │ • Regulatory:    │
+│                  │                        │ €2.80M revenue   │   €18–30K (Y1)   │
 │ Geographic:      │                        │                  │                  │
 │ • Poland (soft   │                        │ Gross Profit:    │ FIXED:           │
-│   launch)        │                        │ €1.24M (43.4%)   │ €120–360K ops    │
+│   launch)        │                        │ €1.20M (42.9%)   │ €120–360K ops    │
 │ • Germany/       │                        │                  │ VARIABLE: 2.9%   │
 │   France/UK      │                        │                  │ payment fee      │
 │   (expansion)    │                        │                  │                  │

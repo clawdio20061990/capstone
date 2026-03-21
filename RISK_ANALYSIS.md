@@ -295,7 +295,7 @@ No identified risk is existential on its own, but combinations — particularly 
 | **Probability** | Medium |
 | **Impact** | Critical |
 | **Severity** | **4 (Priority)** |
-| **Rationale** | The Financial Analysis identifies subscription conversion as the single highest-impact lever for profitability. Below 20% conversion, break-even extends beyond 30 months — threatening business viability (Financial Analysis, Section 5.3). The 50% target is ambitious for a new product category with no comparable benchmark. |
+| **Rationale** | The Financial Analysis identifies subscription conversion as the single highest-impact lever for profitability. At 50% trial-to-paid conversion with 25% trial signup rate (12.5% effective conversion of all buyers to paid subscribers), the business reaches profitability in Year 3. Below 20% conversion, break-even extends beyond 30 months — threatening business viability (Financial Analysis, Section 5.3). The 50% target is ambitious for a new product category with no comparable benchmark. |
 
 **Mitigation strategies:**
 1. **Onboarding optimization:** Invest heavily in post-purchase email sequences and in-app guidance to demonstrate subscription value (Marketing Strategy, Section 6.2)
@@ -371,7 +371,7 @@ No identified risk is existential on its own, but combinations — particularly 
 | **Probability** | Low–Medium |
 | **Impact** | Critical |
 | **Severity** | **4 (Priority)** |
-| **Rationale** | Laser safety is the most sensitive regulatory and reputational risk for Reactacat. IEC 60825-1 defines Class 3R lasers (<5mW) as low risk but not inherently safe. Reactacat uses a Class 3R laser diode with an ND (neutral density) optical filter that reduces effective output power, bringing the accessible emission closer to Class 1/2 levels while maintaining sufficient brightness for cat engagement. Cat eye physiology differs from human — there are no established Maximum Permissible Exposure (MPE) studies specifically for feline eyes (LaserPointerSafety.com). An incident could trigger product recalls, regulatory investigation, and media backlash. |
+| **Rationale** | Laser safety is the most sensitive regulatory and reputational risk for Reactacat. IEC 60825-1 defines Class 3R lasers (<5mW) as low risk but not inherently safe. Reactacat uses a Class 3R laser source (5mW diode) with a neutral density (ND) optical filter that attenuates beam power to effective Class 2 or lower levels at the projected surface. This approach ensures sufficient brightness for cat visibility across room-sized areas while reducing peak irradiance to safer levels. Cat eye physiology differs from human — there are no established Maximum Permissible Exposure (MPE) studies specifically for feline eyes (LaserPointerSafety.com). An incident could trigger product recalls, regulatory investigation, and media backlash. |
 
 **Mitigation strategies:**
 1. **Class 3R + ND optical filter approach:** The 5mW Class 3R laser diode is paired with a neutral density (ND) optical filter that attenuates beam power to effective Class 2 or lower levels at the projected surface. This approach ensures sufficient brightness for cat visibility across room-sized areas while reducing peak irradiance to safer levels. The filter is a permanent, non-removable hardware component integrated into the laser module assembly

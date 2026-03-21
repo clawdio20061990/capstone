@@ -424,8 +424,8 @@ Aligned with Financial Analysis (Section 1.3):
 | **Blended CAC** | €45 | €55 | €50 |
 | **Paid CAC** | €55 | €65 | €60 |
 | **Organic/Referral %** | 30% | 35% | 40–45% |
-| **Hardware Margin** | €42/unit | €51/unit (blended) | €66.50/unit (custom PCB) |
-| **5-Year LTV per buyer (optimistic 50% conv)** | €62 | €62 | €62 |
+| **Hardware Margin** | €41.50/unit | €51/unit (blended) | €66.50/unit (custom PCB) |
+| **5-Year LTV per buyer (optimistic 50% conv)** | €61 | €61 | €61 |
 | **5-Year LTV per buyer (conservative 25% conv)** | €44 | €44 | €44 |
 | **5-Year LTV per subscriber (70% ret)** | €200 | €200 | €200 |
 | **CAC Payback** | 14–18 months | 12–16 months | 10–14 months |
@@ -456,7 +456,7 @@ This evolution is critical for long-term profitability. The Financial Analysis s
 
 The Financial Analysis identifies subscription conversion as the highest-impact lever for break-even timing:
 - **15% conversion → 50% conversion = 4–6 months faster break-even** (Financial Analysis, Section 8.1)
-- Subscription revenue grows from €8.1K (Year 1) to €138.6K (Year 3)
+- Subscription revenue grows from €4,050 (Year 1) to €103,899 (Year 3)
 - Below 20% conversion, break-even extends beyond 30 months—threatening business viability
 
 Marketing's role in subscription conversion is therefore not secondary—it is **the critical business function**.

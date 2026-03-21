@@ -107,7 +107,7 @@ Session duration limits prevent over-stimulation with automatic game timeout. Th
 
 ### Hardware Sales
 
-One-time purchase at **€150** (direct-to-consumer). This pricing is based on a base-case BOM of approximately €105 (Year 1), yielding roughly 30% gross margin — comparable to consumer electronics benchmarks (see Business Research, Section 2.6).
+One-time purchase at **€150** (direct-to-consumer). This pricing is based on a Year 1 COGS of €99.50 plus €9 fulfillment, yielding a €41.50 hardware margin per unit. When combined with subscription revenue, Year 1 total gross margin is 22.3% (see Financial Analysis, Section 1.1). Hardware margins improve significantly in Years 2-3 with custom PCB transition and scale efficiencies.
 
 ### Subscription Model (Cloud Services)
 

@@ -18,9 +18,9 @@ Reactacat presents a venture-scale opportunity with attractive unit economics an
 |--------|--------|--------|--------|
 | **Hardware Units Sold** | 1,200 | 6,500 | 18,000 |
 | **Hardware Revenue** | €180K | €975K | €2.7M |
-| **Subscription Revenue (Annual)** | €4.1K | €27.6K | €95.4K |
+| **Subscription Revenue (Annual)** | €4.05K | €27.6K | €103.9K |
 | **Total Revenue** | €184K | €1.003M | €2.80M |
-| **Gross Profit** | €45.3K | €320.1K | €1.19M |
+| **Gross Profit** | €41K | €320K | €1.20M |
 | **Operating Expenses** | €384.4K | €652K | €985K |
 | **Net Income** | -€339K | -€332K | +€204K |
 | **Cumulative Cash Flow** | -€339K | -€671K | -€467K |
