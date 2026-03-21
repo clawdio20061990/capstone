@@ -73,7 +73,7 @@ The initial production run uses Raspberry Pi 4 Model B as the processing platfor
 | **Servo Mount Assembly** | Pan-tilt bracket (internal) | €1.50–2.50 | Part of enclosure mold or separate metal bracket | Precision mounting for laser positioning accuracy. |
 | **Retail Packaging** | Printed box, insert, manual, cable | €2.50–3.50 | Packaging supplier (Poland) | Premium unboxing experience. Includes quick-start guide, safety info, USB-C cable. |
 
-### 1.2 Year 1 BOM Summary (per unit)
+### 1.2 Year 1 BOM Summary (per unit) — Poland Launch Only
 
 | Category | Low Estimate | High Estimate | Notes |
 |----------|-------------|---------------|-------|
@@ -93,6 +93,9 @@ The initial production run uses Raspberry Pi 4 Model B as the processing platfor
 **Reconciliation with Financial Analysis:**
 
 The Financial Analysis uses €99.50 COGS midpoint (excl. fulfillment). The detailed BOM yields a midpoint of ~€99.50, validating this figure. The €9 fulfillment/shipping cost is additional, bringing total to €108.50 delivered. Hardware margin per unit: €150 – €99.50 – €9 = €41.50.
+
+**Platform Strategy Note:**
+Year 1 uses RPi 4B exclusively for the Poland soft launch (1,200 units). This is a deliberate production platform choice — not a temporary prototyping strategy — to de-risk hardware while validating core AI value proposition. Custom PCB transition is gated by Poland performance metrics (≥40% subscription conversion, <5% return rate, ≥60% DAU) with decision gate at Month 12. See Technology Roadmap for Phase 2 (EU expansion) custom PCB specifications.
 
 ### 1.3 Phase 2: Custom PCB Platform (Year 2+, 6,500+ units)
 
@@ -146,6 +149,13 @@ At 18,000 units/year, additional cost reductions come from:
 | **Total additional savings** | **€5–8/unit** | On top of Phase 2 baseline |
 
 **Year 3 Target COGS: €75/unit** (optimistic but realistic, incorporating volume discounts and supply chain optimization while maintaining quality buffer for unexpected costs).
+
+**Custom PCB Gating Strategy:**
+The transition from RPi 4B to custom PCB is governed by a Month 12 decision gate based on Poland performance:
+- **Proceed criteria (≥2 of 3):** ≥40% subscription conversion, <5% return rate, ≥60% DAU
+- **Delay criteria:** Missing 2+ metrics; extend RPi platform for additional 6 months while addressing issues
+- **Custom PCB NRE:** €50K (design + prototyping) budgeted from Seed buffer, released only on positive gate decision
+- **Fallback:** If PCB development encounters delays, continue RPi 4B platform with 6-month inventory buffer while resolving issues
 
 ---
 
@@ -452,16 +462,17 @@ Warranty costs are included in the 3% BOM reserve (Section 1.2) and additional c
 5. **Operational budget is tight but viable:** €28,200/month burn rate with 26+ month runway from €750K Seed
 
 ### 8.2 Key Risks to Monitor
-1. **Raspberry Pi supply:** Pi 4B has experienced supply shortages historically. Mitigation: build 2–3 month inventory buffer; expedite custom PCB transition.
+1. **Raspberry Pi supply:** Pi 4B has experienced supply shortages historically. Mitigation: 6-month inventory buffer (2,000+ units); dual-source distributors (Farnell + RS Components); gated PCB transition only after Poland validation
 2. **Mold quality:** First injection mold run may require 3+ revision cycles (T1-T3). Budget and timeline already account for this.
 3. **CE + laser certification timeline:** If testing reveals compliance issues, 2–4 month delay possible. Mitigation: engage testing lab early (Month 1), submit pre-compliance samples.
-4. **Custom PCB development cost:** NRE for custom board design estimated at €30–50K (not included in mold tooling). Must be budgeted from Series A funds.
+4. **Custom PCB development cost:** NRE for custom board design estimated at €50K (design + prototyping). Budgeted from Seed buffer but released only on positive Month 12 gate decision.
 
 ### 8.3 Recommendations
-1. **Lock RPi supply early:** Place order for 1,500 units (500 units × 3-month buffer) with authorized distributor at Month 4–5
-2. **Start custom PCB design at Month 10:** Begin hardware design process while Poland launch provides market validation
-3. **Negotiate CM contract:** Secure fixed assembly pricing with Polish CM for 2,000+ unit commitment (Year 1 + early Year 2)
+1. **Lock RPi supply early:** Place order for 2,000+ units (6-month buffer) with authorized distributors at Month 4–5; split between Farnell and RS Components
+2. **Gated PCB development:** Do NOT start custom PCB design until Month 12 gate decision (≥40% subscription conversion, <5% return rate, ≥60% DAU)
+3. **Negotiate CM contract:** Secure fixed assembly pricing with Polish CM for 2,000+ unit commitment (Year 1 + contingency stock)
 4. **Track actual vs. budget monthly:** Implement cost tracking dashboard from Month 1 to identify deviations early
+5. **Poland metrics dashboard:** Real-time tracking of subscription conversion, return rate, and DAU for Month 12 gate decision
 
 ---
 

@@ -225,16 +225,18 @@ No identified risk is existential on its own, but combinations — particularly 
 | **Probability** | High |
 | **Impact** | High |
 | **Severity** | **4 (Priority)** |
-| **Rationale** | Raspberry Pi has a documented history of severe supply shortages. The 2021–2023 shortage saw RPi 4B prices spike to 3–4x MSRP on secondary markets (Tom's Hardware, 2022). DRAM price increases in late 2025/early 2026 indicate the supply environment remains volatile. Reactacat's Year 1 production depends entirely on RPi 4B availability. |
+| **Rationale** | Raspberry Pi has a documented history of severe supply shortages. The 2021–2023 shortage saw RPi 4B prices spike to 3–4x MSRP on secondary markets (Tom's Hardware, 2022). DRAM price increases in late 2025/early 2026 indicate the supply environment remains volatile. Reactacat's Year 1 production depends entirely on RPi 4B availability for the Poland launch. |
 
 **Mitigation strategies:**
-1. **Inventory buffer:** Secure 3-month forward inventory (1,500 units at Month 4–5 procurement). Financial Analysis includes €105K runway buffer partly for this purpose
-2. **Authorized distributor relationship:** Establish purchase agreement with Farnell/RS Components for priority allocation
+1. **Extended inventory buffer:** Secure 6-month forward inventory (2,000+ units at Month 4–5 procurement). Higher buffer justified by Poland-only scope (1,200 units) + contingency stock
+2. **Dual-source distributors:** Establish purchase agreements with both Farnell and RS Components for priority allocation; split orders to reduce single-source risk
 3. **Alternative SBC evaluation:** Test Reactacat software compatibility with Orange Pi 5, Rock Pi 4, or Banana Pi M5 as fallback platforms. Same form factor, different supply chain
-4. **Accelerated custom PCB:** If RPi shortage materializes, bring forward custom PCB development from Year 2 to Month 8–10 (requires €30–50K NRE acceleration from Seed buffer)
-5. **Raspberry Pi Compute Module 4:** Consider CM4 as alternative — same chipset, industrial supply channel, better availability for commercial customers
+4. **Gated custom PCB transition:** Custom PCB development is gated by Poland validation (Month 12 decision). If RPi shortage materializes before Month 12, fallback to extended RPi inventory + delayed EU expansion rather than accelerated PCB NRE
+5. **Raspberry Pi Compute Module 4:** CM4 as preferred alternative — same chipset, industrial supply channel, better availability for commercial customers; compatible with custom PCB design
 
-**Contingency trigger:** RPi 4B lead time exceeds 8 weeks or per-unit cost exceeds €55 (30% above baseline)
+**Contingency triggers:**
+- RPi 4B lead time exceeds 8 weeks OR per-unit cost exceeds €55 (30% above baseline): Activate dual-source procurement
+- RPi 4B unavailable at any price: Deploy 6-month inventory buffer; delay EU expansion until supply stabilizes or custom PCB ready (Month 24+)
 
 ### 4.2 Contract Manufacturer Quality/Capacity Issues
 

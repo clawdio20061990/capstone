@@ -42,7 +42,8 @@ Reorder point: when inventory drops below 6-week sales forecast. Safety stock ma
 
 ### 2.1 Assembly Model
 
-**Year 1–2:** Outsourced to European contract manufacturer (CM) in Poland.  
+**Year 1 (Poland only):** Outsourced to European contract manufacturer (CM) in Poland. RPi 4B platform for 1,200 units.
+**Year 2+:** Continue with CM; transition to custom PCB only if Poland gate criteria met (≥40% subscription conversion, <5% return rate, ≥60% DAU).
 **Year 3+:** Evaluate in-house assembly if volume exceeds 20,000 units/year.
 
 The CM handles: component receiving, PCB/RPi mounting, servo and laser integration, treat dispenser assembly, camera module mounting, wiring, firmware flashing, functional testing, packaging, and labeling.
@@ -202,7 +203,11 @@ Reactacat requires CE marking under three EU directives before market entry:
 | Formal CE testing (accredited lab) | 4–6 weeks | €5,000–8,000 | LVD + EMC + RED combined |
 | Laser safety testing (IEC 60825-1) | 2–3 weeks | €2,000–4,000 | Includes optical filter verification |
 | Technical documentation & DoC | 2 weeks | €1,000–2,000 | Declaration of Conformity preparation |
-| **Total** | **8–12 weeks** | **€9,000–16,000** | Integrated into pre-launch timeline (Months 4–6) |
+| **Total (Optimistic)** | **8–12 weeks** | **€9,000–16,000** | First-pass compliance; assumes no major redesigns |
+| **Realistic Timeline** | **16–24 weeks** | **€12,000–20,000** | Includes pre-compliance testing, design iterations, re-testing if needed |
+| **Conservative Timeline** | **24–32 weeks** | **€15,000–25,000** | Multiple redesign cycles; first-time hardware with laser components |
+
+**Note:** First-time hardware products with laser components typically require 16–28 weeks for full compliance due to pre-compliance testing, design iteration cycles, and potential re-testing. The 8–12 week estimate assumes first-pass compliance, which is uncommon. Reactacat's timeline (Months 4–6) is aggressive and requires early engagement with testing lab (Month 1) and rapid iteration if issues arise.
 
 **Integration into production workflow:** CE compliance is validated on the initial product design. Any subsequent design changes (PCB revision, component substitution) require re-assessment and potentially re-testing. The CM is responsible for maintaining production consistency with the certified design (per EU Blue Guide, 2022).
 

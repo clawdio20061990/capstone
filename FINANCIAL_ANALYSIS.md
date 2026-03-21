@@ -108,6 +108,15 @@ Reactacat presents a venture-scale opportunity with attractive unit economics an
 
 **Model Uses Base Case (50% conversion); Realistic (35%) and Conservative (15%) Cases shown in Sensitivity Analysis.**
 
+**Poland Gate Failure Scenario (Disaster Case):**
+If Poland validation fails to meet gate criteria (<40% subscription conversion, >5% return rate, or <60% DAU), the business model shifts to hardware-only with reduced EU expansion timeline. In this scenario:
+- Subscription revenue effectively zero; hardware-only positioning
+- Break-even extends to Month 36–42 (from Month 28–30)
+- Additional €200–300K bridge financing required, or earlier Series A at reduced valuation
+- Pivot options: B2B veterinary/shelter market, lower-price tier, or IP licensing
+
+This disaster scenario is unlikely but planned for; the 40% gate threshold represents the minimum viable path to subscription-supported unit economics.
+
 **LTV Methodology Note:** We present LTV in two ways for clarity:
 1. **Per hardware buyer** (€48-€62 range): Accounts for conversion rate, shows blended value across all customers including those who don't subscribe. This is the conservative, investor-friendly metric.
 2. **Per paying subscriber** (€200): Shows the full 5-year value of customers who do convert to paid subscriptions. This metric is consistent across scenarios and demonstrates strong subscriber economics when conversion is achieved.

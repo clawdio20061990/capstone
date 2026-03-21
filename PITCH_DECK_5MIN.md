@@ -74,7 +74,9 @@ Not a camera. Not a remote toy.
 A dedicated enrichment system.
 ```
 
-**Speaker Notes (40 seconds):** "Reactacat is the first autonomous AI-powered cat play device. It doesn't need an app, doesn't need you to control it. Computer vision detects your cat, AI analyzes their behavior in real-time, and the laser adapts to what keeps them engaged. Every play session sends data to the cloud. Every night, the AI model retrains. Within weeks, Reactacat knows your cat better than any toy ever could. And it completes the hunting sequence with treats — addressing the frustration cats feel with uncatchable lasers."
+**Speaker Notes (40 seconds):** "Reactacat is the first autonomous AI-powered cat play device. It doesn't need an app, doesn't need you to control it. Computer vision detects your cat, AI analyzes their behavior in real-time, and the laser adapts to what keeps them engaged. Every play session sends data to the cloud. Every night, the AI model retrains. And it completes the hunting sequence with treats — addressing the frustration cats feel with uncatchable lasers.
+
+Our hardware strategy is deliberately phased: Raspberry Pi 4B for Poland validation (1,200 units), then custom PCB for EU expansion — but only after Poland proves 40%+ subscription conversion. We don't spend €50K on custom hardware NRE until we have market proof."
 
 ---
 

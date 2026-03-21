@@ -55,7 +55,14 @@ Reactacat differentiates on five dimensions that no competitor combines: (1) ded
 - **Laser:** Class 3R laser source (5mW diode) with neutral-density (ND) optical filter reducing output to <1mW at target surface. This is a standard engineering approach for consumer laser products per EN 60825-1: the higher-powered source provides reliable beam quality, while the ND filter attenuates output to eye-safe levels at working distance (ComplianceGate, 2025; Lasermet, 2025)
 - **Treat dispenser:** Servo-driven hopper mechanism (€8–12) compatible with standard dry kibble and treats (5–8mm) from major pet food manufacturers. Reactacat does not produce proprietary treats — the dispenser works with treats owners already use
 
-**Rationale for Raspberry Pi 4B:** The Pi 4B provides sufficient compute for local TensorFlow Lite inference while keeping BOM costs manageable. Cheaper microcontrollers (ESP32, Arduino) cannot run CV inference and would require streaming video to the cloud — creating GDPR/UK GDPR exposure and latency issues. At scale (100K+ units), transition to a custom edge-AI PCB reduces BOM to €60–80.
+**Rationale for Raspberry Pi 4B (Phase 1 — Poland Launch):** The Pi 4B provides proven compute for local TensorFlow Lite inference, extensive software ecosystem, and fast time-to-market — critical for validating the core AI value proposition with minimal hardware risk. Cheaper microcontrollers (ESP32, Arduino) cannot run CV inference and would require streaming video to the cloud — creating GDPR/UK GDPR exposure and latency issues.
+
+**Platform Strategy:**
+- **Phase 1 (Poland, Months 1–12):** RPi 4B as production platform for 1,200 units. Higher BOM cost (€38–42/unit) acceptable for market validation.
+- **Decision Gate (Month 12):** Proceed with custom PCB only if Poland metrics hit (≥40% subscription conversion, <5% return rate, ≥60% DAU).
+- **Phase 2 (EU Expansion, Months 18–30):** Custom PCB transition for 6,500+ units, targeting €60–80 BOM with integrated NPU.
+
+This gated approach de-risks hardware NRE (€50K+ PCB design) until market validation proves demand.
 
 ### Software Architecture
 
