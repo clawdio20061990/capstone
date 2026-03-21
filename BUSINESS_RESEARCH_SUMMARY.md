@@ -36,7 +36,8 @@
 
 ## 2. KEY FINDINGS SUMMARY
 
-### H1: Market Growth — SUPPORTED
+### H1: Market Growth
+**Evidence found:**
 | Metric | Finding | Source Confidence |
 |--------|---------|-------------------|
 | European pet tech market | €390–670M by 2026 | 6 research firms, 12–15.5% CAGR consensus |
@@ -48,7 +49,7 @@
 
 ---
 
-### H2: Underserved Segment — PARTIALLY SUPPORTED
+### H2: Underserved Segment
 **Finding:** No competitor combines: autonomous laser + adaptive AI + treat dispenser
 
 | Competitor | Gap |
@@ -58,26 +59,26 @@
 | ZUMIMALL | Random patterns; no learning |
 | Enabot/Loona | General companion; not play-focused |
 
-**Critical Uncertainty:** Treat dispenser mitigation for laser frustration — theoretically sound, **requires cat testing validation**
+**Critical Uncertainty:** Treat dispenser mitigation for laser frustration — theoretically sound, requires cat testing validation
 
 ---
 
-### H3: Subscription Viability — PARTIALLY SUPPORTED
+### H3: Subscription Viability
 **Unit Economics (Base Case):**
 
-| Metric | Year 1 | Year 3 | Assessment |
-|--------|--------|--------|------------|
+| Metric | Year 1 | Year 3 | Notes |
+|--------|--------|--------|-------|
 | Hardware COGS | €99.50 | €75 | Custom PCB transition |
 | Hardware margin | €41.50 (27.7%) | €66.50 (44.3%) | Improving with scale |
-| Subscription conversion | 50% trial-to-paid | 60% | Critical assumption |
-| LTV:CAC (per buyer) | 1.4:1 | ~2.5:1 | Marginal → sustainable |
+| Subscription conversion | 50% trial-to-paid | 60% | Critical assumption; SaaS benchmark 15–25% |
+| LTV:CAC (per buyer) | 1.4:1 | ~2.5:1 | Marginal at launch; sustainable at scale |
 | LTV:CAC (per subscriber) | 4.4:1 | 5.0:1 | Strong when conversion achieved |
 
-**Honest Assessment:** Year 1 economics marginal; sustainability depends on achieving 50% conversion + COGS reduction. Path to viability credible but carries execution risk.
+**Assessment:** Year 1 economics marginal; sustainability depends on achieving 50% conversion + COGS reduction. Path to viability credible but carries execution risk.
 
 ---
 
-### H4: Regulatory Feasibility — SUPPORTED
+### H4: Regulatory Feasibility
 | Requirement | Cost | Timeline | Risk |
 |-------------|------|----------|------|
 | Laser safety (EN 60825-1) | €8–10K | 8–12 weeks | Low |
@@ -86,20 +87,20 @@
 | GDPR/UK GDPR compliance | €5–10K | Ongoing | Medium |
 | **Total** | **€25–35K** | **6–12 months** | **Low-Medium** |
 
-**No regulatory showstoppers identified.**
+No regulatory showstoppers identified.
 
 ---
 
-### H5: Competitive Differentiation — SUPPORTED
-**White space confirmed:** No existing product offers the specific combination Reactacat targets.
+### H5: Competitive Differentiation
+**Finding:** No existing product offers the specific combination Reactacat targets.
 
-**However:** Differentiation real but market value unproven until user testing.
+**Caveat:** Differentiation is real but market value unproven until user testing.
 
 ---
 
 ## 3. CRITICAL ASSUMPTIONS REQUIRING VALIDATION
 
-| Assumption | Current Status | Validation Plan |
+| Assumption | Current Basis | Validation Plan |
 |------------|---------------|-----------------|
 | **50% trial-to-paid conversion** | Planning assumption (SaaS benchmark: 15–25%) | Poland launch metrics (Month 12 gate: 40% floor) |
 | **Cat engagement with adaptive AI** | Theoretical advantage | Alpha testing with 10–20 cats, 4+ weeks |
@@ -133,7 +134,7 @@
 
 ## 5. SYNTHESIS: GO/NO-GO ASSESSMENT
 
-**Overall Verdict:** **PROCEED TO PROTOTYPE & USER TESTING**
+**Overall Verdict:** PROCEED TO PROTOTYPE & USER TESTING
 
 **Rationale:**
 - Market opportunity validated (growing, affluent, receptive)
