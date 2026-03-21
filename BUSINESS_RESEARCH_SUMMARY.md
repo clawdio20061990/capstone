@@ -36,7 +36,7 @@
 
 ## 2. KEY FINDINGS SUMMARY
 
-### H1: Market Growth — SUPPORTED ✅
+### H1: Market Growth — SUPPORTED
 | Metric | Finding | Source Confidence |
 |--------|---------|-------------------|
 | European pet tech market | €390–670M by 2026 | 6 research firms, 12–15.5% CAGR consensus |
@@ -48,7 +48,7 @@
 
 ---
 
-### H2: Underserved Segment — PARTIALLY SUPPORTED ⚠️
+### H2: Underserved Segment — PARTIALLY SUPPORTED
 **Finding:** No competitor combines: autonomous laser + adaptive AI + treat dispenser
 
 | Competitor | Gap |
@@ -62,7 +62,7 @@
 
 ---
 
-### H3: Subscription Viability — PARTIALLY SUPPORTED ⚠️
+### H3: Subscription Viability — PARTIALLY SUPPORTED
 **Unit Economics (Base Case):**
 
 | Metric | Year 1 | Year 3 | Assessment |
@@ -77,7 +77,7 @@
 
 ---
 
-### H4: Regulatory Feasibility — SUPPORTED ✅
+### H4: Regulatory Feasibility — SUPPORTED
 | Requirement | Cost | Timeline | Risk |
 |-------------|------|----------|------|
 | Laser safety (EN 60825-1) | €8–10K | 8–12 weeks | Low |
@@ -90,7 +90,7 @@
 
 ---
 
-### H5: Competitive Differentiation — SUPPORTED ✅
+### H5: Competitive Differentiation — SUPPORTED
 **White space confirmed:** No existing product offers the specific combination Reactacat targets.
 
 **However:** Differentiation real but market value unproven until user testing.
